@@ -1,0 +1,1 @@
+77 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/opensource/usb_phy/usb_phy.btor2 | 1 | 0.011465 | unknown

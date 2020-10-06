@@ -1,0 +1,368 @@
+sat
+b0 
+#0
+0 00000000 f.entry_gen[32].ff_entry_inst.Q#0
+1 0000000 f.ff_rdPtr.Q#0
+2 00000000 f.entry_gen[31].ff_entry_inst.Q#0
+3 00000000 f.entry_gen[30].ff_entry_inst.Q#0
+4 00000000 f.entry_gen[29].ff_entry_inst.Q#0
+5 00000000 f.entry_gen[28].ff_entry_inst.Q#0
+6 00000000 f.entry_gen[27].ff_entry_inst.Q#0
+7 00000000 f.entry_gen[26].ff_entry_inst.Q#0
+8 00000000 f.entry_gen[25].ff_entry_inst.Q#0
+9 00000000 f.entry_gen[24].ff_entry_inst.Q#0
+10 00000000 f.entry_gen[23].ff_entry_inst.Q#0
+11 00000000 f.entry_gen[22].ff_entry_inst.Q#0
+12 00000000 f.entry_gen[21].ff_entry_inst.Q#0
+13 00000000 f.entry_gen[20].ff_entry_inst.Q#0
+14 00000000 f.entry_gen[19].ff_entry_inst.Q#0
+15 00000000 f.entry_gen[18].ff_entry_inst.Q#0
+16 00000000 f.entry_gen[17].ff_entry_inst.Q#0
+17 00000000 f.entry_gen[16].ff_entry_inst.Q#0
+18 00000000 f.entry_gen[15].ff_entry_inst.Q#0
+19 00000000 f.entry_gen[14].ff_entry_inst.Q#0
+20 00000000 f.entry_gen[13].ff_entry_inst.Q#0
+21 00000000 f.entry_gen[12].ff_entry_inst.Q#0
+22 00000000 f.entry_gen[11].ff_entry_inst.Q#0
+23 00000000 f.entry_gen[10].ff_entry_inst.Q#0
+24 00000000 f.entry_gen[9].ff_entry_inst.Q#0
+25 00000000 f.entry_gen[8].ff_entry_inst.Q#0
+26 00000000 f.entry_gen[7].ff_entry_inst.Q#0
+27 00000000 f.entry_gen[6].ff_entry_inst.Q#0
+28 00000000 f.entry_gen[5].ff_entry_inst.Q#0
+29 00000000 f.entry_gen[4].ff_entry_inst.Q#0
+30 00000000 f.entry_gen[3].ff_entry_inst.Q#0
+31 00000000 f.entry_gen[2].ff_entry_inst.Q#0
+32 00000000 f.entry_gen[1].ff_entry_inst.Q#0
+33 00000000 f.entry_gen[0].ff_entry_inst.Q#0
+34 1111111 f.cnt#0
+35 0 sb.ff_en.Q#0
+36 0 sb.ff_magic_packet_exited.Q#0
+37 0000000 sb.mpt.ff_cnt.Q#0
+38 00000000 sb.ff_magic_packet.Q#0
+40 0000000 f.ff_wrPtr.Q#0
+@0
+0 0 clk@0
+1 00000000 data_in@0
+2 0 pop@0
+3 0 push@0
+4 1 rst@0
+5 0 start@0
+6 00000000 input6@0
+7 0 input7@0
+@1
+0 0 clk@1
+1 00000000 data_in@1
+2 0 pop@1
+3 1 push@1
+4 0 rst@1
+5 0 start@1
+6 00000000 input6@1
+7 0 input7@1
+@2
+0 0 clk@2
+1 00000000 data_in@2
+2 1 pop@2
+3 1 push@2
+4 0 rst@2
+5 0 start@2
+6 00000000 input6@2
+7 0 input7@2
+@3
+0 0 clk@3
+1 00000000 data_in@3
+2 1 pop@3
+3 1 push@3
+4 0 rst@3
+5 0 start@3
+6 00000000 input6@3
+7 0 input7@3
+@4
+0 0 clk@4
+1 00000000 data_in@4
+2 1 pop@4
+3 1 push@4
+4 0 rst@4
+5 0 start@4
+6 11111111 input6@4
+7 0 input7@4
+@5
+0 0 clk@5
+1 00000000 data_in@5
+2 1 pop@5
+3 1 push@5
+4 0 rst@5
+5 0 start@5
+6 11111111 input6@5
+7 0 input7@5
+@6
+0 0 clk@6
+1 01001110 data_in@6
+2 1 pop@6
+3 1 push@6
+4 0 rst@6
+5 0 start@6
+6 11111111 input6@6
+7 0 input7@6
+@7
+0 0 clk@7
+1 00000000 data_in@7
+2 1 pop@7
+3 1 push@7
+4 0 rst@7
+5 0 start@7
+6 11111111 input6@7
+7 0 input7@7
+@8
+0 0 clk@8
+1 00000000 data_in@8
+2 1 pop@8
+3 1 push@8
+4 0 rst@8
+5 0 start@8
+6 11111111 input6@8
+7 0 input7@8
+@9
+0 0 clk@9
+1 00000000 data_in@9
+2 1 pop@9
+3 1 push@9
+4 0 rst@9
+5 0 start@9
+6 11111111 input6@9
+7 0 input7@9
+@10
+0 0 clk@10
+1 00000000 data_in@10
+2 1 pop@10
+3 1 push@10
+4 0 rst@10
+5 0 start@10
+6 11111111 input6@10
+7 0 input7@10
+@11
+0 0 clk@11
+1 00000000 data_in@11
+2 1 pop@11
+3 1 push@11
+4 0 rst@11
+5 0 start@11
+6 11111111 input6@11
+7 0 input7@11
+@12
+0 0 clk@12
+1 00000000 data_in@12
+2 1 pop@12
+3 1 push@12
+4 0 rst@12
+5 0 start@12
+6 11111111 input6@12
+7 0 input7@12
+@13
+0 0 clk@13
+1 00000000 data_in@13
+2 1 pop@13
+3 1 push@13
+4 0 rst@13
+5 0 start@13
+6 11111111 input6@13
+7 0 input7@13
+@14
+0 0 clk@14
+1 00000000 data_in@14
+2 1 pop@14
+3 1 push@14
+4 0 rst@14
+5 0 start@14
+6 11111111 input6@14
+7 0 input7@14
+@15
+0 0 clk@15
+1 00000000 data_in@15
+2 1 pop@15
+3 1 push@15
+4 0 rst@15
+5 0 start@15
+6 11111111 input6@15
+7 0 input7@15
+@16
+0 0 clk@16
+1 00000000 data_in@16
+2 1 pop@16
+3 1 push@16
+4 0 rst@16
+5 0 start@16
+6 11111111 input6@16
+7 0 input7@16
+@17
+0 0 clk@17
+1 00000000 data_in@17
+2 1 pop@17
+3 1 push@17
+4 0 rst@17
+5 0 start@17
+6 11111111 input6@17
+7 0 input7@17
+@18
+0 0 clk@18
+1 00000000 data_in@18
+2 1 pop@18
+3 1 push@18
+4 0 rst@18
+5 0 start@18
+6 11111111 input6@18
+7 0 input7@18
+@19
+0 0 clk@19
+1 00000000 data_in@19
+2 1 pop@19
+3 1 push@19
+4 0 rst@19
+5 0 start@19
+6 11111111 input6@19
+7 0 input7@19
+@20
+0 0 clk@20
+1 00000000 data_in@20
+2 1 pop@20
+3 1 push@20
+4 0 rst@20
+5 0 start@20
+6 11111111 input6@20
+7 0 input7@20
+@21
+0 0 clk@21
+1 00000000 data_in@21
+2 1 pop@21
+3 1 push@21
+4 0 rst@21
+5 0 start@21
+6 11111111 input6@21
+7 0 input7@21
+@22
+0 0 clk@22
+1 00000000 data_in@22
+2 1 pop@22
+3 1 push@22
+4 0 rst@22
+5 0 start@22
+6 11111111 input6@22
+7 0 input7@22
+@23
+0 0 clk@23
+1 00000010 data_in@23
+2 1 pop@23
+3 1 push@23
+4 0 rst@23
+5 0 start@23
+6 11111111 input6@23
+7 0 input7@23
+@24
+0 0 clk@24
+1 00000000 data_in@24
+2 1 pop@24
+3 1 push@24
+4 0 rst@24
+5 0 start@24
+6 11111111 input6@24
+7 0 input7@24
+@25
+0 0 clk@25
+1 01100110 data_in@25
+2 1 pop@25
+3 1 push@25
+4 0 rst@25
+5 0 start@25
+6 11111111 input6@25
+7 0 input7@25
+@26
+0 0 clk@26
+1 00001000 data_in@26
+2 1 pop@26
+3 1 push@26
+4 0 rst@26
+5 0 start@26
+6 11111111 input6@26
+7 0 input7@26
+@27
+0 0 clk@27
+1 00000000 data_in@27
+2 1 pop@27
+3 1 push@27
+4 0 rst@27
+5 0 start@27
+6 11111111 input6@27
+7 0 input7@27
+@28
+0 0 clk@28
+1 00000000 data_in@28
+2 1 pop@28
+3 1 push@28
+4 0 rst@28
+5 0 start@28
+6 11111111 input6@28
+7 0 input7@28
+@29
+0 0 clk@29
+1 10000000 data_in@29
+2 1 pop@29
+3 1 push@29
+4 0 rst@29
+5 0 start@29
+6 11111111 input6@29
+7 0 input7@29
+@30
+0 0 clk@30
+1 10001001 data_in@30
+2 1 pop@30
+3 1 push@30
+4 0 rst@30
+5 0 start@30
+6 11111111 input6@30
+7 0 input7@30
+@31
+0 0 clk@31
+1 01001011 data_in@31
+2 1 pop@31
+3 1 push@31
+4 0 rst@31
+5 0 start@31
+6 11111111 input6@31
+7 0 input7@31
+@32
+0 0 clk@32
+1 00001101 data_in@32
+2 1 pop@32
+3 1 push@32
+4 0 rst@32
+5 0 start@32
+6 11111111 input6@32
+7 0 input7@32
+@33
+0 0 clk@33
+1 01101101 data_in@33
+2 1 pop@33
+3 1 push@33
+4 0 rst@33
+5 0 start@33
+6 11111111 input6@33
+7 0 input7@33
+@34
+0 0 clk@34
+1 00101101 data_in@34
+2 1 pop@34
+3 1 push@34
+4 0 rst@34
+5 1 start@34
+6 11111111 input6@34
+7 0 input7@34
+@35
+0 0 clk@35
+1 00000000 data_in@35
+2 1 pop@35
+3 0 push@35
+4 0 rst@35
+5 0 start@35
+6 00100000 input6@35
+7 0 input7@35
+.

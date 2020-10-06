@@ -1,0 +1,1 @@
+373 | /home/hongcez/hwmcc/benchs/chc/bv/goel/industry/gen19/gen19.chc | 143 | 3600.076194 | unknown

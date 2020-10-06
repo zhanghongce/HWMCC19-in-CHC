@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "avr_pr.py", line 451, in <module>
+    main()
+  File "avr_pr.py", line 447, in main
+    retval = check_process_all()
+  File "avr_pr.py", line 352, in check_process_all
+    kill_commands(1)
+  File "avr_pr.py", line 226, in kill_commands
+    mem_usage = mem_usage_all()
+  File "avr_pr.py", line 383, in mem_usage_all
+    total_mem_usage += mem_usage_new(i)
+  File "avr_pr.py", line 394, in mem_usage_new
+    for x in f:
+OSError: [Errno 12] Cannot allocate memory

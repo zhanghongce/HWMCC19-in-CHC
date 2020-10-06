@@ -1,0 +1,1 @@
+310 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2019C/zipversa_composecrc_prf-p04.btor | 0 | 0.595243 | unsat

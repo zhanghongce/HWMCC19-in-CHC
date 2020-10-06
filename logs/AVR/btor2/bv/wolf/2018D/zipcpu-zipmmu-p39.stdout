@@ -1,0 +1,36 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018D/pr_zipcpu-zipmmu-p39/work_w3)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(109 / 793 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 2 1 s: 3    0s                     0	: 2	: 0 2 1 s: 3    0s                  
+   0	: 3	: 0 2 1 0 s: 3    0s                     0	: 3	: 0 5 3 1 s: 9    0s                     0	: 3	: 0 5 3 1 s: 9    0s                  
+   0	: 4	: 0 5 3 1 0 s: 9    0s                     1	: 4	: 0 5 4 1 0 s: 10    0s                     1	: 4	: 0 6 5 2 1 s: 14    0s                     1	: 4	: 0 6 5 2 1 s: 14    0s                  
+   1	: 5	: 0 3 4 2 2 3 s: 14    0s                     2	: 5	: 0 3 4 2 3 3 s: 15    0s                     3	: 5	: 0 4 4 2 3 3 s: 16    0s                     3	: 5	: 0 4 4 2 3 4 s: 17    0s                     3	: 5	: 0 4 4 2 4 5 s: 19    0s                     3	: 5	: 0 4 4 2 4 5 s: 19    0s                  
+   3	: 6	: 0 3 2 4 2 4 3 s: 18    0s                     4	: 6	: 0 3 3 4 2 4 3 s: 19    0s                     4	: 6	: 0 3 3 4 2 4 4 s: 20    0s                     4	: 6	: 0 3 3 4 2 4 4 s: 20    0s                  
+   4	: 7	: 0 3 3 4 2 2 1 5 s: 20    0s                     4	: 7	: 0 3 3 4 2 2 1 5 s: 20    0s                  
+   4	: 8	: 0 3 3 4 2 2 1 1 4 s: 20    0s                     4	: 8	: 0 3 3 4 2 4 5 2 5 s: 28    0s                     4	: 8	: 0 3 3 4 2 5 7 2 6 s: 32    0s                     4	: 8	: 0 3 3 4 2 5 7 2 6 s: 32    0s                  
+   4	: 8	: 0 3 3 4 2 2 1 0 17 s: 32    0s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018D/pr_zipcpu-zipmmu-p39)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 74943)
+@     0s  (started worker 1 with pid 74944)
+@     0s  (started worker 2 with pid 74945)
+@     0s  (started worker 3 with pid 74946)
+@     0s  (started worker 4 with pid 74947)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 75064)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 233 MB)
+@     1s  (worker 3 finished with result safe) python3 avr.py -b bin_y2 -s
+@     1s  (worker 3 output)
+@     1s  (stopping all workers)
+@     1s  (copied results from worker 3 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018D/pr_zipcpu-zipmmu-p39)
+@     1s  [0;30;47m(proof race finished with answer safe in 0.88 seconds)[m

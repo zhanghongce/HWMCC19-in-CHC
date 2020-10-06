@@ -1,0 +1,1 @@
+1 | /home/hongcez/hwmcc/benchs/chcrel/array/mann/unknown/ridecore_array.chc | -15 | 3600.009083 | unknown

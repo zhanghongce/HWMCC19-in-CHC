@@ -1,0 +1,1 @@
+392 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/opensource/vcegar_arrays_itc99_b12_p2/vcegar_arrays_itc99_b12_p2.chc | -15 | 3600.001934 | unknown

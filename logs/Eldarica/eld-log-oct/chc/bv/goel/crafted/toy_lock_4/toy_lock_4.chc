@@ -1,0 +1,3 @@
+Theories: GroebnerMultiplication, ModuloArithmetic
+ldarica-assembly-2.0.4.jar lazabs.Main -hsmt -ssol -abstract:oct /home/hongcez/hwmcc/benchs/chc/bv/goel/crafted/toy_lock_4/toy_lock_4.chc
+(error "out of memory")

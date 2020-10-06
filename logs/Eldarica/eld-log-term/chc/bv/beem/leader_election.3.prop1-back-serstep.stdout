@@ -1,0 +1,2 @@
+java -Xmx6844m -Xss80000k -cp ./target/scala-2.11/Eldarica-assembly-2.0.4.jar lazabs.Main -hsmt -ssol -abstract:term /home/hongcez/hwmcc/benchs/chc/bv/beem/leader_election.3.prop1-back-serstep.chc
+(error "out of memory")

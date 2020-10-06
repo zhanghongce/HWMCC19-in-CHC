@@ -1,0 +1,1 @@
+260 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/mul4/mul4.btor2 | 0 | 0.277899 | unsat

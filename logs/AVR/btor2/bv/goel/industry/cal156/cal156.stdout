@@ -1,0 +1,52 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/cal156/pr_cal156/work_w3)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1009 / 1009 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     0	: 2	: 0 1 2 s: 3    0s                     0	: 2	: 0 1 3 s: 4    0s                     0	: 2	: 0 1 4 s: 5    0s                     0	: 2	: 0 1 5 s: 6    0s                     0	: 2	: 0 1 6 s: 7    0s                     0	: 2	: 0 1 7 s: 8    0s                     0	: 2	: 0 1 8 s: 9    0s                     0	: 2	: 0 1 9 s: 10    0s                     0	: 2	: 0 1 10 s: 11    0s                     0	: 2	: 0 1 11 s: 12    0s                     0	: 2	: 0 1 12 s: 13    0s                     0	: 2	: 0 1 13 s: 14    0s                     0	: 2	: 0 1 14 s: 15    0s                     0	: 2	: 0 1 15 s: 16    0s                     0	: 2	: 0 1 16 s: 17    0s                     0	: 2	: 0 1 17 s: 18    1s                     0	: 2	: 0 1 18 s: 19    1s                     0	: 2	: 0 1 19 s: 20    1s                     0	: 2	: 0 1 20 s: 21    1s                     0	: 2	: 0 1 21 s: 22    1s                     0	: 2	: 0 1 22 s: 23    1s                     0	: 2	: 0 1 23 s: 24    1s                     0	: 2	: 0 1 24 s: 25    1s                     0	: 2	: 0 1 25 s: 26    1s                     0	: 2	: 0 1 26 s: 27    1s                     0	: 2	: 0 1 27 s: 28    2s                     0	: 2	: 0 1 28 s: 29    2s                     0	: 2	: 0 1 29 s: 30    2s                     0	: 2	: 0 1 30 s: 31    2s                     0	: 2	: 0 1 31 s: 32    2s                     0	: 2	: 0 1 31 s: 32    2s                  
+   0	: 3	: 0 1 16 15 s: 32    2s                     0	: 3	: 0 1 16 16 s: 33    2s                     0	: 3	: 0 1 15 17 s: 33    2s                     0	: 3	: 0 1 14 18 s: 33    2s                     0	: 3	: 0 1 14 19 s: 34    2s                     0	: 3	: 0 1 14 20 s: 35    2s                     0	: 3	: 0 1 13 21 s: 35    2s                     0	: 3	: 0 1 12 22 s: 35    2s                     0	: 3	: 0 1 11 23 s: 35    2s                     0	: 3	: 0 1 10 24 s: 35    2s                     0	: 3	: 0 1 9 25 s: 35    2s                     0	: 3	: 0 1 8 26 s: 35    2s                     0	: 3	: 0 1 7 27 s: 35    2s                     0	: 3	: 0 1 6 28 s: 35    2s                     0	: 3	: 0 1 5 29 s: 35    2s                     0	: 3	: 0 1 5 30 s: 36    2s                     0	: 3	: 0 1 5 31 s: 37    2s                     0	: 3	: 0 1 5 31 s: 37    3s                  
+   0	: 4	: 0 1 3 14 19 s: 37    3s                     0	: 4	: 0 1 9 16 20 s: 46    3s                     0	: 4	: 0 1 9 15 21 s: 46    3s                     0	: 4	: 0 1 9 14 22 s: 46    3s                     0	: 4	: 0 1 9 14 23 s: 47    3s                     0	: 4	: 0 1 9 14 24 s: 48    3s                     0	: 4	: 0 1 9 13 25 s: 48    3s                     0	: 4	: 0 1 9 12 26 s: 48    3s                     0	: 4	: 0 1 9 11 27 s: 48    3s                     0	: 4	: 0 1 9 10 28 s: 48    3s                     0	: 4	: 0 1 9 9 29 s: 48    3s                     0	: 4	: 0 1 9 8 30 s: 48    3s                     0	: 4	: 0 1 9 7 31 s: 48    3s                     0	: 4	: 0 1 9 6 32 s: 48    3s                     0	: 4	: 0 1 9 5 33 s: 48    3s                     0	: 4	: 0 1 9 5 33 s: 48    3s                  
+   0	: 5	: 0 1 6 4 14 21 s: 46    3s                     0	: 5	: 0 1 8 5 14 22 s: 50    4s                     0	: 5	: 0 1 8 5 13 23 s: 50    4s                     0	: 5	: 0 1 8 5 12 24 s: 50    4s                     0	: 5	: 0 1 11 5 12 25 s: 54    4s                     0	: 5	: 0 1 12 5 12 26 s: 56    4s                     0	: 5	: 0 1 12 5 11 27 s: 56    4s                     0	: 5	: 0 1 12 5 10 28 s: 56    4s                     0	: 5	: 0 1 12 5 9 29 s: 56    4s                     0	: 5	: 0 1 12 5 8 30 s: 56    4s                     0	: 5	: 0 1 12 5 7 31 s: 56    4s                     0	: 5	: 0 1 12 5 6 32 s: 56    4s                     0	: 5	: 0 1 12 5 5 33 s: 56    4s                     0	: 5	: 0 1 12 5 4 34 s: 56    4s                     0	: 5	: 0 1 12 5 3 35 s: 56    4s                     0	: 5	: 0 1 12 5 3 35 s: 56    4s                  
+   0	: 6	: 0 1 8 7 4 14 22 s: 56    5s                     0	: 6	: 0 1 9 8 6 15 23 s: 62    5s                     0	: 6	: 0 1 9 8 6 15 24 s: 63    5s                     0	: 6	: 0 1 9 8 6 15 25 s: 64    5s                     0	: 6	: 0 1 50 12 7 16 26 s: 112    10s                     0	: 6	: 0 1 62 14 8 17 27 s: 129    11s                     0	: 6	: 0 1 62 14 8 17 28 s: 130    11s                     0	: 6	: 0 1 62 13 7 16 28 s: 127    12s                     0	: 6	: 0 1 62 13 7 15 28 s: 126    12s                     0	: 6	: 0 1 62 11 5 14 28 s: 121    12s                     0	: 6	: 0 1 62 11 5 13 29 s: 121    13s                     0	: 6	: 0 1 62 11 5 12 30 s: 121    13s                     0	: 6	: 0 1 62 11 5 11 31 s: 121    13s                     0	: 6	: 0 1 62 11 5 10 32 s: 121    13s                     0	: 6	: 0 1 62 11 5 9 33 s: 121    13s                     0	: 6	: 0 1 62 11 5 8 34 s: 121    13s                     0	: 6	: 0 1 62 11 5 7 35 s: 121    13s                     0	: 6	: 0 1 62 11 5 6 35 s: 120    13s                     0	: 6	: 0 1 62 11 5 5 35 s: 119    13s                     0	: 6	: 0 1 62 11 5 4 36 s: 119    13s                     0	: 6	: 0 1 62 11 5 3 36 s: 118    13s                     0	: 6	: 0 1 62 11 5 3 36 s: 118    13s                  
+   0	: 7	: 0 1 4 5 7 4 14 83 s: 118    16s                     0	: 7	: 0 1 68 5 7 4 14 84 s: 183    24s                     0	: 7	: 0 1 68 5 7 4 13 85 s: 183    24s                     0	: 7	: 0 1 67 5 7 4 13 86 s: 183    28s                     0	: 7	: 0 1 66 5 7 4 13 87 s: 183    29s                     0	: 7	: 0 1 66 5 7 4 12 88 s: 183    29s                     0	: 7	: 0 1 66 5 7 4 11 89 s: 183    29s                     0	: 7	: 0 1 66 5 7 4 10 90 s: 183    29s                     0	: 7	: 0 1 66 5 7 4 9 91 s: 183    29s                     0	: 7	: 0 1 66 5 7 4 8 92 s: 183    29s                     0	: 7	: 0 1 66 5 7 4 7 93 s: 183    30s                     0	: 7	: 0 1 66 5 7 4 6 94 s: 183    30s                     0	: 7	: 0 1 66 5 7 4 5 95 s: 183    30s                     0	: 7	: 0 1 66 5 7 4 4 96 s: 183    30s                     0	: 7	: 0 1 66 5 7 4 3 97 s: 183    30s                     0	: 7	: 0 1 66 5 7 4 3 97 s: 183    30s                  
+   0	: 7	: 0 1 1 0 77 4 3 97 s: 183    33s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/cal156/pr_cal156)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 239990)
+@     0s  (started worker 1 with pid 239991)
+@     0s  (started worker 2 with pid 239992)
+@     0s  (started worker 3 with pid 239993)
+@     0s  (started worker 4 with pid 239994)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 240116)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 686 MB)
+@     2s  (started worker 6 with pid 240159)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 1086 MB)
+@     4s  (started worker 7 with pid 240220)
+@     4s  (spawned 1 workers)
+@     4s  (total 8 workers using 1224 MB)
+@     6s  (started worker 8 with pid 240277)
+@     6s  (spawned 1 workers)
+@     6s  (total 9 workers using 1391 MB)
+@    10s  (started worker 9 with pid 240358)
+@    10s  (spawned 1 workers)
+@    10s  (total 10 workers using 1538 MB)
+@    13s  (started worker 10 with pid 240426)
+@    13s  (spawned 1 workers)
+@    13s  (total 11 workers using 1672 MB)
+@    25s  (total 11 workers using 2114 MB)
+@    42s  (total 11 workers using 2131 MB)
+@    46s  (worker 3 finished with result safe) python3 avr.py -b bin_y2 -s
+@    46s  (worker 3 output)
+@    46s  (stopping all workers)
+@    46s  (copied results from worker 3 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/cal156/pr_cal156)
+@    46s  [0;30;47m(proof race finished with answer safe in 46.43 seconds)[m

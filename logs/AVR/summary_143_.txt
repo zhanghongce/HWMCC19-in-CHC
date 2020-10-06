@@ -1,0 +1,1 @@
+143 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2018D/zipcpu-pfcache-p25.btor | 0 | 3.826397 | unsat

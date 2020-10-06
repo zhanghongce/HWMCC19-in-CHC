@@ -1,0 +1,1 @@
+255 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/cal100/cal100.btor2 | 0 | 35.798115 | unsat

@@ -1,0 +1,24 @@
+Frame : 4
+  l0 :   | witness_0 | prop | (0,3),(0,0)
+  l1 :   | (bvnot (bvand state34 (ite (and (= state32 #b00000010) (= state310 #b00000011)) #b1 #b0))) | MUST-1 | (0,2),(0,0)
+  l2 :   | (bvnot (bvand state34 (bvand ((_ extract 1 1) state38) (ite (and (= #b00000010 state310) (not (= state32 #b00000010))) #b1 #b0)))) | MUST-1 | (0,1),(0,0)
+  l3 :   | (bvnot (bvand state34 (ite (and (not (= #b00000010 state310)) (= state32 #b00000010)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l4 :   | (bvnot (bvand state34 (bvand ((_ extract 1 1) state38) (bvnot (ite (= state32 state310) #b1 #b0))))) | MUST-4 | (0,2),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 60709120 | state310= #b00000011 , state32= #b00000010 , state34= #b1 , state38= #b10 , state28= #b1 ,  | MUST-1 | (0,2),(0,0)
+  c2 :   | id: 61330480 | state32= #b00001001 , state34= #b1 , state38= #b10 , state310= #b00000010 , state28= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c3 :   | id: 61430688 | state32= #b00000010 , state34= #b1 , state38= #b10 , state310= #b00100010 , state28= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c4 :   | id: 62087664 | state38= #b10 , state310= #b11111111 , state326= #b1 , state32= #b00000110 , state34= #b1 , state355= #b11 , state28= #b1 ,  | MUST-4 | (0,2),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	234 / 0s = inf
+Enum.TermEval 	  	450 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	8 / 0.006s = 1333.33
+Function:PushOneFrame 	  	6 / 0.069s = 86.9565
+Function:RecursiveBlock 	  	9 / 0.068s = 132.353
+Function:SolveTrans 	  	48 / 0.008s = 6000
+Function:SolveTransLemma 	  	13 / 0.043s = 302.326
+F[5] 1 14 13 7 5 
+unsat
+b0

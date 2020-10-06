@@ -1,0 +1,28 @@
+Frame : 3
+  l0 :   | (bvnot (bvand tre (bvnot error))) | prop | (0,2),(0,0)
+  l1 :   | (bvnot tx_end) | MUST-1 | (0,2),(0,0)
+  l2 :   | (bvnot tre) | MUST-2 | (0,2),(0,0)
+  l3 :   | (bvnot load) | MUST-1 | (0,1),(0,0)
+  l4 :   | (bvnot send_data) | MUST-4 | (0,2),(0,0)
+  l5 :   | (bvnot S2) | MUST-3 | (0,1),(0,0)
+  l6 :   | (bvnot shot) | MUST-2 | (0,0),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 43578768 | load= #b0 , error= #b0 , send= #b0 , tx_end= #b1 ,  | MUST-1 | (0,2),(0,0)
+  c2 :   | id: 43873088 | itfc_state= #b1 , tre= #b1 ,  | MUST-2 | (0,2),(0,0)
+  c3 :   | id: 43836240 | tx_end= #b0 , tre= #b0 , load= #b1 , send= #b0 ,  | MUST-1 | (0,1),(0,0)
+  c4 :   | id: 44032272 | shot= #b0 , send_en= #b0 , send= #b0 , load= #b0 , itfc_state= #b0 , tx_end= #b0 , send_data= #b1 , S2= #b0 , tre= #b0 ,  | MUST-4 | (0,2),(0,0)
+  c5 :   | id: 44047296 | shot= #b0 , load= #b0 , S2= #b1 , tre= #b0 , itfc_state= #b0 , tx_end= #b0 , send_en= #b0 , send= #b0 ,  | MUST-3 | (0,1),(0,0)
+  c6 :   | id: 43891536 | tx_end= #b0 , itfc_state= #b0 , tre= #b0 , load= #b0 , send_en= #b0 , send= #b0 , shot= #b1 ,  | MUST-2 | (0,0),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	171 / 0s = inf
+Enum.TermEval 	  	84 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	6 / 0s = inf
+Function:PushOneFrame 	  	3 / 0.01s = 300
+Function:RecursiveBlock 	  	7 / 0.01s = 700
+Function:SolveTrans 	  	39 / 0s = inf
+Function:SolveTransLemma 	  	11 / 0.003s = 3666.67
+F[4] 1 12 8 7 
+unsat
+b0

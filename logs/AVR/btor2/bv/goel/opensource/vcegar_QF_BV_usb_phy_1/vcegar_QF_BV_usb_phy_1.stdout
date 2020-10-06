@@ -1,0 +1,32 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/opensource/vcegar_QF_BV_usb_phy_1/pr_vcegar_QF_BV_usb_phy_1/work_w1)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(76 / 76 flops initialized)
+	(abstraction: sa+uf)
+	(bmc: safe till step 0)
+	(bmc: safe till step 10)
+	(bmc: safe till step 20)
+	(bmc: safe till step 30)
+	(bmc: found cex at step 36)
+   0	: 0	: 0 s: 0    1s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/opensource/vcegar_QF_BV_usb_phy_1/pr_vcegar_QF_BV_usb_phy_1)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 243310)
+@     0s  (started worker 1 with pid 243311)
+@     0s  (started worker 2 with pid 243312)
+@     0s  (started worker 3 with pid 243313)
+@     0s  (started worker 4 with pid 243314)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 243429)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 187 MB)
+@     2s  (worker 1 finished with result unsafe) python3 avr.py -b bin_bt_cadical -s --bmc
+@     2s  (worker 1 output)
+@     2s  (stopping all workers)
+@     2s  (copied results from worker 1 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/opensource/vcegar_QF_BV_usb_phy_1/pr_vcegar_QF_BV_usb_phy_1)
+@     2s  [0;30;47m(proof race finished with answer unsafe in 1.66 seconds)[m

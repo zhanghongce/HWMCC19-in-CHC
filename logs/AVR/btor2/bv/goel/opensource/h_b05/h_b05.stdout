@@ -1,0 +1,26 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/opensource/h_b05/pr_h_b05/work_w1)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(27 / 27 flops initialized)
+	(abstraction: sa+uf)
+	(bmc: safe till step 0)
+	(bmc: found cex at step 7)
+   0	: 0	: 0 s: 0    0s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/opensource/h_b05/pr_h_b05)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 232091)
+@     0s  (started worker 1 with pid 232092)
+@     0s  (started worker 2 with pid 232093)
+@     0s  (started worker 3 with pid 232094)
+@     0s  (started worker 4 with pid 232095)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     0s  (worker 1 finished with result unsafe) python3 avr.py -b bin_bt_cadical -s --bmc
+@     0s  (worker 1 output)
+@     0s  (stopping all workers)
+@     0s  (copied results from worker 1 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/opensource/h_b05/pr_h_b05)
+@     0s  [0;30;47m(proof race finished with answer unsafe in 0.31 seconds)[m

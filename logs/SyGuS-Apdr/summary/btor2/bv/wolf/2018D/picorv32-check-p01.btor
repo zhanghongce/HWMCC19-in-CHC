@@ -1,0 +1,56 @@
+Frame : 10
+  l0 :   | (bvnot (bvand __DOLLAR__formal__DOLLAR__picorv32__DASH__check.sv__COLON__613__DOLLAR__13_EN (bvnot __DOLLAR__formal__DOLLAR__picorv32__DASH__check.sv__COLON__614__DOLLAR__14_CHECK))) | prop | (0,9),(0,0)
+  l1 :   | (bvnot (bvand (ite (= cpu_state #b00010000) #b1 #b0) (bvnot state275))) | MUST-2 | (0,8),(0,0)
+  l2 :   | (bvnot (bvand trap (bvand (ite (= cpu_state #b01000000) #b1 #b0) (bvnot state275)))) | MUST-3 | (0,7),(0,0)
+  l3 :   | (bvnot (bvand mem_do_rinst (bvand decoder_trigger (bvand (ite (= cpu_state #b01000000) #b1 #b0) (bvnot state275))))) | MUST-3 | (0,7),(0,0)
+  l4 :   | (bvnot (bvand mem_do_wdata (bvand mem_valid (bvand ((_ extract 0 0) mem_state) (bvand (bvnot state275) (bvand (bvnot mem_do_rdata) (ite (= cpu_state #b00000100) #b1 #b0))))))) | MUST-2 | (0,5),(0,0)
+  l5 :   | (bvnot (bvand decoder_trigger (bvand mem_do_prefetch (bvnot state275)))) | MUST-3 | (0,6),(0,0)
+  l6 :   | (bvnot (bvand mem_valid (bvand (bvnot mem_do_rdata) (bvand (bvnot state275) (bvand (ite (= cpu_state #b00100000) #b1 #b0) ((_ extract 0 0) mem_state)))))) | MUST-2 | (0,5),(0,0)
+  l7 :   | (bvnot (bvand trap (bvand (ite (= cpu_state #b00000100) #b1 #b0) (bvnot state275)))) | MUST-3 | (0,5),(0,0)
+  l8 :   | (bvnot (bvand mem_do_rinst (bvand (ite (= cpu_state #b00100000) #b1 #b0) (bvnot state275)))) | MUST-3 | (0,6),(0,0)
+  l9 :   | (bvnot (bvand mem_valid (bvand mem_do_wdata (bvand (bvnot mem_do_rdata) (bvand (bvnot state275) (bvand (bvnot mem_do_rinst) (bvand (ite (= cpu_state #b00001000) #b1 #b0) ((_ extract 0 0) mem_state)))))))) | MUST-2 | (0,5),(0,0)
+  l10 :   | (bvnot (bvand decoder_trigger (bvand mem_valid (bvand ((_ extract 0 0) mem_state) (bvand ((_ extract 0 0) last_mem_nowait) (bvnot state275)))))) | MUST-3 | (0,3),(0,0)
+  l11 :   | (bvnot (bvand mem_valid (bvand (bvnot mem_do_rdata) (bvand (bvnot state275) (bvand (bvnot mem_do_rinst) (bvand ((_ extract 0 0) mem_state) (bvand (bvnot mem_do_prefetch) (bvand (ite (= cpu_state #b00000100) #b1 #b0) (bvnot ((_ extract 1 1) mem_state)))))))))) | MUST-2 | (0,3),(0,0)
+  l12 :   | (bvnot (bvand mem_do_rinst (bvand (ite (= cpu_state #b00000100) #b1 #b0) (bvnot state275)))) | MUST-3 | (0,5),(0,0)
+  l13 :   | (bvnot (bvand trap (bvand (bvnot (ite (= cpu_state #b10000000) #b1 #b0)) (bvnot state275)))) | MUST-2 | (0,4),(0,0)
+  l14 :   | (bvnot (bvand mem_valid (bvand (bvnot mem_do_rdata) (bvand (bvnot state275) (bvand (bvnot mem_do_rinst) (bvand ((_ extract 0 0) mem_state) (bvand (bvnot mem_do_prefetch) (bvnot ((_ extract 1 1) mem_state))))))))) | MUST-2 | (0,3),(0,0)
+  l15 :   | (bvnot (bvand mem_do_rdata (bvand mem_valid (bvand ((_ extract 0 0) mem_state) (bvand (bvnot state275) ((_ extract 1 1) mem_state)))))) | MUST-2 | (0,3),(0,0)
+  l16 :   | (bvnot (bvand ((_ extract 0 0) mem_state) (bvand ((_ extract 1 1) mem_state) (bvand (bvnot mem_do_prefetch) (bvand (bvnot trap) (bvnot state275)))))) | MUST-1 | (0,2),(0,0)
+  l17 :   | (bvnot (bvand mem_valid (bvand ((_ extract 0 0) mem_state) (bvand (bvnot mem_do_rinst) (bvand (bvnot state275) (bvand (bvnot mem_do_rdata) (ite (and (not (= cpu_state #b00000100)) (not (= cpu_state #b10000000))) #b1 #b0))))))) | MUST-3 | (0,2),(0,0)
+  l18 :   | (bvnot (bvand mem_do_prefetch (bvand (bvnot state275) (bvand (bvnot mem_do_rinst) (bvand (bvnot decoder_trigger_q) (bvand (bvnot ((_ extract 1 1) mem_state)) (bvand (bvnot ((_ extract 0 0) mem_state)) (ite (and (not (= cpu_state #b00000100)) (not (= cpu_state #b10000000))) #b1 #b0)))))))) | MUST-3 | (0,1),(0,0)
+  l19 :   | (bvnot (bvand mem_do_prefetch (bvand (bvnot mem_do_rinst) (bvand (bvnot state275) (bvand (bvnot ((_ extract 0 0) mem_state)) (bvand (bvnot ((_ extract 1 1) mem_state)) (ite (and (not (= cpu_state #b00000100)) (not (= cpu_state #b00100000)) (not (= cpu_state #b10000000))) #b1 #b0))))))) | MUST-3 | (0,1),(0,0)
+  l20 :   | (bvnot (bvand mem_do_prefetch (bvand mem_valid (bvand ((_ extract 1 1) mem_state) (bvand (bvnot state275) (bvand (bvnot mem_do_rinst) (bvand (bvnot mem_do_wdata) (ite (and (not (= cpu_state #b00100000)) (not (= cpu_state #b10000000)) (not (= cpu_state #b00000100))) #b1 #b0)))))))) | MUST-4 | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 58313456 | state275= #b0 , resetn= #b1 , cpu_state= #b00010000 , mem_do_prefetch= #b0 , mem_state= #b01 , trap= #b0 , mem_do_rinst= #b0 , mem_ready= #b1 , mem_do_rdata= #b0 , mem_valid= #b1 ,  | MUST-2 | (0,8),(0,0)
+  c2 :   | id: 65693216 | mem_valid= #b1 , mem_ready= #b0 , mem_do_rdata= #b0 , instr_jalr= #b1 , input917= #b0 , mem_state= #b01 , decoder_trigger_q= #b0 , instr_jal= #b0 , trap= #b1 , input958= #b0 , last_mem_nowait= #b1101 , state275= #b0 , resetn= #b1 , cpu_state= #b01000000 , decoder_trigger= #b1 ,  | MUST-3 | (0,7),(0,0)
+  c3 :   | id: 52539152 | input958= #b0 , mem_ready= #b1 , mem_do_rdata= #b0 , mem_state= #b00 , trap= #b0 , decoder_trigger_q= #b0 , instr_jal= #b0 , mem_do_rinst= #b1 , input917= #b0 , instr_jalr= #b1 , state275= #b0 , mem_do_wdata= #b0 , resetn= #b1 , cpu_state= #b01000000 , decoder_trigger= #b1 ,  | MUST-3 | (0,7),(0,0)
+  c4 :   | id: 65642512 | mem_do_rinst= #b0 , mem_valid= #b1 , mem_do_rdata= #b0 , mem_ready= #b1 , mem_state= #b01 , resetn= #b1 , cpu_state= #b00000100 , mem_do_wdata= #b1 , state275= #b0 , trap= #b0 ,  | MUST-2 | (0,5),(0,0)
+  c5 :   | id: 60638032 | mem_valid= #b0 , instr_ecall_ebreak= #b0 , mem_do_rdata= #b0 , mem_state= #b00 , instr_jal= #b0 , trap= #b0 , input917= #b0 , instr_jalr= #b1 , decoder_trigger= #b1 , mem_do_prefetch= #b1 , state275= #b0 , resetn= #b1 , mem_do_wdata= #b0 , cpu_state= #b01000000 ,  | MUST-3 | (0,6),(0,0)
+  c6 :   | id: 65830608 | mem_do_rinst= #b0 , mem_valid= #b1 , mem_do_rdata= #b0 , mem_ready= #b1 , resetn= #b1 , cpu_state= #b00100000 , state275= #b0 , mem_do_prefetch= #b0 , trap= #b0 , mem_state= #b01 ,  | MUST-2 | (0,5),(0,0)
+  c7 :   | id: 67089456 | state275= #b0 , cpu_state= #b00000100 , resetn= #b1 , instr_ecall_ebreak= #b0 , mem_do_rdata= #b0 , mem_ready= #b0 , mem_do_prefetch= #b0 , mem_valid= #b1 , trap= #b1 , reg_sh= #b00000 , last_mem_nowait= #b1001 , input917= #b0 , mem_state= #b01 ,  | MUST-3 | (0,5),(0,0)
+  c8 :   | id: 65976192 | is_lb_lh_lw_lbu_lhu= #b0 , is_slli_srli_srai= #b0 , input917= #b0 , mem_state= #b00 , is_lui_auipc_jal= #b1 , trap= #b0 , mem_do_rinst= #b1 , mem_ready= #b1 , mem_do_rdata= #b0 , decoder_pseudo_trigger_q= #b1 , mem_do_prefetch= #b0 , state275= #b0 , mem_do_wdata= #b0 , cpu_state= #b00100000 , resetn= #b1 ,  | MUST-3 | (0,6),(0,0)
+  c9 :   | id: 62864960 | state275= #b0 , resetn= #b1 , mem_do_wdata= #b1 , cpu_state= #b00001000 , mem_state= #b01 , trap= #b0 , mem_do_rinst= #b0 , mem_ready= #b1 , mem_do_rdata= #b0 , mem_valid= #b1 ,  | MUST-2 | (0,5),(0,0)
+  c10 :   | id: 67394192 | state275= #b0 , cpu_state= #b01000000 , resetn= #b1 , mem_valid= #b1 , mem_do_rdata= #b0 , mem_ready= #b0 , mem_state= #b01 , trap= #b0 , last_mem_nowait= #b0001 , instr_jalr= #b1 , decoder_trigger= #b1 , decoder_trigger_q= #b0 , instr_jal= #b0 ,  | MUST-3 | (0,3),(0,0)
+  c11 :   | id: 65942784 | state275= #b0 , resetn= #b1 , cpu_state= #b00000100 , mem_do_prefetch= #b0 , mem_state= #b01 , trap= #b0 , mem_do_rinst= #b0 , mem_ready= #b1 , mem_do_rdata= #b0 , mem_valid= #b1 ,  | MUST-2 | (0,3),(0,0)
+  c12 :   | id: 68706608 | mem_ready= #b1 , instr_ecall_ebreak= #b0 , mem_do_rdata= #b0 , mem_state= #b00 , mem_do_rinst= #b1 , trap= #b0 , reg_sh= #b00000 , mem_do_prefetch= #b0 , state275= #b0 , mem_do_wdata= #b0 , cpu_state= #b00000100 , resetn= #b1 ,  | MUST-3 | (0,5),(0,0)
+  c13 :   | id: 69125488 | mem_do_rinst= #b1 , trap= #b1 , mem_valid= #b1 , state275= #b0 , cpu_state= #b10000001 , resetn= #b1 , mem_state= #b11 , mem_ready= #b1 ,  | MUST-2 | (0,4),(0,0)
+  c14 :   | id: 67040224 | state275= #b0 , resetn= #b1 , cpu_state= #b00100001 , mem_do_prefetch= #b0 , mem_state= #b01 , trap= #b0 , mem_do_rinst= #b0 , mem_ready= #b1 , mem_do_rdata= #b0 , mem_valid= #b1 ,  | MUST-2 | (0,3),(0,0)
+  c15 :   | id: 69440192 | mem_valid= #b1 , state275= #b0 , resetn= #b1 , cpu_state= #b10010000 , trap= #b0 , mem_do_rinst= #b0 , mem_state= #b11 , mem_do_rdata= #b1 , mem_ready= #b1 ,  | MUST-2 | (0,3),(0,0)
+  c16 :   | id: 65044176 | mem_do_prefetch= #b0 , mem_ready= #b1 , mem_state= #b11 , resetn= #b1 , state275= #b0 , trap= #b0 ,  | MUST-1 | (0,2),(0,0)
+  c17 :   | id: 69075584 | mem_do_prefetch= #b1 , mem_valid= #b1 , input1000= #b1 , input917= #b0 , mem_state= #b01 , input958= #b0 , last_mem_nowait= #b0001 , trap= #b0 , instr_ecall_ebreak= #b0 , mem_ready= #b0 , mem_do_rdata= #b0 , mem_do_rinst= #b0 , state275= #b0 , resetn= #b1 , cpu_state= #b00001001 ,  | MUST-3 | (0,2),(0,0)
+  c18 :   | id: 66469904 | mem_valid= #b0 , input958= #b0 , input1000= #b1 , input917= #b0 , mem_state= #b00 , mem_do_prefetch= #b1 , trap= #b0 , mem_do_rdata= #b0 , decoder_trigger_q= #b0 , mem_do_rinst= #b0 , mem_do_wdata= #b0 , state275= #b0 , resetn= #b1 , cpu_state= #b00010001 ,  | MUST-3 | (0,1),(0,0)
+  c19 :   | id: 65139376 | mem_valid= #b0 , input958= #b0 , input1000= #b1 , input917= #b0 , mem_state= #b00 , decoder_pseudo_trigger_q= #b1 , mem_do_prefetch= #b1 , trap= #b0 , mem_do_rdata= #b0 , mem_do_rinst= #b0 , state275= #b0 , mem_do_wdata= #b0 , resetn= #b1 , cpu_state= #b00001001 ,  | MUST-3 | (0,1),(0,0)
+  c20 :   | id: 68318288 | mem_valid= #b1 , mem_state= #b10 , trap= #b0 , mem_do_rdata= #b0 , mem_ready= #b1 , mem_do_prefetch= #b1 , decoder_trigger= #b0 , decoder_pseudo_trigger_q= #b1 , input958= #b0 , input917= #b0 , input1000= #b0 , mem_do_wdata= #b0 , resetn= #b1 , cpu_state= #b00010001 , state275= #b0 , mem_do_rinst= #b0 ,  | MUST-4 | (0,1),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	3475 / 0.098s = 35459.2
+Enum.TermEval 	  	3597 / 0.0919999s = 39097.9
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	38 / 0.049s = 775.51
+Function:PushOneFrame 	  	45 / 2.346s = 19.1816
+Function:RecursiveBlock 	  	36 / 2.202s = 16.3488
+Function:SolveTrans 	  	302 / 0.225s = 1342.22
+Function:SolveTransLemma 	  	66 / 1.801s = 36.6463
+F[11] 1 67 64 60 56 47 42 33 26 21 21 
+unsat
+b0

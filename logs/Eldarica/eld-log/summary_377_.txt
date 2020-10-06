@@ -1,0 +1,1 @@
+377 | /home/hongcez/hwmcc/benchs/chc/bv/goel/industry/gen32/gen32.chc | 143 | 3600.16787 | unknown

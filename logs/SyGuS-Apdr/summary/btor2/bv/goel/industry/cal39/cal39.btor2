@@ -1,0 +1,19 @@
+Frame : 3
+  l0 :   | witness_0 | prop | (0,2),(0,0)
+  l1 :   | (bvnot (bvand state66 (ite (and (not (= state64 state999)) (= state70 #b10)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l2 :   | (bvnot (bvand state66 (ite (and (not (= state383 state1014)) (= state70 #b10)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 58116592 | state64= #b11111000000000000000000000000000 , state70= #b10 , state66= #b1 , state566= #b1 , state999= #b11110000000000000000000000000000 , state59= #b1 , state119= #b00000000 ,  | MUST-1 | (0,1),(0,0)
+  c2 :   | id: 59028432 | state389= #b000000 , state1014= #b111111 , state380= #b00 , state1020= #b000000 , state1023= #b00 , state386= #b00 , state398= #b00 , state392= #b00 , state59= #b1 , state566= #b1 , state1026= #b000000 , state395= #b000000 , state1011= #b00 , state70= #b10 , state66= #b1 , state1017= #b00 , state377= #b000000 , state1008= #b000000 , state1029= #b00 , state383= #b011111 ,  | MUST-1 | (0,1),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	279 / 0.003s = 93000
+Enum.TermEval 	  	135 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushOneFrame 	  	3 / 0.027s = 111.111
+Function:RecursiveBlock 	  	3 / 0.04s = 75
+Function:SolveTrans 	  	13 / 0.023s = 565.217
+Function:SolveTransLemma 	  	3 / 0.037s = 81.0811
+F[4] 1 4 3 3 
+unsat
+b0

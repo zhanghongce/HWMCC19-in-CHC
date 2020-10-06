@@ -1,0 +1,37 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018A/pr_zipcpu-busdelay-p18/work_w3)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(291 / 658 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     1	: 1	: 0 0 s: 0    0s                     1	: 1	: 0 1 s: 1    0s                     1	: 1	: 0 1 s: 1    0s                  
+   1	: 2	: 0 1 0 s: 1    0s                     2	: 2	: 0 1 0 s: 1    0s                     3	: 2	: 0 1 0 s: 1    0s                     3	: 2	: 0 1 1 s: 2    0s                     3	: 2	: 0 1 1 s: 2    0s                  
+   3	: 3	: 0 1 1 0 s: 2    0s                     3	: 3	: 0 1 1 1 s: 3    0s                     3	: 3	: 0 1 1 1 s: 3    0s                  
+   3	: 4	: 0 1 1 1 0 s: 3    0s                     4	: 4	: 0 1 1 1 0 s: 3    0s                     4	: 4	: 0 1 1 1 1 s: 4    0s                     4	: 4	: 0 1 1 1 1 s: 4    0s                  
+   4	: 5	: 0 1 1 1 1 0 s: 4    0s                     5	: 5	: 0 1 1 1 1 0 s: 4    0s                     6	: 5	: 0 1 1 1 1 0 s: 4    0s                     6	: 5	: 0 1 1 1 1 1 s: 5    0s                     6	: 5	: 0 1 1 1 2 2 s: 7    0s                     6	: 5	: 0 1 1 1 2 2 s: 7    0s                  
+   6	: 6	: 0 1 1 1 2 1 1 s: 7    0s                     7	: 6	: 0 1 2 2 3 2 1 s: 11    0s                     8	: 6	: 0 1 2 2 3 3 1 s: 12    0s                     9	: 6	: 0 1 5 5 4 3 1 s: 19    0s                     9	: 6	: 0 1 5 5 4 2 2 s: 19    0s                     9	: 6	: 0 1 5 5 4 2 2 s: 19    0s                  
+   9	: 7	: 0 1 4 5 4 1 1 3 s: 19    0s                     10	: 7	: 0 1 4 5 4 1 1 3 s: 19    0s                     10	: 7	: 0 1 4 5 4 1 1 4 s: 20    0s                     10	: 7	: 0 1 4 5 4 1 1 4 s: 20    0s                  
+   10	: 8	: 0 1 4 5 4 1 1 1 3 s: 20    0s                     11	: 8	: 0 1 4 5 4 1 1 1 3 s: 20    0s                     11	: 8	: 0 1 4 5 4 1 1 1 4 s: 21    0s                     11	: 8	: 0 1 4 5 4 1 1 1 4 s: 21    0s                  
+   11	: 9	: 0 1 4 5 4 1 1 1 1 3 s: 21    0s                     12	: 9	: 0 1 4 5 4 1 1 1 1 3 s: 21    0s                     13	: 9	: 0 1 4 6 4 1 1 2 2 3 s: 24    0s                     14	: 9	: 0 1 4 6 4 1 1 2 2 3 s: 24    0s                     15	: 9	: 0 1 4 6 4 1 1 2 2 3 s: 24    0s                     15	: 9	: 0 1 4 6 4 2 3 3 3 4 s: 30    0s                     16	: 9	: 0 1 4 6 4 2 3 3 3 4 s: 30    0s                     16	: 9	: 0 1 4 6 4 2 3 3 3 5 s: 31    0s                     17	: 9	: 0 1 4 6 4 2 3 3 3 5 s: 31    0s                     17	: 9	: 0 1 4 6 4 2 3 3 3 5 s: 31    0s                     17	: 9	: 0 1 4 6 4 2 3 2 3 5 s: 30    0s                     17	: 9	: 0 1 4 6 4 2 3 2 3 5 s: 30    0s                  
+   17	: 9	: 0 1 4 6 4 1 1 1 0 12 s: 30    0s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018A/pr_zipcpu-busdelay-p18)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 198529)
+@     0s  (started worker 1 with pid 198530)
+@     0s  (started worker 2 with pid 198531)
+@     0s  (started worker 3 with pid 198532)
+@     0s  (started worker 4 with pid 198533)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 198651)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 217 MB)
+@     1s  (worker 3 finished with result safe) python3 avr.py -b bin_y2 -s
+@     1s  (worker 3 output)
+@     1s  (stopping all workers)
+@     1s  (copied results from worker 3 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018A/pr_zipcpu-busdelay-p18)
+@     1s  [0;30;47m(proof race finished with answer safe in 0.86 seconds)[m

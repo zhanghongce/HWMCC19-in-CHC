@@ -1,0 +1,20 @@
+Frame : 3
+  l0 :   | witness_0 | prop | (0,2),(0,0)
+  l1 :   | (bvnot (bvand state101 (ite (and (not (= state3151 state3266)) (= state106 #b10)) #b1 #b0))) | MUST-2 | (0,1),(0,0)
+  l2 :   | (bvnot (bvand state101 (ite (and (not (= state117 state240)) (= state106 #b10)) #b1 #b0))) | MUST-1 | (0,0),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 49724976 | state3161= #b1 , state99= #b00000 , state3151= #b01111111111111111111111111111111 , state95= #b1 , state3266= #b11111111111111111111111111111111 , state101= #b1 , state3207= #b0 , state106= #b10 ,  | MUST-2 | (0,1),(0,0)
+  c2 :   | id: 47661024 | state240= #b11111111111111111111111111111111 , state101= #b1 , state117= #b01111111111111111111111111111111 , state95= #b1 , state99= #b00100 , state106= #b10 ,  | MUST-1 | (0,0),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	165 / 0.002s = 82500
+Enum.TermEval 	  	140 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	1 / 0.07s = 14.2857
+Function:PushOneFrame 	  	3 / 0.164s = 18.2927
+Function:RecursiveBlock 	  	3 / 0.174s = 17.2414
+Function:SolveTrans 	  	14 / 0.079s = 177.215
+Function:SolveTransLemma 	  	4 / 0.093s = 43.0107
+F[4] 1 5 4 3 
+unsat
+b0

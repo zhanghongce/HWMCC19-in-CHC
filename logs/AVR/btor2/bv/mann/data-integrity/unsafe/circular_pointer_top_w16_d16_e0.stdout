@@ -1,0 +1,46 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_circular_pointer_top_w16_d16_e0/work_w1)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1 / 315 flops initialized)
+	(abstraction: sa+uf)
+	(bmc: safe till step 0)
+	(bmc: safe till step 10)
+	(bmc: found cex at step 19)
+   0	: 0	: 0 s: 0    11s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_circular_pointer_top_w16_d16_e0)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 204181)
+@     0s  (started worker 1 with pid 204182)
+@     0s  (started worker 2 with pid 204183)
+@     0s  (started worker 3 with pid 204184)
+@     0s  (started worker 4 with pid 204185)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 204299)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 104 MB)
+@     2s  (started worker 6 with pid 204353)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 148 MB)
+@     3s  (started worker 7 with pid 204403)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 210 MB)
+@     6s  (started worker 8 with pid 204462)
+@     6s  (spawned 1 workers)
+@     6s  (total 9 workers using 277 MB)
+@     9s  (started worker 9 with pid 204530)
+@     9s  (spawned 1 workers)
+@     9s  (total 10 workers using 370 MB)
+@     9s  (worker 8 finished with result unknown) python3 avr.py -l 5 -g 3 -a sa8 --interpol 1 -f 1
+@    12s  (started worker 10 with pid 204605)
+@    12s  (spawned 1 workers)
+@    12s  (total 10 workers using 463 MB)
+@    12s  (worker 1 finished with result unsafe) python3 avr.py -b bin_bt_cadical -s --bmc
+@    12s  (worker 1 output)
+@    12s  (stopping all workers)
+@    12s  (copied results from worker 1 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_circular_pointer_top_w16_d16_e0)
+@    12s  [0;30;47m(proof race finished with answer unsafe in 12.46 seconds)[m

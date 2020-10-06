@@ -1,0 +1,1 @@
+10 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2018A/picorv32-check-p19.chc | 0 | 1.531112 | unsat

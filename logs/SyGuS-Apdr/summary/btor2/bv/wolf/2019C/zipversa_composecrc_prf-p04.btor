@@ -1,0 +1,21 @@
+Frame : 3
+  l0 :   | (bvnot (bvand (bvnot __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__auto__DOLLAR__verificsva.cc__COLON__1762__COLON__import__DOLLAR__1651) __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__auto__DOLLAR__verificsva.cc__COLON__1763__COLON__import__DOLLAR__1652)) | prop | (0,2),(0,0)
+  l1 :   | (bvnot (bvand tx.o_v __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__n833__DOLLAR__1044)) | MUST-1 | (0,1),(0,0)
+  l2 :   | (bvnot (bvand (bvnot rx.f_past_valid) (ite (= #b00000000000000000000000000000000 state12) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l3 :   | (bvnot (bvand __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__n833__DOLLAR__1044 (ite (= #b00000000000000000000000000000000 state12) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 63600000 | i_reset= #b0 , i_ce= #b1 , tx.o_v= #b1 , tx.o_d= #b00000000 , __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__n833__DOLLAR__1044= #b1 , __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__i347__DOLLAR__rxecrc.v__COLON__311__DOLLAR__1390= #b1 , __DOLLAR__techmap__BACKSLASH__tx.__DOLLAR__verific__DOLLAR__i262__DOLLAR__addecrc.v__COLON__163__DOLLAR__562= #b1 , __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__n845__DOLLAR__1052= #b1 , i_v= #b1 , __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__sva_stable_320__DOLLAR__rxecrc.v__COLON__290__DOLLAR__1370= #b00000000 , rx.f_past_valid= #b1 , rx.f_v= #b00000 , state12= #b00000000000000000000000000000000 ,  | MUST-1 | (0,1),(0,0)
+  c2 :   | id: 66188544 | rx.f_clear= #b1 , i_ce= #b1 , __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__n856__DOLLAR__1057= #b0 , tx.o_v= #b0 , state12= #b00000000000000000000000000000000 , i_v= #b0 , rx.f_past_valid= #b0 , rx.f_v= #b00000 , __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__n845__DOLLAR__1052= #b1 , i_reset= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c3 :   | id: 66428608 | tx.o_v= #b0 , __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__n856__DOLLAR__1057= #b0 , i_ce= #b1 , state12= #b00000000000000000000000000000000 , rx.f_v= #b00000 , rx.f_past_valid= #b1 , i_v= #b0 , __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__n833__DOLLAR__1044= #b1 , rx.o_v= #b0 , i_reset= #b0 , __DOLLAR__techmap__BACKSLASH__rx.__DOLLAR__verific__DOLLAR__n845__DOLLAR__1052= #b1 ,  | MUST-1 | (0,1),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	150 / 0s = inf
+Enum.TermEval 	  	70 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushOneFrame 	  	3 / 0.025s = 120
+Function:RecursiveBlock 	  	5 / 0.048s = 104.167
+Function:SolveTrans 	  	18 / 0.004s = 4500
+Function:SolveTransLemma 	  	5 / 0.042s = 119.048
+F[4] 1 6 4 4 
+unsat
+b0

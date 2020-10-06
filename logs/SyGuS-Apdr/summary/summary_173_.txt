@@ -1,0 +1,1 @@
+173 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2018D/zipcpu-pfcache-p20.btor | 0 | 13.913031 | unsat

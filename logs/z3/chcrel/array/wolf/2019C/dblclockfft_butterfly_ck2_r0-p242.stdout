@@ -1,0 +1,130 @@
+unsat
+(forall ((A (_ BitVec 21))
+         (B (_ BitVec 21))
+         (C (_ BitVec 1))
+         (D (_ BitVec 21))
+         (E (_ BitVec 21))
+         (F (_ BitVec 21))
+         (G (_ BitVec 1))
+         (H (_ BitVec 40))
+         (I (_ BitVec 21))
+         (J (_ BitVec 21))
+         (K (_ BitVec 1))
+         (L (_ BitVec 1))
+         (M (_ BitVec 14))
+         (N (_ BitVec 21))
+         (O (_ BitVec 21))
+         (P (_ BitVec 21))
+         (Q (_ BitVec 21))
+         (R (_ BitVec 21))
+         (S (_ BitVec 21))
+         (T (_ BitVec 9))
+         (U (_ BitVec 40))
+         (V (_ BitVec 21))
+         (W (_ BitVec 1))
+         (X (_ BitVec 1))
+         (Y (_ BitVec 21))
+         (Z (_ BitVec 26))
+         (A1 (_ BitVec 21))
+         (B1 (_ BitVec 1))
+         (C1 (_ BitVec 21))
+         (D1 (_ BitVec 1))
+         (E1 (_ BitVec 21))
+         (F1 (_ BitVec 21))
+         (G1 (_ BitVec 21))
+         (H1 (_ BitVec 14))
+         (I1 (_ BitVec 21))
+         (J1 (_ BitVec 21))
+         (K1 (_ BitVec 1))
+         (L1 (_ BitVec 21))
+         (M1 (_ BitVec 21))
+         (N1 (_ BitVec 21))
+         (O1 (_ BitVec 21))
+         (P1 (_ BitVec 1))
+         (Q1 (_ BitVec 1))
+         (R1 (_ BitVec 40))
+         (S1 (_ BitVec 21))
+         (T1 (_ BitVec 21))
+         (U1 (_ BitVec 21))
+         (V1 (_ BitVec 14))
+         (W1 (_ BitVec 21))
+         (X1 (_ BitVec 13))
+         (Y1 (_ BitVec 13))
+         (Z1 (_ BitVec 24))
+         (A2 (_ BitVec 24))
+         (B2 (_ BitVec 14))
+         (C2 (_ BitVec 24))
+         (D2 (_ BitVec 1))
+         (E2 (_ BitVec 40))
+         (F2 (_ BitVec 24))
+         (G2 (_ BitVec 1)))
+  (! (let ((a!1 (and (= S1 Y)
+                     (or (not ((_ bit2bool 0) K)) (not (= K1 #b0)))
+                     (or (= P1 #b1) (= T1 M1))
+                     (or (not (= P1 #b1)) (= Q N1))
+                     (= E1 L1)
+                     (or (not (= P1 #b0)) (not (= G #b1)))
+                     (or (= P1 #b1) (not (= B1 #b0)) (= Q N1))
+                     (or (not (= P1 #b1)) (= T1 M1))
+                     (or (not (= B1 #b1)) (= Q N1)))))
+       (= (INV!slice!1 A
+                       B
+                       C
+                       D
+                       E
+                       F
+                       G
+                       H
+                       I
+                       J
+                       K
+                       L
+                       M
+                       N
+                       O
+                       P
+                       Q
+                       R
+                       S
+                       T
+                       U
+                       V
+                       W
+                       X
+                       Y
+                       Z
+                       A1
+                       B1
+                       C1
+                       D1
+                       E1
+                       F1
+                       G1
+                       H1
+                       I1
+                       J1
+                       K1
+                       L1
+                       M1
+                       N1
+                       O1
+                       P1
+                       Q1
+                       R1
+                       S1
+                       T1
+                       U1
+                       V1
+                       W1
+                       X1
+                       Y1
+                       Z1
+                       A2
+                       B2
+                       C2
+                       D2
+                       E2
+                       F2
+                       G2)
+          a!1))
+     :weight 0))

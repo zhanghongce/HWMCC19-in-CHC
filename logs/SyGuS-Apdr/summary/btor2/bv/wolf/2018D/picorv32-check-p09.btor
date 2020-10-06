@@ -1,0 +1,26 @@
+Frame : 4
+  l0 :   | (bvnot (bvand (bvnot __DOLLAR__formal__DOLLAR__picorv32__DASH__check.sv__COLON__2091__DOLLAR__25_CHECK) __DOLLAR__formal__DOLLAR__picorv32__DASH__check.sv__COLON__2091__DOLLAR__25_EN)) | prop | (0,3),(0,0)
+  l1 :   | (bvnot (bvand mem_valid (bvand (bvnot state275) (bvand (bvnot ((_ extract 0 0) mem_state)) (bvand (bvnot ((_ extract 1 1) last_mem_nowait)) (bvnot ((_ extract 1 1) mem_state))))))) | MUST-1 | (0,1),(0,0)
+  l2 :   | (bvnot (bvand mem_do_prefetch (bvand mem_valid (bvand (bvnot state275) (bvand (bvnot ((_ extract 1 1) mem_state)) (bvnot ((_ extract 0 0) mem_state))))))) | MUST-1 | (0,1),(0,0)
+  l3 :   | (bvnot (bvand mem_valid (bvand (bvnot state275) (bvand (bvnot ((_ extract 0 0) mem_state)) (bvand (bvnot ((_ extract 2 2) last_mem_nowait)) (bvnot ((_ extract 1 1) mem_state))))))) | MUST-1 | (0,1),(0,0)
+  l4 :   | (bvnot (bvand mem_valid (bvand ((_ extract 1 1) mem_state) (bvand (bvnot state275) ((_ extract 0 0) mem_state))))) | MUST-2 | (0,2),(0,0)
+  l5 :   | (bvnot (bvand mem_valid (bvand (bvnot state275) (bvand (bvnot ((_ extract 1 1) mem_state)) (bvnot ((_ extract 0 0) mem_state)))))) | MUST-1 | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 45820528 | mem_state= #b00 , last_mem_nowait= #b1000 , mem_valid= #b1 , mem_do_rdata= #b1 , mem_ready= #b0 , state275= #b0 , resetn= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c2 :   | id: 57669792 | mem_valid= #b1 , mem_state= #b00 , mem_ready= #b0 , resetn= #b1 , state275= #b0 , last_mem_nowait= #b1110 , mem_do_prefetch= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c3 :   | id: 57675184 | last_mem_nowait= #b1010 , mem_state= #b00 , mem_ready= #b0 , mem_do_rinst= #b1 , mem_valid= #b1 , resetn= #b1 , state275= #b0 ,  | MUST-1 | (0,1),(0,0)
+  c4 :   | id: 52495952 | mem_do_rinst= #b1 , mem_ready= #b1 , input958= #b1 , trap= #b0 , mem_state= #b11 , last_mem_nowait= #b1011 , mem_valid= #b1 , state275= #b0 , cpu_state= #b11000000 , resetn= #b1 ,  | MUST-2 | (0,2),(0,0)
+  c5 :   | id: 58350752 | last_mem_nowait= #b0111 , mem_state= #b00 , mem_ready= #b0 , mem_do_rdata= #b1 , mem_valid= #b1 , resetn= #b1 , state275= #b0 ,  | MUST-1 | (0,1),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	1002 / 0.025s = 40080
+Enum.TermEval 	  	996 / 0.012s = 83000
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	2 / 0.002s = 1000
+Function:PushOneFrame 	  	6 / 0.139s = 43.1655
+Function:RecursiveBlock 	  	11 / 0.305s = 36.0656
+Function:SolveTrans 	  	44 / 0.022s = 2000
+Function:SolveTransLemma 	  	13 / 0.271s = 47.9705
+F[5] 1 14 13 6 6 
+unsat
+b0

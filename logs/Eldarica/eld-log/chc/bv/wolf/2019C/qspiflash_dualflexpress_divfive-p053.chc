@@ -1,0 +1,3 @@
+Theories: GroebnerMultiplication, ModuloArithmetic
+ldarica-assembly-2.0.4.jar lazabs.Main -hsmt -ssol -abstract:relIneqs /home/hongcez/hwmcc/benchs/chc/bv/wolf/2019C/qspiflash_dualflexpress_divfive-p053.chc
+(error "out of memory")

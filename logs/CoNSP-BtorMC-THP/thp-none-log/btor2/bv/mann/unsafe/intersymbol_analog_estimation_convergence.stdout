@@ -1,0 +1,80 @@
+sat
+b0 
+#0
+0 1 fair_instance.fair#0
+1 0 prev#0
+2 00000000000000000000000000000000 dut.beta#0
+3 0 dut.prev#0
+5 0000 fair_instance.one_counter#0
+6 0000 fair_instance.bit_counter#0
+7 00000000000000000000000000000000 dut.alpha#0
+8 0 state8#0
+@0
+0 0 clk@0
+1 0 in@0
+2 1 rst@0
+@1
+0 0 clk@1
+1 0 in@1
+2 1 rst@1
+@2
+0 0 clk@2
+1 1 in@2
+2 0 rst@2
+@3
+0 0 clk@3
+1 1 in@3
+2 0 rst@3
+@4
+0 0 clk@4
+1 0 in@4
+2 0 rst@4
+@5
+0 0 clk@5
+1 1 in@5
+2 0 rst@5
+@6
+0 0 clk@6
+1 1 in@6
+2 0 rst@6
+@7
+0 0 clk@7
+1 1 in@7
+2 0 rst@7
+@8
+0 0 clk@8
+1 0 in@8
+2 0 rst@8
+@9
+0 0 clk@9
+1 0 in@9
+2 0 rst@9
+@10
+0 0 clk@10
+1 1 in@10
+2 0 rst@10
+@11
+0 0 clk@11
+1 1 in@11
+2 0 rst@11
+@12
+0 0 clk@12
+1 0 in@12
+2 0 rst@12
+@13
+0 0 clk@13
+1 0 in@13
+2 0 rst@13
+@14
+0 0 clk@14
+1 0 in@14
+2 0 rst@14
+@15
+0 0 clk@15
+1 0 in@15
+2 0 rst@15
+@16
+0 0 clk@16
+1 1 in@16
+2 0 rst@16
+.

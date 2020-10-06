@@ -1,0 +1,1 @@
+78 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/opensource/vcegar_arrays_itc99_b12_p2/vcegar_arrays_itc99_b12_p2.btor2 | -15 | 3600.00804 | unknown

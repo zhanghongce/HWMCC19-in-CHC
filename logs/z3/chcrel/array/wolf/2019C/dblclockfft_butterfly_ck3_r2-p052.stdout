@@ -1,0 +1,124 @@
+unsat
+(forall ((A (_ BitVec 21))
+         (B (_ BitVec 17))
+         (C (_ BitVec 3))
+         (D (_ BitVec 21))
+         (E (_ BitVec 1))
+         (F (_ BitVec 21))
+         (G (_ BitVec 21))
+         (H (_ BitVec 21))
+         (I (_ BitVec 21))
+         (J (_ BitVec 1))
+         (K (_ BitVec 21))
+         (L (_ BitVec 21))
+         (M (_ BitVec 8))
+         (N (_ BitVec 1))
+         (O (_ BitVec 18))
+         (P (_ BitVec 54))
+         (Q (_ BitVec 1))
+         (R (_ BitVec 1))
+         (S (_ BitVec 1))
+         (T (_ BitVec 21))
+         (U (_ BitVec 21))
+         (V (_ BitVec 1))
+         (W (_ BitVec 21))
+         (X (_ BitVec 21))
+         (Y (_ BitVec 1))
+         (Z (_ BitVec 1))
+         (A1 (_ BitVec 63))
+         (B1 (_ BitVec 40))
+         (C1 (_ BitVec 40))
+         (D1 (_ BitVec 17))
+         (E1 (_ BitVec 32))
+         (F1 (_ BitVec 32))
+         (G1 (_ BitVec 21))
+         (H1 (_ BitVec 21))
+         (I1 (_ BitVec 21))
+         (J1 (_ BitVec 21))
+         (K1 (_ BitVec 32))
+         (L1 (_ BitVec 1))
+         (M1 (_ BitVec 40))
+         (N1 (_ BitVec 32))
+         (O1 (_ BitVec 1)))
+  (! (let ((a!1 (= (concat ((_ extract 16 16) D1) D1)
+                   (bvmul #b111111111111111111 (concat ((_ extract 16 16) B) B))))
+           (a!2 (not (= (concat #b0 ((_ extract 34 18) P))
+                        (bvmul #b111111111111111111 ((_ extract 53 36) P))))))
+     (let ((a!3 (and (= ((_ extract 20 3) D) #b000000000000000000)
+                     (= ((_ extract 20 3) X) #b000000000000000000)
+                     (or (= C #b011) (not (= S #b1)) (not (= J #b1)))
+                     (or (= C #b000) (= C #b011) (not (= S #b1)))
+                     (or (not (= S #b0))
+                         (= ((_ extract 20 3) I) #b000000000000000000))
+                     (or (not (= Q #b0))
+                         (= ((_ extract 20 3) W) #b000000000000000000))
+                     (or (not (= J #b0))
+                         (= ((_ extract 20 3) G1) #b000000000000000000))
+                     (or (not (= Q #b1)) ((_ bit2bool 1) C) (not (= J #b1)))
+                     (or (not (= Q #b1))
+                         ((_ bit2bool 1) C)
+                         (not ((_ bit2bool 53) P))
+                         (not ((_ bit2bool 35) P))
+                         (not a!1))
+                     (= ((_ extract 20 3) U) #b000000000000000000)
+                     (or (not (= S #b1))
+                         (= ((_ extract 20 3) I) #b000000000000000000))
+                     (or (not (= Q #b1))
+                         (= ((_ extract 20 3) W) #b000000000000000000))
+                     (or (not (= J #b1))
+                         (= ((_ extract 20 3) G1) #b000000000000000000))
+                     (or (not (= Q #b1)) ((_ bit2bool 1) C) (not (= Y #b1)))
+                     (or (not (= Q #b1)) (= ((_ extract 0 0) C) #b1))
+                     (or (not (= Q #b1))
+                         ((_ bit2bool 1) C)
+                         ((_ bit2bool 34) P)
+                         ((_ bit2bool 52) P)
+                         (not ((_ bit2bool 17) P)))
+                     (or (not (= Q #b1))
+                         ((_ bit2bool 1) C)
+                         ((_ bit2bool 34) P)
+                         (not ((_ bit2bool 17) P))
+                         a!2))))
+       (= (INV!slice!1 A
+                       B
+                       C
+                       D
+                       E
+                       F
+                       G
+                       H
+                       I
+                       J
+                       K
+                       L
+                       M
+                       N
+                       O
+                       P
+                       Q
+                       R
+                       S
+                       T
+                       U
+                       V
+                       W
+                       X
+                       Y
+                       Z
+                       A1
+                       B1
+                       C1
+                       D1
+                       E1
+                       F1
+                       G1
+                       H1
+                       I1
+                       J1
+                       K1
+                       L1
+                       M1
+                       N1
+                       O1)
+          a!3)))
+     :weight 0))

@@ -1,0 +1,1 @@
+45 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/cal26/cal26.btor2 | -15 | 3600.001527 | unknown

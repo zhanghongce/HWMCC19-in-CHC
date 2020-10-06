@@ -1,0 +1,1 @@
+18 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2018A/zipcpu-zipmmu-p21.chc | 0 | 0.939214 | unsat

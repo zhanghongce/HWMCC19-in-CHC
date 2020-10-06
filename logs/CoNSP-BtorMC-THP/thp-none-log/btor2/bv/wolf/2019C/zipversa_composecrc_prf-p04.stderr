@@ -1,0 +1,1 @@
+./conps-btormc-thp.sh: line 20: 170697 Killed                  "$BTORMC_SCRIPT_DIR"/btormc "$@"

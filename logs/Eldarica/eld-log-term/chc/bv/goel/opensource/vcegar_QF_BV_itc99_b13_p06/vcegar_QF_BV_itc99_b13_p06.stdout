@@ -1,0 +1,2 @@
+java -Xmx6844m -Xss80000k -cp ./target/scala-2.11/Eldarica-assembly-2.0.4.jar lazabs.Main -hsmt -ssol -abstract:term /home/hongcez/hwmcc/benchs/chc/bv/goel/opensource/vcegar_QF_BV_itc99_b13_p06/vcegar_QF_BV_itc99_b13_p06.chc
+(error "out of memory")

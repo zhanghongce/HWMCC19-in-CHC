@@ -1,0 +1,29 @@
+Frame : 3
+  l0 :   | witness_0 | prop | (0,2),(0,0)
+  l1 :   | (bvnot (bvand state66 (ite (and (not (= state64 state1000)) (= state70 #b10)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l2 :   | (bvnot (bvand state66 (ite (and (not (= #b000000 state1015)) (= #b000000 state383) (= state70 #b10)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l3 :   | (bvnot (bvand state66 (ite (and (= #b10 state1012) (= #b00 state380) (= state119 #b00000010)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l4 :   | (bvnot (bvand state66 (ite (and (= #b10 state1012) (= #b00 state380) (= state70 #b10)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l5 :   | (bvnot (bvand state66 (ite (and (= #b11 state1012) (= #b00 state380) (= state70 #b10)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l6 :   | (bvnot (bvand state66 (ite (and (not (= state383 state1015)) (= state119 #b00000010)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l7 :   | (bvnot (bvand state66 (ite (and (not (= state383 state1015)) (= state70 #b10)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 45846912 | state64= #b00000000000000000000000001100000 , state70= #b10 , state1000= #b00000000000000000000000011100000 , state66= #b1 , state566= #b1 , state59= #b1 , state119= #b00001000 ,  | MUST-1 | (0,1),(0,0)
+  c2 :   | id: 46479936 | state1012= #b00 , state1018= #b00 , state1021= #b000000 , state389= #b000000 , state398= #b00 , state566= #b0 , state59= #b1 , state1027= #b000000 , state392= #b00 , state66= #b1 , state386= #b00 , state395= #b000000 , state70= #b10 , state1015= #b111111 , state377= #b000000 , state383= #b000000 , state1024= #b00 , state380= #b00 , state1009= #b000000 , state1030= #b00 ,  | MUST-1 | (0,1),(0,0)
+  c3 :   | id: 45169776 | state1012= #b10 , state1018= #b10 , state1021= #b000000 , state377= #b000000 , state389= #b000000 , state66= #b1 , state119= #b00000010 , state386= #b00 , state70= #b10 , state1015= #b011111 , state398= #b00 , state566= #b1 , state1027= #b000000 , state59= #b1 , state395= #b000000 , state392= #b00 , state383= #b111111 , state1024= #b10 , state380= #b00 , state1009= #b000000 , state1030= #b10 ,  | MUST-1 | (0,1),(0,0)
+  c4 :   | id: 47883104 | state1012= #b10 , state1018= #b10 , state1021= #b000000 , state377= #b000000 , state398= #b00 , state1015= #b111111 , state70= #b10 , state66= #b1 , state386= #b00 , state1027= #b000000 , state59= #b1 , state566= #b1 , state392= #b00 , state389= #b000000 , state1030= #b10 , state1009= #b000000 , state395= #b000000 , state383= #b000100 , state1024= #b10 , state380= #b00 ,  | MUST-1 | (0,1),(0,0)
+  c5 :   | id: 45532992 | state1012= #b11 , state1018= #b10 , state1021= #b000000 , state377= #b000000 , state380= #b00 , state398= #b00 , state1015= #b011111 , state70= #b10 , state66= #b1 , state1027= #b000000 , state59= #b1 , state566= #b1 , state392= #b00 , state389= #b000000 , state1030= #b00 , state1009= #b000000 , state386= #b00 , state119= #b00000010 , state395= #b000000 , state383= #b111111 , state1024= #b00 ,  | MUST-1 | (0,1),(0,0)
+  c6 :   | id: 48246816 | state1012= #b00 , state1018= #b00 , state1021= #b000000 , state377= #b000000 , state380= #b00 , state398= #b00 , state1015= #b111111 , state70= #b10 , state66= #b1 , state1027= #b000000 , state59= #b1 , state566= #b1 , state392= #b00 , state389= #b000000 , state1030= #b00 , state1009= #b000000 , state386= #b00 , state119= #b00000010 , state395= #b000000 , state383= #b011111 , state1024= #b00 ,  | MUST-1 | (0,1),(0,0)
+  c7 :   | id: 48461664 | state1012= #b00 , state1018= #b00 , state1021= #b000000 , state389= #b000000 , state66= #b1 , state386= #b00 , state398= #b00 , state566= #b0 , state59= #b1 , state1027= #b000000 , state395= #b000000 , state392= #b00 , state70= #b10 , state1015= #b101111 , state377= #b000000 , state383= #b111111 , state1024= #b00 , state380= #b00 , state1009= #b000000 , state1030= #b00 ,  | MUST-1 | (0,1),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	1543 / 0.018s = 85722.2
+Enum.TermEval 	  	508 / 0.001s = 508000
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushOneFrame 	  	3 / 0.079s = 37.9747
+Function:RecursiveBlock 	  	8 / 0.102s = 78.4314
+Function:SolveTrans 	  	28 / 0.086s = 325.581
+Function:SolveTransLemma 	  	8 / 0.093s = 86.0215
+F[4] 1 9 8 8 
+unsat
+b0

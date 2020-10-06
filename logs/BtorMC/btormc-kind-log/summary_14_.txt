@@ -1,0 +1,1 @@
+14 | /home/hongcez/hwmcc/benchs/btor2/bv/beem/telephony.6.prop1-func-interl.btor2 | 0 | 43.642399 | sat

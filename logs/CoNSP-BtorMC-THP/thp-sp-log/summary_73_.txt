@@ -1,0 +1,1 @@
+73 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/mul9/mul9.btor2 | 1 | 0.011426 | unknown

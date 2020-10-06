@@ -1,0 +1,1 @@
+265 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/mul10/mul10.btor2 | 0 | 33.733081 | unknown

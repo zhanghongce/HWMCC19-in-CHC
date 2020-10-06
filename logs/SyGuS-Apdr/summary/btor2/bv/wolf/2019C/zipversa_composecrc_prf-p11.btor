@@ -1,0 +1,11 @@
+Frame : 2
+  l0 :   | (let (($e1 ((_ extract 8 8) rx.r_buf))) (let (($e2 ((_ extract 0 0) rx.f_v))) (bvnot (bvand $e1 (bvand (bvnot (bvand (bvnot $e1) (bvnot $e2))) (bvnot (bvand $e1 $e2))))))) | prop | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+---------- END Frames DUMP ----------
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushOneFrame 	  	1 / 0s = inf
+Function:SolveTrans 	  	3 / 0s = inf
+F[3] 1 1 1 
+unsat
+b0

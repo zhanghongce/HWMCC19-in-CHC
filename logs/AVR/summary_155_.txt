@@ -1,0 +1,1 @@
+155 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2018D/zipcpu-zipmmu-p32.btor | 0 | 0.392962 | unsat

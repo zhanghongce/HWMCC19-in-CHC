@@ -1,0 +1,1 @@
+256 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/cal32/cal32.btor2 | 0 | 0.821867 | unsat

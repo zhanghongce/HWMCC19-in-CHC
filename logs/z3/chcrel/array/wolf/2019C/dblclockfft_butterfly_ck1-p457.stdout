@@ -1,0 +1,142 @@
+unsat
+(forall ((A (_ BitVec 20))
+         (B (_ BitVec 20))
+         (C (_ BitVec 20))
+         (D (_ BitVec 20))
+         (E (_ BitVec 20))
+         (F (_ BitVec 20))
+         (G (_ BitVec 20))
+         (H (_ BitVec 20))
+         (I (_ BitVec 20))
+         (J (_ BitVec 20))
+         (K (_ BitVec 20))
+         (L (_ BitVec 18))
+         (M (_ BitVec 20))
+         (N (_ BitVec 20))
+         (O (_ BitVec 20))
+         (P (_ BitVec 1))
+         (Q (_ BitVec 20))
+         (R (_ BitVec 20))
+         (S (_ BitVec 20))
+         (T (_ BitVec 20))
+         (U (_ BitVec 20))
+         (V (_ BitVec 18))
+         (W (_ BitVec 20))
+         (X (_ BitVec 20))
+         (Y (_ BitVec 20))
+         (Z (_ BitVec 20))
+         (A1 (_ BitVec 1))
+         (B1 (_ BitVec 20))
+         (C1 (_ BitVec 20))
+         (D1 (_ BitVec 20))
+         (E1 (_ BitVec 20))
+         (F1 (_ BitVec 20))
+         (G1 (_ BitVec 20))
+         (H1 (_ BitVec 1))
+         (I1 (_ BitVec 1))
+         (J1 (_ BitVec 20))
+         (K1 (_ BitVec 20))
+         (L1 (_ BitVec 20))
+         (M1 (_ BitVec 20))
+         (N1 (_ BitVec 18))
+         (O1 (_ BitVec 20))
+         (P1 (_ BitVec 20))
+         (Q1 (_ BitVec 20))
+         (R1 (_ BitVec 20))
+         (S1 (_ BitVec 20))
+         (T1 (_ BitVec 20))
+         (U1 (_ BitVec 20))
+         (V1 (_ BitVec 20))
+         (W1 (_ BitVec 1))
+         (X1 (_ BitVec 14))
+         (Y1 (_ BitVec 38))
+         (Z1 (_ BitVec 20))
+         (A2 (_ BitVec 16))
+         (B2 (_ BitVec 38))
+         (C2 (_ BitVec 30))
+         (D2 (_ BitVec 30))
+         (E2 (_ BitVec 20))
+         (F2 (_ BitVec 20))
+         (G2 (_ BitVec 20))
+         (H2 (_ BitVec 20))
+         (I2 (_ BitVec 20))
+         (J2 (_ BitVec 20))
+         (K2 (_ BitVec 20))
+         (L2 (_ BitVec 20))
+         (M2 (_ BitVec 16))
+         (N2 (_ BitVec 30))
+         (O2 (_ BitVec 1))
+         (P2 (_ BitVec 38))
+         (Q2 (_ BitVec 30)))
+  (! (= (INV!slice!1 A
+                     B
+                     C
+                     D
+                     E
+                     F
+                     G
+                     H
+                     I
+                     J
+                     K
+                     L
+                     M
+                     N
+                     O
+                     P
+                     Q
+                     R
+                     S
+                     T
+                     U
+                     V
+                     W
+                     X
+                     Y
+                     Z
+                     A1
+                     B1
+                     C1
+                     D1
+                     E1
+                     F1
+                     G1
+                     H1
+                     I1
+                     J1
+                     K1
+                     L1
+                     M1
+                     N1
+                     O1
+                     P1
+                     Q1
+                     R1
+                     S1
+                     T1
+                     U1
+                     V1
+                     W1
+                     X1
+                     Y1
+                     Z1
+                     A2
+                     B2
+                     C2
+                     D2
+                     E2
+                     F2
+                     G2
+                     H2
+                     I2
+                     J2
+                     K2
+                     L2
+                     M2
+                     N2
+                     O2
+                     P2
+                     Q2)
+        (and (= ((_ extract 19 3) Q1) #b00000000000000000)
+             (= ((_ extract 19 3) S1) #b00000000000000000)))
+     :weight 0))

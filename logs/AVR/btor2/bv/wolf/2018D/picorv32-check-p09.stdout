@@ -1,0 +1,28 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018D/pr_picorv32-check-p09/work_w0)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(18 / 1878 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     0	: 2	: 0 1 1 s: 2    0s                  
+   0	: 3	: 0 1 1 0 s: 2    0s                     0	: 3	: 0 1 1 1 s: 3    0s                     0	: 3	: 0 1 1 1 s: 3    0s                  
+   0	: 3	: 0 1 0 2 s: 3    0s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018D/pr_picorv32-check-p09)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 157053)
+@     0s  (started worker 1 with pid 157054)
+@     0s  (started worker 2 with pid 157055)
+@     0s  (started worker 3 with pid 157056)
+@     0s  (started worker 4 with pid 157057)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     0s  (worker 0 finished with result safe) python3 avr.py -a sa
+@     0s  (worker 0 output)
+@     0s  (stopping all workers)
+@     0s  (copied results from worker 0 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018D/pr_picorv32-check-p09)
+@     0s  [0;30;47m(proof race finished with answer safe in 0.22 seconds)[m

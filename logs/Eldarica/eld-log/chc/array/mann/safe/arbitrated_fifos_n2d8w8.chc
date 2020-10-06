@@ -1,0 +1,3 @@
+Theories: GroebnerMultiplication, ModuloArithmetic, SimpleArray(1)
+-2.0.4.jar lazabs.Main -hsmt -ssol -abstract:relIneqs /home/hongcez/hwmcc/benchs/chc/array/mann/safe/arbitrated_fifos_n2d8w8.chc
+(error "Combination of theories is not supported")

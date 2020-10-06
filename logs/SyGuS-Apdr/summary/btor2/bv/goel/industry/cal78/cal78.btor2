@@ -1,0 +1,32 @@
+Frame : 3
+  l0 :   | witness_0 | prop | (0,2),(0,0)
+  l1 :   | (bvnot (bvand state193 (ite (and (not (= #b000000000000 state203)) (= #b000000000000 state191)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l2 :   | (bvnot (bvand state193 (ite (and (= #b000000000000 state203) (not (= #b000000000000 state191))) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l3 :   | (bvnot (bvand state193 (ite (and (= #b000000000001 state203) (not (= state191 #b000000000001))) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l4 :   | (bvnot (bvand state193 (bvnot (ite (= state191 state203) #b1 #b0)))) | MUST-1 | (0,1),(0,0)
+  l5 :   | (bvnot (bvand state193 (ite (and (= #b000000000000 state5799) (not (= #b000000000000 state5481))) #b1 #b0))) | MUST-2 | (0,1),(0,0)
+  l6 :   | (bvnot (bvand state193 (ite (and (= #b000000000000 state208) (not (= #b000000000000 state199))) #b1 #b0))) | MUST-1 | (0,0),(0,0)
+  l7 :   | (bvnot (bvand state193 (bvnot (ite (= state5481 state5799) #b1 #b0)))) | MUST-2 | (0,1),(0,0)
+  l8 :   | (bvnot (bvand state193 (bvnot (ite (= state199 state208) #b1 #b0)))) | MUST-1 | (0,0),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 46727920 | state203= #b010000000010 , state208= #b000000000001 , state193= #b1 , state191= #b000000000000 , state187= #b1 , state199= #b000000000001 ,  | MUST-1 | (0,1),(0,0)
+  c2 :   | id: 58401408 | state203= #b000000000000 , state208= #b000000000000 , state193= #b1 , state191= #b111111111111 , state187= #b1 , state199= #b000000000000 ,  | MUST-1 | (0,1),(0,0)
+  c3 :   | id: 50793104 | state203= #b000000000001 , state208= #b001000000000 , state193= #b1 , state191= #b010000000000 , state187= #b1 , state199= #b001000000000 ,  | MUST-1 | (0,1),(0,0)
+  c4 :   | id: 50679104 | state203= #b000000000011 , state208= #b000000000000 , state193= #b1 , state191= #b111111111111 , state187= #b1 , state199= #b000000000000 ,  | MUST-1 | (0,1),(0,0)
+  c5 :   | id: 50151392 | state5481= #b000000000011 , state203= #b000000000010 , state3765= #b10 , state193= #b1 , state3772= #b00 , state187= #b1 , state191= #b000000000010 , state5799= #b000000000000 ,  | MUST-2 | (0,1),(0,0)
+  c6 :   | id: 54729136 | state203= #b000000000010 , state208= #b000000000000 , state193= #b1 , state191= #b000000000010 , state187= #b1 , state199= #b000000000011 ,  | MUST-1 | (0,0),(0,0)
+  c7 :   | id: 68398128 | state191= #b000000010000 , state3765= #b10 , state193= #b1 , state3772= #b00 , state203= #b000000010000 , state5481= #b000000000010 , state187= #b1 , state5799= #b010000000000 ,  | MUST-2 | (0,1),(0,0)
+  c8 :   | id: 51464528 | state203= #b000000010000 , state208= #b010000000000 , state193= #b1 , state191= #b000000010000 , state187= #b1 , state199= #b000000000010 ,  | MUST-1 | (0,0),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	258 / 0.002s = 129000
+Enum.TermEval 	  	1932 / 0.045s = 42933.3
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	2 / 0.003s = 666.667
+Function:PushOneFrame 	  	3 / 0.565s = 5.30973
+Function:RecursiveBlock 	  	13 / 0.889s = 14.6232
+Function:SolveTrans 	  	45 / 0.388s = 115.979
+Function:SolveTransLemma 	  	15 / 0.762s = 19.685
+F[4] 1 16 15 9 
+unsat
+b0

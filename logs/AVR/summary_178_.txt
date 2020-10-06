@@ -1,0 +1,1 @@
+178 | /home/hongcez/hwmcc/benchs/btor2/bv/beem/telephony.6.prop1-func-interl.btor2 | 0 | 89.667968 | unknown

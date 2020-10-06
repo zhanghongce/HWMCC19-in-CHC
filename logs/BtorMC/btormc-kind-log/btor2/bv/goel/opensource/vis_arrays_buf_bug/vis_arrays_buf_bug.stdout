@@ -1,0 +1,212 @@
+sat
+b0 
+@0
+0 1 alloc_raw@0
+1 0 clock@0
+2 1101 free_addr_raw@0
+3 1 free_raw@0
+4 0 input4@0
+5 0000 input5@0
+6 0 input6@0
+7 0111 input7@0
+8 0 input8@0
+9 0000 input9@0
+@1
+0 1 alloc_raw@1
+1 0 clock@1
+2 1000 free_addr_raw@1
+3 1 free_raw@1
+4 0 input4@1
+5 0000 input5@1
+6 0 input6@1
+7 1011 input7@1
+8 0 input8@1
+9 1001 input9@1
+@2
+0 1 alloc_raw@2
+1 0 clock@2
+2 1000 free_addr_raw@2
+3 0 free_raw@2
+4 0 input4@2
+5 0000 input5@2
+6 0 input6@2
+7 0000 input7@2
+8 0 input8@2
+9 0010 input9@2
+@3
+0 1 alloc_raw@3
+1 0 clock@3
+2 0001 free_addr_raw@3
+3 0 free_raw@3
+4 0 input4@3
+5 0000 input5@3
+6 0 input6@3
+7 0001 input7@3
+8 0 input8@3
+9 0010 input9@3
+@4
+0 1 alloc_raw@4
+1 0 clock@4
+2 1000 free_addr_raw@4
+3 1 free_raw@4
+4 0 input4@4
+5 0000 input5@4
+6 0 input6@4
+7 0001 input7@4
+8 0 input8@4
+9 0000 input9@4
+@5
+0 1 alloc_raw@5
+1 0 clock@5
+2 1011 free_addr_raw@5
+3 1 free_raw@5
+4 0 input4@5
+5 0000 input5@5
+6 0 input6@5
+7 0000 input7@5
+8 0 input8@5
+9 0101 input9@5
+@6
+0 1 alloc_raw@6
+1 0 clock@6
+2 0111 free_addr_raw@6
+3 1 free_raw@6
+4 0 input4@6
+5 0000 input5@6
+6 0 input6@6
+7 1111 input7@6
+8 0 input8@6
+9 0110 input9@6
+@7
+0 1 alloc_raw@7
+1 0 clock@7
+2 1111 free_addr_raw@7
+3 1 free_raw@7
+4 0 input4@7
+5 0000 input5@7
+6 0 input6@7
+7 0000 input7@7
+8 0 input8@7
+9 0110 input9@7
+@8
+0 1 alloc_raw@8
+1 0 clock@8
+2 1111 free_addr_raw@8
+3 1 free_raw@8
+4 0 input4@8
+5 0000 input5@8
+6 0 input6@8
+7 1111 input7@8
+8 0 input8@8
+9 0000 input9@8
+@9
+0 1 alloc_raw@9
+1 0 clock@9
+2 0101 free_addr_raw@9
+3 0 free_raw@9
+4 0 input4@9
+5 0000 input5@9
+6 0 input6@9
+7 0001 input7@9
+8 0 input8@9
+9 0011 input9@9
+@10
+0 1 alloc_raw@10
+1 0 clock@10
+2 1111 free_addr_raw@10
+3 1 free_raw@10
+4 0 input4@10
+5 0000 input5@10
+6 0 input6@10
+7 1111 input7@10
+8 0 input8@10
+9 0100 input9@10
+@11
+0 1 alloc_raw@11
+1 0 clock@11
+2 1110 free_addr_raw@11
+3 1 free_raw@11
+4 0 input4@11
+5 0000 input5@11
+6 0 input6@11
+7 1111 input7@11
+8 0 input8@11
+9 0000 input9@11
+@12
+0 1 alloc_raw@12
+1 0 clock@12
+2 0001 free_addr_raw@12
+3 0 free_raw@12
+4 0 input4@12
+5 0000 input5@12
+6 0 input6@12
+7 1001 input7@12
+8 0 input8@12
+9 0010 input9@12
+@13
+0 1 alloc_raw@13
+1 0 clock@13
+2 1101 free_addr_raw@13
+3 1 free_raw@13
+4 0 input4@13
+5 0000 input5@13
+6 0 input6@13
+7 1111 input7@13
+8 0 input8@13
+9 0000 input9@13
+@14
+0 1 alloc_raw@14
+1 0 clock@14
+2 0100 free_addr_raw@14
+3 0 free_raw@14
+4 0 input4@14
+5 0000 input5@14
+6 0 input6@14
+7 1100 input7@14
+8 0 input8@14
+9 0000 input9@14
+@15
+0 1 alloc_raw@15
+1 0 clock@15
+2 1000 free_addr_raw@15
+3 0 free_raw@15
+4 0 input4@15
+5 0000 input5@15
+6 0 input6@15
+7 1000 input7@15
+8 0 input8@15
+9 0001 input9@15
+@16
+0 0 alloc_raw@16
+1 0 clock@16
+2 1001 free_addr_raw@16
+3 0 free_raw@16
+4 0 input4@16
+5 0000 input5@16
+6 0 input6@16
+7 0000 input7@16
+8 0 input8@16
+9 0000 input9@16
+@17
+0 1 alloc_raw@17
+1 0 clock@17
+2 1111 free_addr_raw@17
+3 0 free_raw@17
+4 0 input4@17
+5 0000 input5@17
+6 0 input6@17
+7 0000 input7@17
+8 0 input8@17
+9 0000 input9@17
+@18
+0 0 alloc_raw@18
+1 0 clock@18
+2 0000 free_addr_raw@18
+3 0 free_raw@18
+4 0 input4@18
+5 0000 input5@18
+6 0 input6@18
+7 0000 input7@18
+8 0 input8@18
+9 0000 input9@18
+.

@@ -1,0 +1,39 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_arbitrated_top_n2_w16_d16_e0/work_w1)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1 / 577 flops initialized)
+	(abstraction: sa+uf)
+	(bmc: safe till step 0)
+	(bmc: safe till step 10)
+	(bmc: found cex at step 18)
+   0	: 0	: 0 s: 0    3s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_arbitrated_top_n2_w16_d16_e0)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 126056)
+@     0s  (started worker 1 with pid 126057)
+@     0s  (started worker 2 with pid 126058)
+@     0s  (started worker 3 with pid 126059)
+@     0s  (started worker 4 with pid 126060)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 126175)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 106 MB)
+@     2s  (started worker 6 with pid 126215)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 147 MB)
+@     3s  (started worker 7 with pid 126260)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 204 MB)
+@     5s  (started worker 8 with pid 126310)
+@     5s  (spawned 1 workers)
+@     5s  (total 9 workers using 217 MB)
+@     5s  (worker 1 finished with result unsafe) python3 avr.py -b bin_bt_cadical -s --bmc
+@     5s  (worker 1 output)
+@     5s  (stopping all workers)
+@     5s  (copied results from worker 1 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_arbitrated_top_n2_w16_d16_e0)
+@     5s  [0;30;47m(proof race finished with answer unsafe in 5.11 seconds)[m

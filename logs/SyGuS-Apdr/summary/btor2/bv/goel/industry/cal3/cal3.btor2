@@ -1,0 +1,26 @@
+Frame : 4
+  l0 :   | witness_0 | prop | (0,3),(0,0)
+  l1 :   | (bvnot (bvand state45 (ite (and (= state380 #b00000011) (= state43 #b00000010)) #b1 #b0))) | MUST-1 | (0,2),(0,0)
+  l2 :   | (bvnot (bvand state45 (ite (and (not (= #b00000001 state380)) (= state43 #b00000001) (= #b00 state426)) #b1 #b0))) | MUST-2 | (0,2),(0,0)
+  l3 :   | (bvnot (bvand state45 (ite (and (not (= #b00000010 state380)) (= state43 #b00000010)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l4 :   | (bvnot (bvand state45 (bvand ((_ extract 1 1) state49) (ite (and (= #b00000010 state380) (not (= state43 #b00000010))) #b1 #b0)))) | MUST-1 | (0,1),(0,0)
+  l5 :   | (bvnot (bvand state45 (bvand ((_ extract 1 1) state49) (bvnot (ite (= state43 state380) #b1 #b0))))) | MUST-4 | (0,2),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 46386688 | state43= #b00000010 , state380= #b00000011 , state329= #b1 , state29= #b1 , state45= #b1 , state49= #b10 ,  | MUST-1 | (0,2),(0,0)
+  c2 :   | id: 47149344 | state49= #b10 , state45= #b1 , state426= #b00 , state43= #b00000001 , state329= #b1 , state380= #b10000001 , state29= #b1 ,  | MUST-2 | (0,2),(0,0)
+  c3 :   | id: 47245248 | state43= #b00000010 , state45= #b1 , state49= #b10 , state329= #b1 , state29= #b1 , state380= #b10000010 ,  | MUST-1 | (0,1),(0,0)
+  c4 :   | id: 47334832 | state43= #b10000010 , state45= #b1 , state49= #b10 , state329= #b1 , state29= #b1 , state380= #b00000010 ,  | MUST-1 | (0,1),(0,0)
+  c5 :   | id: 48007264 | state45= #b1 , state380= #b01111111 , state29= #b1 , state329= #b1 , state49= #b10 , state426= #b10 , state43= #b11111111 ,  | MUST-4 | (0,2),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	315 / 0s = inf
+Enum.TermEval 	  	567 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	10 / 0.005s = 2000
+Function:PushOneFrame 	  	6 / 0.071s = 84.507
+Function:RecursiveBlock 	  	9 / 0.072s = 125
+Function:SolveTrans 	  	56 / 0.005s = 11200
+Function:SolveTransLemma 	  	15 / 0.044s = 340.909
+F[5] 1 16 15 8 6 
+unsat
+b0

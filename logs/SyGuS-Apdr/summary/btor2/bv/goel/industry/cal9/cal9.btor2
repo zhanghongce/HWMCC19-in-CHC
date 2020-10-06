@@ -1,0 +1,25 @@
+Frame : 3
+  l0 :   | witness_0 | prop | (0,2),(0,0)
+  l1 :   | (bvnot (bvand state34 (bvand ((_ extract 1 1) state38) (ite (and (not (= state32 #b00000010)) (= #b00000010 state307)) #b1 #b0)))) | MUST-1 | (0,1),(0,0)
+  l2 :   | (bvnot (bvand state34 (ite (and (= #b00000001 state307) (= state32 #b00000010)) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l3 :   | (bvnot (bvand state34 (bvand ((_ extract 1 1) state38) (bvnot (ite (= state32 state307) #b1 #b0))))) | MUST-1 | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 52423392 | state307= #b00000010 , state38= #b10 , state32= #b00000110 , state28= #b1 , state34= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c2 :   | id: 53205872 | state307= #b00000001 , state38= #b10 , state32= #b00000010 , state28= #b1 , state34= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c3 :   | id: 53415728 | state307= #b00000110 , state38= #b10 , state32= #b00000010 , state28= #b1 , state34= #b1 ,  | MUST-1 | (0,1),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	591 / 0.003s = 197000
+Enum.TermEval 	  	210 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:ProposeNewTerm 	  	1 / 0.001s = 1000
+Function:ProposeNewTermRound 	  	1 / 0.001s = 1000
+Function:PushOneFrame 	  	3 / 0.01s = 300
+Function:RecursiveBlock 	  	4 / 0.02s = 200
+Function:SolveTrans 	  	18 / 0.003s = 6000
+Function:SolveTransLemma 	  	5 / 0.017s = 294.118
+Propose.NewTerm 	  	6 / 0s = inf
+RecursiveBlock.PushMayQueue 	  	1 / 0s = inf
+F[4] 1 5 4 4 
+unsat
+b0

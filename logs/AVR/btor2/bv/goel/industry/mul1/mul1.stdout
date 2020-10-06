@@ -1,0 +1,42 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/mul1/pr_mul1/work_w8)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(258 / 258 flops initialized)
+	(abstraction: sa8+l5)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 2 s: 2    0s                     0	: 1	: 0 3 s: 3    0s                     0	: 1	: 0 4 s: 4    0s                     0	: 1	: 0 5 s: 5    0s                     0	: 1	: 0 6 s: 6    0s                     0	: 1	: 0 6 s: 6    0s                  
+   0	: 2	: 0 2 4 s: 6    0s                     0	: 2	: 0 2 4 s: 6    0s                  
+   0	: 2	: 0 2 0 s: 2    0s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/mul1/pr_mul1)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 236299)
+@     0s  (started worker 1 with pid 236300)
+@     0s  (started worker 2 with pid 236301)
+@     0s  (started worker 3 with pid 236302)
+@     0s  (started worker 4 with pid 236303)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 236422)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 116 MB)
+@     2s  (started worker 6 with pid 236463)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 169 MB)
+@     3s  (started worker 7 with pid 236521)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 215 MB)
+@     6s  (started worker 8 with pid 236587)
+@     6s  (spawned 1 workers)
+@     6s  (total 9 workers using 248 MB)
+@     9s  (started worker 9 with pid 236661)
+@     9s  (spawned 1 workers)
+@     9s  (total 10 workers using 272 MB)
+@    10s  (worker 8 finished with result safe) python3 avr.py -l 5 -g 3 -a sa8 --interpol 1 -f 1
+@    10s  (worker 8 output)
+@    10s  (stopping all workers)
+@    10s  (copied results from worker 8 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/mul1/pr_mul1)
+@    10s  [0;30;47m(proof race finished with answer safe in 9.70 seconds)[m

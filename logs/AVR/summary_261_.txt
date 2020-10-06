@@ -1,0 +1,1 @@
+261 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/cal93/cal93.btor2 | 0 | 28.945463 | unsat

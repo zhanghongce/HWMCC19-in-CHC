@@ -1,0 +1,1 @@
+377 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/gen32/gen32.chc | 0 | 0.109857 | unsat

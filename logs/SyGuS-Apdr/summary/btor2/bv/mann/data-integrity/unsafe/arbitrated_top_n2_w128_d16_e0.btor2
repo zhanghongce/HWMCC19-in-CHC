@@ -1,0 +1,7 @@
+It has constraint: (bvnot (bvand ((_ extract 0 0) push) (ite (= #b00000 |gen_fifos[0].cc.credits|) #b1 #b0)))
+It has constraint: (bvnot (bvand (ite (= #b00000 |gen_fifos[1].cc.credits|) #b1 #b0) ((_ extract 1 1) push)))
+It has constraint: (bvnot (bvand (bvand (bvnot gnt_sel) req) (ite (= #b00000 |gen_fifos[0].f.cnt|) #b1 #b0)))
+It has constraint: (bvnot (bvand (bvand gnt_sel req) (ite (= #b00000 |gen_fifos[1].f.cnt|) #b1 #b0)))
+It has constraint: (= rst initstate)
+It has constraint: (bvnot (bvand (bvand (bvnot gnt_sel) req) (ite (= |gen_fifos[0].cc.credits| #b10000) #b1 #b0)))
+It has constraint: (bvnot (bvand (bvand gnt_sel req) (ite (= |gen_fifos[1].cc.credits| #b10000) #b1 #b0)))

@@ -1,0 +1,1 @@
+449 | /home/hongcez/hwmcc/benchs/chc/bv/mann/unknown/ridecore.chc | 143 | 3600.71527 | unknown

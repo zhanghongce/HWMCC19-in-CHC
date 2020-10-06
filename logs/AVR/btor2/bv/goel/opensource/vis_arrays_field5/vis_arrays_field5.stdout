@@ -1,0 +1,181 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/opensource/vis_arrays_field5/pr_vis_arrays_field5/work_w6)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(25 / 25 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 2 s: 2    0s                     0	: 1	: 0 3 s: 3    0s                     0	: 1	: 0 3 s: 3    0s                  
+   0	: 2	: 0 3 0 s: 3    0s                     0	: 2	: 0 3 1 s: 4    0s                     0	: 2	: 0 4 3 s: 7    0s                     0	: 2	: 0 4 4 s: 8    0s                     0	: 2	: 0 4 4 s: 8    0s                  
+   0	: 3	: 0 4 4 0 s: 8    0s                     0	: 3	: 0 4 4 1 s: 9    0s                     0	: 3	: 0 4 4 2 s: 10    0s                     0	: 3	: 0 4 4 3 s: 11    0s                     0	: 3	: 0 4 5 5 s: 14    0s                     0	: 3	: 0 4 5 6 s: 15    0s                     0	: 3	: 0 4 5 7 s: 16    0s                     0	: 3	: 0 4 6 8 s: 18    0s                     0	: 3	: 0 4 6 8 s: 18    0s                  
+   0	: 4	: 0 4 6 8 0 s: 18    1s                     0	: 4	: 0 4 6 8 1 s: 19    1s                     0	: 4	: 0 4 6 8 2 s: 20    1s                     0	: 4	: 0 19 50 82 65 s: 216    14s                     0	: 4	: 0 19 50 82 66 s: 217    14s                     0	: 4	: 0 19 50 82 67 s: 218    14s                     0	: 4	: 0 19 50 82 68 s: 219    14s                     0	: 4	: 0 19 50 82 69 s: 220    14s                     0	: 4	: 0 19 50 82 69 s: 220    14s                  
+   0	: 5	: 0 19 50 82 68 1 s: 220    15s                     0	: 5	: 0 19 50 82 68 2 s: 221    15s                     0	: 5	: 0 19 50 82 68 3 s: 222    15s                     0	: 5	: 0 41 189 1171 5097 5094 s: 11592    1470s                     0	: 5	: 0 41 189 1171 5097 5095 s: 11593    1470s                     0	: 5	: 0 41 189 1171 5097 5096 s: 11594    1470s                     0	: 5	: 0 41 189 1171 5097 5097 s: 11595    1470s                     0	: 5	: 0 41 189 1171 5097 5098 s: 11596    1470s                     0	: 5	: 0 41 189 1171 5097 5099 s: 11597    1471s                     0	: 5	: 0 41 189 1171 5097 5100 s: 11598    1471s                     0	: 5	: 0 41 189 1171 5097 5101 s: 11599    1471s                     0	: 5	: 0 41 189 1171 5097 5102 s: 11600    1471s                     0	: 5	: 0 41 189 1171 5097 5102 s: 11600    1471s                  
+   0	: 6	: 0 41 189 1167 5011 4807 321 s: 11536    1570s                     0	: 6	: 0 41 189 1167 5011 4807 322 s: 11537    1570s                     0	: 6	: 0 43 194 1196 5187 4979 324 s: 11923    1656s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/opensource/vis_arrays_field5/pr_vis_arrays_field5)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 88099)
+@     0s  (started worker 1 with pid 88100)
+@     0s  (started worker 2 with pid 88101)
+@     0s  (started worker 3 with pid 88102)
+@     0s  (started worker 4 with pid 88103)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 88217)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 200 MB)
+@     2s  (started worker 6 with pid 88256)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 263 MB)
+@     3s  (started worker 7 with pid 88300)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 297 MB)
+@     5s  (started worker 8 with pid 88358)
+@     5s  (spawned 1 workers)
+@     5s  (total 9 workers using 360 MB)
+@     8s  (started worker 9 with pid 88429)
+@     8s  (spawned 1 workers)
+@     8s  (total 10 workers using 459 MB)
+@    11s  (started worker 10 with pid 88493)
+@    11s  (spawned 1 workers)
+@    11s  (total 11 workers using 529 MB)
+@    24s  (total 11 workers using 733 MB)
+@    40s  (total 11 workers using 905 MB)
+@    56s  (total 11 workers using 1037 MB)
+@    70s  (total 11 workers using 1155 MB)
+@    84s  (total 11 workers using 1259 MB)
+@   100s  (total 11 workers using 1355 MB)
+@   113s  (total 11 workers using 1454 MB)
+@   127s  (total 11 workers using 1528 MB)
+@   140s  (total 11 workers using 1614 MB)
+@   154s  (total 11 workers using 1693 MB)
+@   166s  (total 11 workers using 1781 MB)
+@   180s  (total 11 workers using 1894 MB)
+@   193s  (total 11 workers using 1976 MB)
+@   207s  (total 11 workers using 2080 MB)
+@   220s  (total 11 workers using 2156 MB)
+@   234s  (total 11 workers using 2260 MB)
+@   248s  (total 11 workers using 2349 MB)
+@   262s  (total 11 workers using 2449 MB)
+@   275s  (total 11 workers using 2533 MB)
+@   289s  (total 11 workers using 2608 MB)
+@   302s  (total 11 workers using 2690 MB)
+@   316s  (total 11 workers using 2803 MB)
+@   329s  (total 11 workers using 2898 MB)
+@   343s  (total 11 workers using 3012 MB)
+@   356s  (total 11 workers using 3126 MB)
+@   370s  (total 11 workers using 3232 MB)
+@   383s  (total 11 workers using 3335 MB)
+@   397s  (total 11 workers using 3468 MB)
+@   411s  (total 11 workers using 3543 MB)
+@   425s  (total 11 workers using 3657 MB)
+@   438s  (total 11 workers using 3712 MB)
+@   452s  (total 11 workers using 3782 MB)
+@   465s  (total 11 workers using 3853 MB)
+@   479s  (total 11 workers using 3936 MB)
+@   492s  (total 11 workers using 3998 MB)
+@   506s  (total 11 workers using 4087 MB)
+@   520s  (total 11 workers using 4138 MB)
+@   534s  (total 11 workers using 4195 MB)
+@   547s  (total 11 workers using 4269 MB)
+@   561s  (total 11 workers using 4339 MB)
+@   574s  (total 11 workers using 4404 MB)
+@   588s  (total 11 workers using 4459 MB)
+@   601s  (total 11 workers using 4521 MB)
+@   614s  (total 11 workers using 4561 MB)
+@   627s  (total 11 workers using 4634 MB)
+@   641s  (total 11 workers using 4709 MB)
+@   654s  (total 11 workers using 4781 MB)
+@   667s  (total 11 workers using 4831 MB)
+@   680s  (total 11 workers using 4899 MB)
+@   693s  (total 11 workers using 4958 MB)
+@   705s  (total 11 workers using 5046 MB)
+@   718s  (total 11 workers using 5125 MB)
+@   731s  (total 11 workers using 5206 MB)
+@   744s  (total 11 workers using 5286 MB)
+@   757s  (total 11 workers using 5378 MB)
+@   771s  (total 11 workers using 5483 MB)
+@   783s  (total 11 workers using 5571 MB)
+@   797s  (total 11 workers using 5675 MB)
+@   810s  (total 11 workers using 5763 MB)
+@   824s  (total 11 workers using 5844 MB)
+@   836s  (total 11 workers using 5939 MB)
+@   850s  (total 11 workers using 6015 MB)
+@   863s  (total 11 workers using 6100 MB)
+@   877s  (total 11 workers using 6185 MB)
+@   890s  (total 11 workers using 6274 MB)
+@   903s  (total 11 workers using 6372 MB)
+@   916s  (total 11 workers using 6463 MB)
+@   930s  (total 11 workers using 6548 MB)
+@   943s  (total 11 workers using 6654 MB)
+@   957s  (total 11 workers using 6753 MB)
+@   970s  (total 11 workers using 6855 MB)
+@   984s  (total 11 workers using 6966 MB)
+@   997s  (total 11 workers using 7066 MB)
+@  1011s  (total 11 workers using 7192 MB)
+@  1023s  (total 11 workers using 7293 MB)
+@  1037s  (total 11 workers using 7413 MB)
+@  1050s  (total 11 workers using 7508 MB)
+@  1063s  (total 11 workers using 7625 MB)
+@  1076s  (total 11 workers using 7725 MB)
+@  1089s  (total 11 workers using 7803 MB)
+@  1101s  (total 11 workers using 7910 MB)
+@  1114s  (total 11 workers using 7994 MB)
+@  1127s  (total 11 workers using 8108 MB)
+@  1141s  (total 11 workers using 8203 MB)
+@  1154s  (total 11 workers using 8320 MB)
+@  1167s  (total 11 workers using 8421 MB)
+@  1180s  (total 11 workers using 8520 MB)
+@  1193s  (total 11 workers using 8634 MB)
+@  1206s  (total 11 workers using 8733 MB)
+@  1219s  (total 11 workers using 8845 MB)
+@  1231s  (total 11 workers using 8915 MB)
+@  1245s  (total 11 workers using 9020 MB)
+@  1258s  (total 11 workers using 9132 MB)
+@  1272s  (total 11 workers using 9249 MB)
+@  1285s  (total 11 workers using 9374 MB)
+@  1298s  (total 11 workers using 9514 MB)
+@  1311s  (total 11 workers using 9628 MB)
+@  1325s  (total 11 workers using 9742 MB)
+@  1338s  (total 11 workers using 9864 MB)
+@  1352s  (total 11 workers using 9987 MB)
+@  1364s  (total 11 workers using 10100 MB)
+@  1378s  (total 11 workers using 10222 MB)
+@  1391s  (total 11 workers using 10336 MB)
+@  1405s  (total 11 workers using 10465 MB)
+@  1418s  (total 11 workers using 10600 MB)
+@  1431s  (total 11 workers using 10750 MB)
+@  1444s  (total 11 workers using 10897 MB)
+@  1458s  (total 11 workers using 11033 MB)
+@  1470s  (total 11 workers using 11174 MB)
+@  1483s  (total 11 workers using 11308 MB)
+@  1495s  (total 11 workers using 11400 MB)
+@  1509s  (total 11 workers using 11518 MB)
+@  1522s  (total 11 workers using 11664 MB)
+@  1535s  (total 11 workers using 11823 MB)
+@  1548s  (total 11 workers using 11976 MB)
+@  1562s  (total 11 workers using 12126 MB)
+@  1575s  (total 11 workers using 12267 MB)
+@  1589s  (total 11 workers using 12413 MB)
+@  1601s  (total 11 workers using 12501 MB)
+@  1615s  (total 11 workers using 12614 MB)
+@  1628s  (total 11 workers using 12706 MB)
+@  1642s  (total 11 workers using 12810 MB)
+@  1655s  (total 11 workers using 12908 MB)
+@  1669s  (total 11 workers using 13020 MB)
+@  1681s  (total 11 workers using 13126 MB)
+@  1695s  (total 11 workers using 13250 MB)
+@  1708s  (total 11 workers using 13364 MB)
+@  1722s  (total 11 workers using 13522 MB)
+@  1734s  (total 11 workers using 13680 MB)
+@  1748s  (total 11 workers using 13830 MB)
+@  1761s  (total 11 workers using 13955 MB)
+@  1775s  (total 11 workers using 14138 MB)
+@  1788s  (total 11 workers using 14298 MB)
+@  1798s  (worker 6 finished with result unsafe) python3 avr.py -a sa --interpol 1 -f 1
+@  1798s  (worker 6 output)
+@  1798s  (stopping all workers)
+@  1798s  (copied results from worker 6 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/opensource/vis_arrays_field5/pr_vis_arrays_field5)
+@  1798s  [0;30;47m(proof race finished with answer unsafe in 1798.28 seconds)[m

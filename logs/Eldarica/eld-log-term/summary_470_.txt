@@ -1,0 +1,1 @@
+470 | /home/hongcez/hwmcc/benchs/chc/bv/wolf/2018D/ponylink-slaveTXlen-sat.chc | 143 | 3600.058139 | unsat

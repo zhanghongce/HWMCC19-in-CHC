@@ -1,0 +1,1 @@
+143 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2018A/zipcpu-busdelay-p36.btor | 0 | 3600.02463 | unknown

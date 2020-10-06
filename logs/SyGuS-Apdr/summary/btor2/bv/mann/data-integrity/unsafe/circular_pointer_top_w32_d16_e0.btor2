@@ -1,0 +1,3 @@
+It has constraint: (= rst initstate)
+It has constraint: (bvnot (bvand push (ite (= f.cnt #b010001) #b1 #b0)))
+It has constraint: (bvnot (bvand pop (ite (= f.cnt #b000000) #b1 #b0)))

@@ -1,0 +1,54 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_shift_register_top_w64_d8_e0/work_w6)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1 / 587 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 2 s: 2    0s                     0	: 1	: 0 2 s: 2    0s                  
+   0	: 2	: 0 1 1 s: 2    0s                     1	: 2	: 0 2 1 s: 3    0s                     1	: 2	: 0 3 3 s: 6    0s                     1	: 2	: 0 3 4 s: 7    0s                     1	: 2	: 0 3 4 s: 7    0s                  
+   1	: 3	: 0 3 4 0 s: 7    0s                     1	: 3	: 0 3 4 1 s: 8    0s                     1	: 3	: 0 3 4 2 s: 9    0s                     2	: 3	: 0 3 4 2 s: 9    0s                     2	: 3	: 0 3 4 3 s: 10    0s                     2	: 3	: 0 3 4 4 s: 11    0s                     2	: 3	: 0 3 4 5 s: 12    0s                     2	: 3	: 0 3 4 5 s: 12    0s                  
+   2	: 4	: 0 3 4 3 2 s: 12    0s                     3	: 4	: 0 3 4 5 3 s: 15    0s                     3	: 4	: 0 3 4 5 4 s: 16    0s                     3	: 4	: 0 3 4 5 5 s: 17    0s                     3	: 4	: 0 3 4 6 6 s: 19    0s                     3	: 4	: 0 3 4 6 7 s: 20    0s                     3	: 4	: 0 3 4 6 7 s: 20    0s                  
+   3	: 5	: 0 3 4 6 5 2 s: 20    1s                     3	: 5	: 0 3 5 9 6 2 s: 25    1s                     3	: 5	: 0 3 5 8 5 6 s: 27    1s                     3	: 5	: 0 3 5 8 5 7 s: 28    1s                     3	: 5	: 0 3 5 8 7 12 s: 35    1s                     3	: 5	: 0 3 5 8 7 13 s: 36    1s                     3	: 5	: 0 3 5 8 7 13 s: 36    1s                  
+   3	: 6	: 0 3 5 8 7 4 9 s: 36    1s                     3	: 6	: 0 3 5 8 8 5 9 s: 38    1s                     3	: 6	: 0 3 5 8 8 4 10 s: 38    1s                     3	: 6	: 0 3 5 8 8 4 10 s: 38    1s                  
+   3	: 7	: 0 3 5 8 8 3 4 7 s: 38    1s                     4	: 7	: 0 3 5 8 8 3 4 7 s: 38    2s                     5	: 7	: 0 3 5 8 8 5 4 8 s: 41    3s                     5	: 7	: 0 3 5 8 8 5 4 8 s: 41    3s                  
+   5	: 8	: 0 3 5 8 8 5 3 4 5 s: 41    3s                     6	: 8	: 0 3 5 8 8 5 3 5 6 s: 43    3s                     6	: 8	: 0 3 5 8 8 5 7 10 7 s: 53    4s                     6	: 8	: 0 3 5 8 8 5 7 10 7 s: 53    4s                  
+   6	: 9	: 0 3 5 8 8 5 5 6 3 10 s: 53    4s                     6	: 9	: 0 3 5 8 8 5 5 6 3 10 s: 53    4s                  
+   6	: 10	: 0 3 5 8 8 5 5 6 3 5 5 s: 53    4s                     7	: 10	: 0 3 5 8 8 5 5 6 3 5 5 s: 53    5s                     8	: 10	: 0 3 5 8 8 5 5 8 4 6 5 s: 57    6s                     8	: 10	: 0 3 5 8 8 5 5 8 4 5 6 s: 57    6s                     9	: 10	: 0 3 5 8 8 5 5 7 9 7 7 s: 64    8s                     9	: 10	: 0 3 5 8 8 5 5 7 9 7 7 s: 64    8s                  
+   9	: 11	: 0 3 5 8 8 5 5 5 8 4 4 9 s: 64    8s                     9	: 11	: 0 3 5 8 8 5 5 5 8 4 4 9 s: 64    8s                  
+   9	: 12	: 0 3 5 8 8 5 5 5 8 4 4 5 4 s: 64    8s                     10	: 12	: 0 3 5 8 8 5 5 5 11 6 5 5 4 s: 70    10s                     10	: 12	: 0 3 5 8 8 5 5 5 11 6 4 8 21 s: 89    11s                     10	: 12	: 0 3 5 8 8 5 5 5 11 6 4 8 22 s: 90    11s                     10	: 12	: 0 3 5 8 8 5 5 6 11 6 5 9 22 s: 93    13s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_shift_register_top_w64_d8_e0)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 4717)
+@     0s  (started worker 1 with pid 4718)
+@     0s  (started worker 2 with pid 4719)
+@     0s  (started worker 3 with pid 4720)
+@     0s  (started worker 4 with pid 4721)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 4836)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 83 MB)
+@     2s  (started worker 6 with pid 4875)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 143 MB)
+@     3s  (started worker 7 with pid 4918)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 213 MB)
+@     5s  (started worker 8 with pid 4965)
+@     5s  (spawned 1 workers)
+@     5s  (total 9 workers using 292 MB)
+@     8s  (started worker 9 with pid 5024)
+@     8s  (spawned 1 workers)
+@     8s  (total 10 workers using 427 MB)
+@    11s  (started worker 10 with pid 5072)
+@    11s  (spawned 1 workers)
+@    11s  (total 11 workers using 522 MB)
+@    16s  (worker 6 finished with result unsafe) python3 avr.py -a sa --interpol 1 -f 1
+@    16s  (worker 6 output)
+@    16s  (stopping all workers)
+@    16s  (copied results from worker 6 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_shift_register_top_w64_d8_e0)
+@    16s  [0;30;47m(proof race finished with answer unsafe in 15.61 seconds)[m

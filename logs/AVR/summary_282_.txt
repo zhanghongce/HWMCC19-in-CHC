@@ -1,0 +1,1 @@
+282 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/cal228/cal228.btor2 | 0 | 1758.097206 | unsat

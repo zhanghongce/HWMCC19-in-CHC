@@ -1,0 +1,1 @@
+68 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/gen44/gen44.btor2 | 0 | 0.223913 | unsat

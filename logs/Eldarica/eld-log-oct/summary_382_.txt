@@ -1,0 +1,1 @@
+382 | /home/hongcez/hwmcc/benchs/chc/bv/goel/industry/mul10/mul10.chc | 143 | 3600.057791 | unknown

@@ -1,0 +1,2 @@
+warning: unsupported tag 'output'
+./conps-btormc-thp.sh: line 20: 218260 Killed                  "$BTORMC_SCRIPT_DIR"/btormc "$@"

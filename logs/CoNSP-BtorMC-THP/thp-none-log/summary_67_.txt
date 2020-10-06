@@ -1,0 +1,1 @@
+67 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/gen43/gen43.btor2 | -15 | 3600.001709 | unknown

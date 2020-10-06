@@ -1,0 +1,1 @@
+79 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/opensource/vcegar_QF_BV_itc99_b13_p06/vcegar_QF_BV_itc99_b13_p06.btor2 | 0 | 0.570965 | unsat

@@ -1,0 +1,2 @@
+It has constraint: fair_instance.fair
+It has constraint: (not (= rst (ite (bvult #b0000000000000001 state_counter) #b1 #b0)))

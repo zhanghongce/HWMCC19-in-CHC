@@ -1,0 +1,2 @@
+Theories: GroebnerMultiplication, ModuloArithmetic
+ldarica-assembly-2.0.4.jar lazabs.Main -hsmt -ssol -abstract:relIneqs /home/hongcez/hwmcc/benchs/chc/bv/beem/pgm_protocol.4.prop2-func-interl.chc

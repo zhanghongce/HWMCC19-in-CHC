@@ -1,0 +1,1 @@
+0 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2018A/zipcpu-busdelay-p30.btor | 0 | 332.736076 | unsat

@@ -1,0 +1,1 @@
+360 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/cal32/cal32.chc | 0 | 1.206032 | unsat

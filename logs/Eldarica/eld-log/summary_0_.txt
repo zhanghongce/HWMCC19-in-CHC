@@ -1,0 +1,1 @@
+0 | /home/hongcez/hwmcc/benchs/chc/array/mann/safe/arbitrated_fifos_n2d8w8.chc | 0 | 1.955564 | unknown

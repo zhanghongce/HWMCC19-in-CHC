@@ -1,0 +1,1 @@
+315 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2019C/zipversa_composecrc_prf-p21.btor | 0 | 3.425939 | unsat

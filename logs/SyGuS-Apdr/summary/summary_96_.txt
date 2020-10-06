@@ -1,0 +1,1 @@
+96 | /home/hongcez/hwmcc/benchs/btor2/bv/mann/data-integrity/unsafe/arbitrated_top_n3_w16_d64_e0.btor2 | -15 | 3600.134857 | unknown

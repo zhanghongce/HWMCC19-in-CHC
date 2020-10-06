@@ -1,0 +1,99 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2019B/pr_marlann_compute_cp_fail2-p0/work_w5)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(2 / 1153 flops initialized)
+	(abstraction: sa32+l0)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 2 1 s: 3    0s                     0	: 2	: 0 2 1 s: 3    0s                  
+   0	: 3	: 0 1 1 1 s: 3    0s                     0	: 3	: 0 1 1 1 s: 3    0s                  
+   0	: 4	: 0 1 1 1 0 s: 3    0s                     0	: 4	: 0 1 1 2 1 s: 5    0s                     0	: 4	: 0 1 1 2 1 s: 5    0s                  
+   0	: 5	: 0 1 1 1 1 1 s: 5    0s                     0	: 5	: 0 1 1 1 1 1 s: 5    0s                  
+   0	: 6	: 0 1 1 1 1 1 0 s: 5    0s                     0	: 6	: 0 1 1 1 1 2 1 s: 7    0s                     0	: 6	: 0 1 1 1 1 2 1 s: 7    0s                  
+   0	: 7	: 0 1 1 1 1 1 1 1 s: 7    0s                     0	: 7	: 0 1 1 1 1 1 1 1 s: 7    0s                  
+   0	: 8	: 0 1 1 1 1 1 1 1 0 s: 7    0s                     0	: 8	: 0 1 1 1 1 1 1 2 1 s: 9    0s                     0	: 8	: 0 1 1 1 1 1 1 2 1 s: 9    0s                  
+   0	: 9	: 0 1 1 1 1 1 1 1 1 1 s: 9    0s                     0	: 9	: 0 1 1 1 1 1 1 1 1 1 s: 9    0s                  
+   0	: 10	: 0 1 1 1 1 1 1 1 1 1 0 s: 9    0s                     0	: 10	: 0 1 1 1 1 1 1 1 1 1 1 s: 10    0s                     0	: 10	: 0 1 1 1 1 1 1 1 1 1 1 s: 10    0s                  
+   0	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    0s                     1	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    0s                     2	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    1s                     3	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    1s                     4	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    3s                     5	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    4s                     6	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    5s                     7	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    7s                     8	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    10s                     9	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    12s                     10	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    13s                     11	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    15s                     12	: 11	: 0 1 1 1 1 1 1 1 1 1 1 0 s: 10    17s                     13	: 11	: 0 1 1 2 2 2 2 1 1 1 1 0 s: 14    21s                     14	: 11	: 0 1 1 2 2 2 2 1 1 1 1 0 s: 14    24s                     15	: 11	: 0 1 1 2 2 2 2 1 1 1 1 0 s: 14    27s                     16	: 11	: 0 1 1 2 2 2 2 1 1 1 1 0 s: 14    30s                     17	: 11	: 0 1 1 2 2 2 2 1 1 1 1 0 s: 14    34s                     18	: 11	: 0 1 1 2 2 2 2 1 1 1 1 0 s: 14    38s                     19	: 11	: 0 1 1 2 2 2 2 1 1 1 1 0 s: 14    42s                     20	: 11	: 0 1 1 2 2 2 2 1 1 1 1 0 s: 14    47s                     21	: 11	: 0 1 1 2 2 2 2 1 1 1 1 0 s: 14    53s                     22	: 11	: 0 1 1 2 2 2 2 1 1 1 1 0 s: 14    59s                     23	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    65s                     24	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    71s                     25	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    78s                     26	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    85s                     27	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    91s                     28	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    97s                     29	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    106s                     30	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    114s                     31	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    122s                     32	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    130s                     33	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    138s                     34	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    146s                     35	: 11	: 0 1 1 3 3 3 3 2 2 2 2 0 s: 22    153s                     36	: 11	: 0 1 1 3 4 4 4 3 3 3 3 0 s: 29    163s                     37	: 11	: 0 1 1 3 4 4 4 3 3 3 3 0 s: 29    173s                     38	: 11	: 0 1 1 3 4 4 4 3 3 3 3 0 s: 29    186s                     39	: 11	: 0 2 2 4 5 5 5 3 4 4 4 0 s: 38    202s                     40	: 11	: 0 2 2 4 5 5 5 3 4 4 4 0 s: 38    218s                     41	: 11	: 0 3 3 6 7 7 7 5 6 6 5 0 s: 55    245s                     42	: 11	: 0 3 3 6 7 7 7 5 6 6 5 0 s: 55    263s                     43	: 11	: 0 3 3 6 7 7 7 5 6 6 5 0 s: 55    277s                     44	: 11	: 0 3 3 6 7 7 7 5 6 6 5 0 s: 55    289s                     45	: 11	: 0 3 3 6 7 7 7 5 6 6 5 0 s: 55    301s                     46	: 11	: 0 3 3 6 7 7 7 5 6 6 5 0 s: 55    313s                     47	: 11	: 0 3 3 6 9 9 9 7 8 8 7 0 s: 69    328s                     48	: 11	: 0 3 3 6 9 9 9 7 8 8 7 0 s: 69    342s                     49	: 11	: 0 3 3 6 9 9 9 7 8 8 7 0 s: 69    355s                     50	: 11	: 0 3 3 6 9 9 9 7 8 8 7 0 s: 69    368s                     51	: 11	: 0 3 3 6 9 9 9 7 8 8 7 0 s: 69    380s                     52	: 11	: 0 3 3 6 9 9 9 7 8 8 7 0 s: 69    392s                     53	: 11	: 0 3 3 6 9 9 9 7 8 8 7 0 s: 69    403s                     54	: 11	: 0 3 3 7 10 10 10 8 9 9 8 0 s: 77    418s                     55	: 11	: ... 0 3 3 7 15 15 15 13 14 16 15 0 s: 116    435s                     56	: 11	: ... 0 3 3 7 15 15 15 13 14 16 15 0 s: 116    451s                     57	: 11	: ... 0 3 3 7 15 15 15 13 14 16 15 0 s: 116    472s                     57	: 11	: ... 0 3 3 8 19 19 19 17 19 21 21 1 s: 150    474s                     57	: 11	: ... 0 3 3 8 19 19 19 17 19 21 21 1 s: 150    474s                  
+   57	: 11	: 0 3 3 2 2 2 2 1 1 1 1 0 s: 18    478s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2019B/pr_marlann_compute_cp_fail2-p0)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 61573)
+@     0s  (started worker 1 with pid 61574)
+@     0s  (started worker 2 with pid 61575)
+@     0s  (started worker 3 with pid 61576)
+@     0s  (started worker 4 with pid 61577)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 61702)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 270 MB)
+@     2s  (started worker 6 with pid 61743)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 433 MB)
+@     3s  (started worker 7 with pid 61788)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 551 MB)
+@     5s  (started worker 8 with pid 61844)
+@     5s  (spawned 1 workers)
+@     5s  (total 9 workers using 761 MB)
+@     8s  (started worker 9 with pid 61907)
+@     8s  (spawned 1 workers)
+@     8s  (total 10 workers using 1050 MB)
+@    11s  (started worker 10 with pid 61960)
+@    11s  (spawned 1 workers)
+@    11s  (total 11 workers using 1298 MB)
+@    23s  (total 11 workers using 2042 MB)
+@    39s  (total 11 workers using 2628 MB)
+@    55s  (total 11 workers using 3265 MB)
+@    69s  (total 11 workers using 3703 MB)
+@    83s  (total 11 workers using 4258 MB)
+@    98s  (total 11 workers using 4174 MB)
+@   111s  (total 11 workers using 4475 MB)
+@   125s  (total 11 workers using 4714 MB)
+@   138s  (total 11 workers using 4968 MB)
+@   152s  (total 11 workers using 5204 MB)
+@   165s  (total 11 workers using 5459 MB)
+@   179s  (total 11 workers using 5805 MB)
+@   192s  (total 11 workers using 6264 MB)
+@   206s  (total 11 workers using 6437 MB)
+@   219s  (total 11 workers using 6620 MB)
+@   233s  (total 11 workers using 6881 MB)
+@   246s  (total 11 workers using 6770 MB)
+@   260s  (total 11 workers using 6994 MB)
+@   273s  (total 11 workers using 7323 MB)
+@   287s  (total 11 workers using 7413 MB)
+@   300s  (total 11 workers using 7671 MB)
+@   314s  (total 11 workers using 7783 MB)
+@   327s  (total 11 workers using 7898 MB)
+@   341s  (total 11 workers using 8321 MB)
+@   354s  (total 11 workers using 8494 MB)
+@   368s  (total 11 workers using 8497 MB)
+@   381s  (total 11 workers using 8789 MB)
+@   395s  (total 11 workers using 8937 MB)
+@   408s  (total 11 workers using 9183 MB)
+@   422s  (total 11 workers using 9311 MB)
+@   435s  (total 11 workers using 9519 MB)
+@   448s  (total 11 workers using 9565 MB)
+@   462s  (total 11 workers using 9830 MB)
+@   476s  (total 11 workers using 9882 MB)
+@   489s  (total 11 workers using 10009 MB)
+@   503s  (total 11 workers using 10200 MB)
+@   515s  (total 11 workers using 10311 MB)
+@   529s  (total 11 workers using 10550 MB)
+@   542s  (total 11 workers using 10697 MB)
+@   556s  (total 11 workers using 10830 MB)
+@   564s  (worker 1 finished with result unknown) python3 avr.py -b bin_bt_cadical -s --bmc
+@   569s  (total 10 workers using 8676 MB)
+@   583s  (total 10 workers using 8714 MB)
+@   595s  (total 10 workers using 8979 MB)
+@   609s  (total 10 workers using 9031 MB)
+@   612s  (worker 5 finished with result safe) python3 avr.py -b bin_bt_cadical -g 3 -l 0 -a sa32
+@   612s  (worker 5 output)
+@   612s  (stopping all workers)
+@   612s  (copied results from worker 5 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2019B/pr_marlann_compute_cp_fail2-p0)
+@   612s  [0;30;47m(proof race finished with answer safe in 612.04 seconds)[m

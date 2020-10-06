@@ -1,0 +1,1 @@
+381 | /home/hongcez/hwmcc/benchs/chc/bv/goel/industry/mul1/mul1.chc | 0 | 41.32526 | unsat

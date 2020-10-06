@@ -1,0 +1,26 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/gen14/pr_gen14/work_w0)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(4 / 525 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 1	: 0 0 s: 0    0s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/gen14/pr_gen14)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 224706)
+@     0s  (started worker 1 with pid 224707)
+@     0s  (started worker 2 with pid 224708)
+@     0s  (started worker 3 with pid 224709)
+@     0s  (started worker 4 with pid 224710)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     0s  (worker 0 finished with result safe) python3 avr.py -a sa
+@     0s  (worker 0 output)
+@     0s  (stopping all workers)
+@     0s  (copied results from worker 0 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/gen14/pr_gen14)
+@     0s  [0;30;47m(proof race finished with answer safe in 0.21 seconds)[m

@@ -1,0 +1,3 @@
+java -Xmx6844m -Xss80000k -cp ./target/scala-2.11/Eldarica-assembly-2.0.4.jar lazabs.Main -hsmt -ssol -abstract:oct /home/hongcez/hwmcc/benchs/chc/bv/goel/industry/gen44/gen44.chc
+sat
+(define-fun INV ((A (_ BitVec 1)) (B (_ BitVec 256)) (C (_ BitVec 1)) (D (_ BitVec 1)) (E (_ BitVec 1)) (F (_ BitVec 256)) (G (_ BitVec 1)) (H (_ BitVec 1)) (I (_ BitVec 1)) (J (_ BitVec 1)) (K (_ BitVec 256)) (L (_ BitVec 1)) (M (_ BitVec 1)) (N (_ BitVec 3)) (O (_ BitVec 13)) (P (_ BitVec 1)) (Q (_ BitVec 1)) (R (_ BitVec 1)) (S (_ BitVec 1)) (T (_ BitVec 3))) Bool (and (= D (_ bv1 1)) (or (or (not (= C (_ bv1 1))) (not (= I (_ bv1 1)))) (= B F))))

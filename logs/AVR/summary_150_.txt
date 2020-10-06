@@ -1,0 +1,1 @@
+150 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2018D/zipcpu-zipmmu-p38.btor | 0 | 17.033393 | unsat

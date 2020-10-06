@@ -1,0 +1,76 @@
+Frame : 5
+  l0 :   | (bvnot (bvand state729 (bvand state731 (bvand ((_ extract 0 0) state2905) (bvnot ((_ extract 0 0) state10311)))))) | MUST-2 | (0,2),(0,0)
+  l1 :   | (bvnot (bvand state729 (bvand state731 (bvand ((_ extract 1 1) state2905) (bvnot ((_ extract 1 1) state10311)))))) | MUST-2 | (0,2),(0,0)
+  l2 :   | (bvnot (bvand state731 (bvand (bvnot state758) state769))) | MUST-3 | (0,3),(0,0)
+  l3 :   | (bvnot (bvand state731 (bvand (bvnot state755) state766))) | MUST-2 | (0,2),(0,0)
+  l4 :   | (bvnot (bvand state739 (bvand state731 (bvand ((_ extract 1 1) state10335) (bvnot ((_ extract 1 1) state2930)))))) | MUST-2 | (0,2),(0,0)
+  l5 :   | (bvnot (bvand state731 (bvand ((_ extract 1 1) state2930) (bvand (bvnot ((_ extract 1 1) state10335)) ((_ extract 0 0) state2930))))) | MUST-2 | (0,2),(0,0)
+  l6 :   | (bvnot (bvand state731 (bvand ((_ extract 0 0) state10335) (bvand (bvnot ((_ extract 0 0) state2930)) (bvnot ((_ extract 1 1) state2930)))))) | MUST-2 | (0,2),(0,0)
+  l7 :   | (bvnot (bvand state731 (bvand state758 (bvnot state769)))) | MUST-3 | (0,3),(0,0)
+  l8 :   | (bvnot (bvand state755 (bvand state731 (bvnot state766)))) | MUST-2 | (0,2),(0,0)
+  l9 :   | (bvnot (bvand state729 (bvand state2965 (bvand state731 (bvnot state10369))))) | MUST-2 | (0,2),(0,0)
+  l10 :   | witness_0 | prop | (0,4),(0,0)
+  l11 :   | (bvnot (bvand state731 (bvand state729 (bvnot state739)))) | MUST-1 | (0,2),(0,0)
+  l12 :   | (bvnot (bvand (bvand state731 (bvnot state2941)) state10346)) | MUST-2 | (0,3),(0,0)
+  l13 :   | (bvnot (bvand state731 (bvand state2941 (bvnot state10346)))) | MUST-2 | (0,3),(0,0)
+  l14 :   | (bvnot (bvand state775 (bvand state731 (bvnot state781)))) | MUST-2 | (0,3),(0,0)
+  l15 :   | (bvnot (bvand state731 (bvand (bvnot state775) state781))) | MUST-2 | (0,3),(0,0)
+  l16 :   | (bvnot (bvand state739 (bvand state731 (bvand (bvnot ((_ extract 1 1) state2905)) ((_ extract 1 1) state10311))))) | MUST-2 | (0,2),(0,0)
+  l17 :   | (bvnot (bvand state739 (bvand state731 (bvand (bvnot ((_ extract 0 0) state2905)) ((_ extract 0 0) state10311))))) | MUST-2 | (0,2),(0,0)
+  l18 :   | (bvnot (bvand (bvand (bvnot state729) state731) state739)) | MUST-1 | (0,1),(0,0)
+  l19 :   | (bvnot (bvand state731 (bvand ((_ extract 2 2) state2930) (bvand (bvnot ((_ extract 1 1) state10335)) (bvnot ((_ extract 2 2) state10335)))))) | MUST-2 | (0,1),(0,0)
+  l20 :   | (bvnot (bvand state731 (bvand ((_ extract 1 1) state2930) (bvand (bvnot ((_ extract 0 0) state10335)) (bvnot ((_ extract 1 1) state10335)))))) | MUST-2 | (0,2),(0,0)
+  l21 :   | (bvnot (bvand state734 (bvand state731 (bvand state729 (bvnot state742))))) | MUST-1 | (0,1),(0,0)
+  l22 :   | (bvnot (bvand state739 (bvand (bvand state731 (bvnot state2965)) state10369))) | MUST-2 | (0,1),(0,0)
+  l23 :   | (bvnot (bvand state731 (bvand state739 (bvand (bvnot ((_ extract 0 0) state10335)) ((_ extract 0 0) state2930))))) | MUST-2 | (0,1),(0,0)
+  l24 :   | (bvnot (bvand state729 (bvand state734 (bvand state2925 (bvand state731 (bvand (bvnot state10330) (bvnot state10369))))))) | MUST-2 | (0,1),(0,0)
+  l25 :   | (bvnot (bvand state2925 (bvand state731 (bvand state729 (bvand (bvnot state10330) (bvand (bvnot state10369) ((_ extract 1 1) state2905))))))) | MUST-2 | (0,2),(0,0)
+  l26 :   | (bvnot (bvand state731 (bvand ((_ extract 2 2) state10335) (bvand (bvnot ((_ extract 1 1) state2930)) (bvnot ((_ extract 2 2) state2930)))))) | MUST-3 | (0,1),(0,0)
+  l27 :   | (bvnot (bvand state739 (bvand state10330 (bvand state731 (bvand ((_ extract 1 1) state10311) (bvand (bvnot state2925) (bvnot state2965))))))) | MUST-2 | (0,0),(0,0)
+  l28 :   | (bvnot (bvand state739 (bvand state731 (bvand (bvnot state734) state742)))) | MUST-1 | (0,0),(0,0)
+  l29 :   | (bvnot (bvand state731 (bvand ((_ extract 0 0) state10335) (bvand ((_ extract 1 1) state10335) (bvnot ((_ extract 0 0) state2930)))))) | MUST-2 | (0,0),(0,0)
+  l30 :   | (bvnot (bvand state731 (bvand ((_ extract 0 0) state10335) (bvand (bvnot ((_ extract 2 2) state10335)) (bvnot ((_ extract 0 0) state2930)))))) | MUST-2 | (0,0),(0,0)
+  CEX blocked :
+  c0 :   | id: 124462000 | state775= #b0 , state10311= #b00 , state726= #b1 , state729= #b1 , state734= #b1 , state731= #b1 , state2905= #b01 , state2965= #b1 ,  | MUST-2 | (0,2),(0,0)
+  c1 :   | id: 127572576 | state2905= #b10 , state731= #b1 , state729= #b1 , state726= #b1 , state734= #b1 , state766= #b0 , state10311= #b00 ,  | MUST-2 | (0,2),(0,0)
+  c2 :   | id: 158197936 | state2905= #b11 , state769= #b1 , state758= #b0 , state10311= #b11 , state742= #b1 , state2941= #b1 , state739= #b1 , state734= #b1 , state731= #b1 , state726= #b1 , state10346= #b1 ,  | MUST-3 | (0,3),(0,0)
+  c3 :   | id: 144153872 | state755= #b0 , state2905= #b11 , state10311= #b11 , state766= #b1 , state2941= #b0 , state734= #b1 , state739= #b1 , state731= #b1 , state726= #b1 , state742= #b1 ,  | MUST-2 | (0,2),(0,0)
+  c4 :   | id: 147430016 | state10335= #b110 , state742= #b1 , state10311= #b10 , state766= #b1 , state729= #b1 , state731= #b1 , state2941= #b0 , state734= #b1 , state739= #b1 , state726= #b1 , state755= #b1 , state2930= #b100 ,  | MUST-2 | (0,2),(0,0)
+  c5 :   | id: 150595744 | state10335= #b101 , state10311= #b10 , state766= #b1 , state742= #b1 , state731= #b1 , state2941= #b0 , state739= #b1 , state734= #b1 , state2930= #b111 , state729= #b1 , state726= #b1 ,  | MUST-2 | (0,2),(0,0)
+  c6 :   | id: 151635104 | state10335= #b101 , state10311= #b10 , state766= #b1 , state742= #b1 , state731= #b1 , state2941= #b0 , state739= #b1 , state734= #b1 , state2930= #b100 , state729= #b1 , state726= #b1 ,  | MUST-2 | (0,2),(0,0)
+  c7 :   | id: 119712464 | state775= #b0 , state2905= #b11 , state729= #b1 , state726= #b1 , state10346= #b1 , state758= #b1 , state10311= #b11 , state734= #b1 , state2941= #b1 , state731= #b1 , state769= #b0 , state742= #b1 ,  | MUST-3 | (0,3),(0,0)
+  c8 :   | id: 152822592 | state10346= #b0 , state726= #b1 , state755= #b1 , state2905= #b11 , state731= #b1 , state734= #b1 , state729= #b1 , state742= #b1 , state766= #b0 , state10311= #b11 ,  | MUST-2 | (0,2),(0,0)
+  c9 :   | id: 155734224 | state726= #b1 , state10346= #b0 , state10369= #b0 , state729= #b1 , state781= #b1 , state2965= #b1 , state731= #b1 , state10311= #b11 , state775= #b1 ,  | MUST-2 | (0,2),(0,0)
+  c10 : None
+  c11 :   | id: 113806448 | state731= #b1 , state739= #b0 , state734= #b1 , state726= #b1 , state729= #b1 ,  | MUST-1 | (0,2),(0,0)
+  c12 :   | id: 90252624 | state775= #b1 , state10346= #b1 , state726= #b1 , state2941= #b0 , state2905= #b00 , state731= #b1 , state2965= #b0 , state781= #b1 , state766= #b1 , state739= #b1 ,  | MUST-2 | (0,3),(0,0)
+  c13 :   | id: 153611360 | state10346= #b0 , state726= #b1 , state755= #b1 , state2905= #b11 , state731= #b1 , state729= #b1 , state2941= #b1 , state734= #b1 , state10311= #b11 , state742= #b1 ,  | MUST-2 | (0,3),(0,0)
+  c14 :   | id: 122190960 | state775= #b1 , state781= #b0 , state10369= #b1 , state726= #b1 , state739= #b1 , state2905= #b00 , state731= #b1 ,  | MUST-2 | (0,3),(0,0)
+  c15 :   | id: 128583216 | state775= #b0 , state726= #b1 , state729= #b1 , state731= #b1 , state781= #b1 , state742= #b0 , state2965= #b1 ,  | MUST-2 | (0,3),(0,0)
+  c16 :   | id: 176348336 | state739= #b1 , state726= #b1 , state731= #b1 , state755= #b0 , state2905= #b00 , state742= #b1 , state10311= #b10 ,  | MUST-2 | (0,2),(0,0)
+  c17 :   | id: 179920320 | state10369= #b1 , state726= #b1 , state781= #b0 , state742= #b1 , state731= #b1 , state2905= #b00 , state739= #b1 , state10311= #b01 ,  | MUST-2 | (0,2),(0,0)
+  c18 :   | id: 75438528 | state742= #b1 , state731= #b1 , state739= #b1 , state729= #b0 , state726= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c19 :   | id: 156595648 | state10346= #b0 , state726= #b1 , state731= #b1 , state729= #b1 , state755= #b1 , state2905= #b10 , state2930= #b101 , state734= #b1 , state10335= #b001 ,  | MUST-2 | (0,1),(0,0)
+  c20 :   | id: 142094976 | state10346= #b0 , state726= #b1 , state734= #b1 , state731= #b1 , state729= #b1 , state755= #b1 , state2905= #b10 , state2930= #b010 , state10335= #b000 ,  | MUST-2 | (0,2),(0,0)
+  c21 :   | id: 120474224 | state742= #b0 , state734= #b1 , state729= #b1 , state726= #b1 , state731= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c22 :   | id: 129796224 | state739= #b1 , state10369= #b1 , state726= #b1 , state775= #b1 , state766= #b1 , state781= #b1 , state2965= #b0 , state2905= #b00 , state731= #b1 , state2941= #b0 ,  | MUST-2 | (0,1),(0,0)
+  c23 :   | id: 149606560 | state10335= #b110 , state742= #b1 , state10311= #b10 , state766= #b1 , state729= #b1 , state731= #b1 , state2941= #b0 , state734= #b1 , state739= #b1 , state726= #b1 , state755= #b1 , state2930= #b111 ,  | MUST-2 | (0,1),(0,0)
+  c24 :   | id: 158048896 | state734= #b1 , state731= #b1 , state10330= #b0 , state729= #b1 , state775= #b1 , state2925= #b1 , state726= #b1 , state10346= #b0 , state10369= #b0 , state2905= #b10 , state755= #b1 ,  | MUST-2 | (0,1),(0,0)
+  c25 :   | id: 88677024 | state726= #b1 , state10346= #b0 , state10369= #b0 , state731= #b1 , state10330= #b0 , state729= #b1 , state2905= #b10 , state755= #b1 , state781= #b1 , state775= #b1 , state2925= #b1 ,  | MUST-2 | (0,2),(0,0)
+  c26 :   | id: 214976432 | state10335= #b101 , state769= #b1 , state729= #b1 , state755= #b1 , state2930= #b001 , state742= #b1 , state2941= #b0 , state739= #b1 , state734= #b1 , state10311= #b10 , state766= #b1 , state726= #b1 , state731= #b1 ,  | MUST-3 | (0,1),(0,0)
+  c27 :   | id: 88519504 | state10330= #b1 , state726= #b1 , state739= #b1 , state2941= #b0 , state775= #b1 , state2925= #b0 , state731= #b1 , state2965= #b0 , state10311= #b10 , state766= #b1 , state781= #b1 ,  | MUST-2 | (0,0),(0,0)
+  c28 :   | id: 93889632 | state742= #b1 , state739= #b1 , state734= #b0 , state726= #b1 , state731= #b1 ,  | MUST-1 | (0,0),(0,0)
+  c29 :   | id: 81139072 | state10346= #b0 , state726= #b1 , state734= #b1 , state731= #b1 , state755= #b1 , state2930= #b110 , state2905= #b10 , state729= #b1 , state766= #b1 , state10335= #b111 ,  | MUST-2 | (0,0),(0,0)
+  c30 :   | id: 210824208 | state10346= #b0 , state726= #b1 , state734= #b1 , state731= #b1 , state729= #b1 , state755= #b1 , state2905= #b10 , state2930= #b010 , state10335= #b001 ,  | MUST-2 | (0,0),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	3068 / 0.651s = 4712.75
+Enum.TermEval 	  	6542 / 2.986s = 2190.89
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	45 / 1.411s = 31.8923
+Function:PushOneFrame 	  	10 / 33.45s = 0.298954
+Function:RecursiveBlock 	  	35 / 30.527s = 1.14653
+Function:SolveTrans 	  	224 / 5.716s = 39.1882
+Function:SolveTransLemma 	  	65 / 22.703s = 2.86306
+F[6] 1 66 65 47 35 31 
+unsat
+b0

@@ -1,0 +1,57 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_shift_register_top_w32_d8_e0/work_w0)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1 / 299 flops initialized)
+	(abstraction: sa)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 2 s: 2    0s                     0	: 1	: 0 2 s: 2    0s                  
+   0	: 2	: 0 1 1 s: 2    0s                     1	: 2	: 0 2 1 s: 3    0s                     1	: 2	: 0 3 2 s: 5    0s                     1	: 2	: 0 3 3 s: 6    0s                     1	: 2	: 0 3 3 s: 6    0s                  
+   1	: 3	: 0 3 3 0 s: 6    0s                     1	: 3	: 0 3 3 1 s: 7    0s                     1	: 3	: 0 3 4 2 s: 9    0s                     1	: 3	: 0 3 5 3 s: 11    0s                     2	: 3	: 0 3 5 3 s: 11    0s                     2	: 3	: 0 3 5 4 s: 12    0s                     2	: 3	: 0 3 5 5 s: 13    0s                     2	: 3	: 0 3 5 5 s: 13    0s                  
+   2	: 4	: 0 3 5 5 0 s: 13    0s                     2	: 4	: 0 3 5 6 1 s: 15    0s                     2	: 4	: 0 3 5 7 2 s: 17    0s                     2	: 4	: 0 3 5 9 3 s: 20    0s                     2	: 4	: 0 3 5 8 4 s: 20    0s                     3	: 4	: 0 3 5 9 4 s: 21    0s                     4	: 4	: 0 3 5 9 4 s: 21    0s                     4	: 4	: 0 3 5 9 5 s: 22    0s                     4	: 4	: 0 3 5 9 5 s: 22    0s                  
+   4	: 5	: 0 3 5 7 3 4 s: 22    0s                     5	: 5	: 0 3 5 8 4 4 s: 24    0s                     5	: 5	: 0 3 5 8 4 5 s: 25    0s                     5	: 5	: 0 3 5 8 4 6 s: 26    0s                     5	: 5	: 0 3 5 8 4 7 s: 27    0s                     5	: 5	: 0 3 5 8 4 8 s: 28    0s                     5	: 5	: 0 3 5 8 4 8 s: 28    0s                  
+   5	: 6	: 0 3 5 8 4 3 5 s: 28    1s                     6	: 6	: 0 3 5 8 4 3 5 s: 28    1s                     6	: 6	: 0 3 5 9 5 4 6 s: 32    1s                     6	: 6	: 0 3 5 9 5 4 7 s: 33    1s                     6	: 6	: 0 3 5 9 5 4 8 s: 34    1s                     6	: 6	: 0 3 5 9 5 4 8 s: 34    1s                  
+   6	: 7	: 0 3 5 9 4 4 3 5 s: 33    1s                     6	: 7	: 0 3 5 10 4 6 5 6 s: 39    1s                     7	: 7	: 0 3 5 10 4 6 5 6 s: 39    2s                     7	: 7	: 0 3 5 10 4 6 5 7 s: 40    2s                     7	: 7	: 0 3 5 10 4 6 5 7 s: 40    2s                  
+   7	: 8	: 0 3 5 10 4 5 4 4 5 s: 40    2s                     8	: 8	: 0 3 5 10 7 6 6 4 5 s: 46    2s                     8	: 8	: 0 3 5 10 7 6 6 4 6 s: 47    2s                     8	: 8	: 0 3 5 10 7 6 6 4 7 s: 48    2s                     8	: 8	: 0 3 5 10 7 6 7 6 8 s: 52    2s                     8	: 8	: 0 3 5 10 7 5 7 5 9 s: 51    2s                     8	: 8	: 0 3 5 10 7 5 7 5 9 s: 51    2s                  
+   8	: 9	: 0 3 5 10 7 5 5 5 5 5 s: 50    2s                     9	: 9	: 0 3 5 10 7 6 6 7 5 5 s: 54    3s                     9	: 9	: 0 3 5 10 7 6 6 7 5 6 s: 55    3s                     9	: 9	: 0 3 5 10 7 6 6 7 5 7 s: 56    3s                     10	: 9	: 0 3 5 10 7 6 6 8 6 7 s: 58    4s                     10	: 9	: 0 3 5 10 7 6 7 8 5 8 s: 59    4s                     10	: 9	: 0 3 5 10 7 6 7 8 5 8 s: 59    4s                  
+   10	: 10	: 0 3 5 10 7 6 6 6 5 5 5 s: 58    4s                     11	: 10	: 0 3 5 10 7 6 7 7 7 6 5 s: 63    5s                     11	: 10	: 0 3 5 10 7 6 7 7 7 6 6 s: 64    5s                     11	: 10	: 0 3 5 10 7 6 7 7 7 6 7 s: 65    5s                     11	: 10	: 0 3 5 10 7 6 7 7 7 6 8 s: 66    5s                     11	: 10	: 0 3 5 10 7 6 7 7 7 6 8 s: 66    5s                  
+   11	: 11	: 0 3 5 10 7 6 5 6 8 5 5 5 s: 65    5s                     11	: 11	: 0 3 5 10 7 6 5 7 9 6 6 6 s: 70    5s                     11	: 11	: 0 3 5 10 7 6 5 7 9 6 6 7 s: 71    5s                     11	: 11	: 0 3 5 10 7 6 5 7 9 6 6 7 s: 71    5s                  
+   11	: 12	: 0 3 5 10 7 6 5 4 10 6 5 5 5 s: 71    6s                     11	: 12	: 0 3 5 10 7 6 5 4 12 8 6 6 6 s: 78    6s                     11	: 12	: 0 3 5 10 7 6 5 4 14 9 6 6 7 s: 82    6s                     11	: 12	: 0 3 5 10 7 6 5 4 14 9 6 6 7 s: 82    6s                  
+   11	: 13	: 0 3 5 10 7 6 5 4 7 6 11 7 5 5 s: 81    6s                     11	: 13	: 0 3 5 10 7 6 5 4 7 6 11 6 6 6 s: 82    6s                     12	: 13	: 0 3 5 10 7 6 6 4 8 6 11 6 6 6 s: 84    8s                     12	: 13	: 0 3 5 10 7 6 7 4 9 6 11 6 6 7 s: 87    8s                     12	: 13	: 0 3 5 10 7 6 7 4 9 6 11 6 6 7 s: 87    8s                  
+   12	: 14	: ... 0 3 5 10 7 6 7 4 8 3 6 11 7 5 5 s: 87    8s                     12	: 14	: ... 0 3 5 10 7 6 7 4 9 4 6 11 6 6 6 s: 90    8s                     12	: 14	: ... 0 3 5 10 7 6 7 4 9 4 6 11 6 6 7 s: 91    8s                     12	: 14	: ... 0 3 5 10 7 6 7 5 9 5 6 11 6 6 8 s: 94    9s                     12	: 14	: ... 0 3 5 10 7 6 7 5 9 5 6 11 6 6 8 s: 94    9s                  
+   12	: 15	: ... 3 5 10 7 6 7 5 7 5 4 6 11 7 5 5 s: 93    9s                     12	: 15	: ... 3 5 10 7 6 7 5 7 5 5 6 11 6 6 6 s: 95    9s                     12	: 15	: ... 3 5 10 7 6 7 5 7 5 5 6 11 6 6 7 s: 96    9s                     12	: 15	: ... 3 5 10 7 6 7 5 8 4 6 6 11 6 6 7 s: 97    11s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_shift_register_top_w32_d8_e0)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 126304)
+@     0s  (started worker 1 with pid 126305)
+@     0s  (started worker 2 with pid 126306)
+@     0s  (started worker 3 with pid 126307)
+@     0s  (started worker 4 with pid 126308)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 126422)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 99 MB)
+@     2s  (started worker 6 with pid 126472)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 151 MB)
+@     3s  (started worker 7 with pid 126517)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 215 MB)
+@     5s  (started worker 8 with pid 126563)
+@     5s  (spawned 1 workers)
+@     5s  (total 9 workers using 297 MB)
+@     9s  (started worker 9 with pid 126650)
+@     9s  (spawned 1 workers)
+@     9s  (total 10 workers using 396 MB)
+@    11s  (started worker 10 with pid 126708)
+@    11s  (spawned 1 workers)
+@    11s  (total 11 workers using 435 MB)
+@    12s  (worker 0 finished with result unsafe) python3 avr.py -a sa
+@    12s  (worker 0 output)
+@    12s  (stopping all workers)
+@    12s  (copied results from worker 0 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/mann/data-integrity/unsafe/pr_shift_register_top_w32_d8_e0)
+@    12s  [0;30;47m(proof race finished with answer unsafe in 12.03 seconds)[m

@@ -1,0 +1,1 @@
+492 | /home/hongcez/hwmcc/benchs/chcrel/bv/wolf/2018D/zipcpu-zipmmu-p32.chc | 0 | 0.471814 | unsat

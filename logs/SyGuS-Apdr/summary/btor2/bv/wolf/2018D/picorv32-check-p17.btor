@@ -1,0 +1,29 @@
+Frame : 3
+  l0 :   | (bvnot (bvand (bvnot __DOLLAR__formal__DOLLAR__picorv32__DASH__check.sv__COLON__2081__DOLLAR__19_CHECK) __DOLLAR__formal__DOLLAR__picorv32__DASH__check.sv__COLON__2085__DOLLAR__21_EN)) | prop | (0,2),(0,0)
+  l1 :   | (bvnot (bvand state275 last_mem_la_write)) | MUST-1 | (0,1),(0,0)
+  l2 :   | (bvnot (bvand last_mem_la_write (ite (= #b11111111111111111111111111111110 last_mem_la_addr) #b1 #b0))) | MUST-1 | (0,1),(0,0)
+  l3 :   | (bvnot (bvand mem_do_wdata (bvand trap (bvand (bvnot state275) (bvand (bvnot ((_ extract 1 1) mem_state)) (bvnot ((_ extract 0 0) mem_state))))))) | MAY | (0,1),(0,0)
+  l4 :   | (bvnot (bvand last_mem_la_write (ite (= mem_addr #b11111111111111111111111111111110) #b1 #b0))) | MUST-1 | (0,0),(0,0)
+  l5 :   | (bvnot (bvand (bvnot mem_valid) last_mem_la_write)) | MUST-1 | (0,0),(0,0)
+  l6 :   | (bvnot (bvand last_mem_la_write (bvnot (ite (= mem_addr last_mem_la_addr) #b1 #b0)))) | MUST-1 | (0,0),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 37564448 | last_mem_la_addr= #b11111111111111111111111111111111 , last_mem_nowait= #b1000 , mem_addr= #b11111111111111111111111111111110 , state275= #b1 , resetn= #b0 , last_mem_la_write= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c2 :   | id: 48208672 | mem_valid= #b1 , mem_ready= #b1 , mem_addr= #b11111111111111111111111111111111 , state275= #b0 , last_mem_nowait= #b1100 , last_mem_la_write= #b1 , last_mem_la_addr= #b11111111111111111111111111111110 , resetn= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c3 :   | id: 48360240 | reg_next_pc= #b11111111111111111111111111111100 , latched_branch= #b0 , mem_do_rinst= #b1 , trap= #b1 , state275= #b0 , mem_addr= #b11111111111111111111111111111110 , mem_state= #b00 , mem_ready= #b1 , cpu_state= #b10000000 , mem_do_wdata= #b1 , resetn= #b1 ,  | MAY | (0,1),(0,0)
+  c4 :   | id: 47567216 | mem_ready= #b1 , mem_addr= #b11111111111111111111111111111110 , state275= #b0 , last_mem_la_write= #b1 , last_mem_la_addr= #b11111111111111111111111111111111 , trap= #b1 , resetn= #b1 ,  | MUST-1 | (0,0),(0,0)
+  c5 :   | id: 48444976 | mem_ready= #b1 , mem_valid= #b0 , mem_addr= #b11111111111111111111111111111111 , state275= #b0 , last_mem_nowait= #b1111 , last_mem_la_write= #b1 , last_mem_la_addr= #b11111111111111111111111111111100 , resetn= #b1 ,  | MUST-1 | (0,0),(0,0)
+  c6 :   | id: 48514896 | resetn= #b1 , last_mem_la_addr= #b11111111111111111111111111111100 , last_mem_la_write= #b1 , last_mem_nowait= #b1111 , state275= #b0 , mem_addr= #b11111111111111111111111111111101 ,  | MUST-1 | (0,0),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	468 / 0.012s = 39000
+Enum.TermEval 	  	750 / 0.013s = 57692.3
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	2 / 0.002s = 1000
+Function:PushOneFrame 	  	3 / 0.096s = 31.25
+Function:RecursiveBlock 	  	9 / 0.199s = 45.2261
+Function:SolveTrans 	  	32 / 0.013s = 2461.54
+Function:SolveTransLemma 	  	13 / 0.171s = 76.0234
+RecursiveBlock.PushMayQueue 	  	2 / 0s = inf
+F[4] 1 12 10 7 
+unsat
+b0

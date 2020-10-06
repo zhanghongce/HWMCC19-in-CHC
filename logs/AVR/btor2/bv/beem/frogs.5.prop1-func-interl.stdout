@@ -1,0 +1,45 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/beem/pr_frogs.5.prop1-func-interl/work_w5)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(261 / 261 flops initialized)
+	(abstraction: sa32+l0)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     0	: 2	: 0 1 1 s: 2    0s                  
+   0	: 3	: 0 1 1 0 s: 2    0s                     0	: 3	: 0 1 1 1 s: 3    0s                     0	: 3	: 0 1 1 1 s: 3    0s                  
+   0	: 4	: 0 1 1 1 0 s: 3    0s                     1	: 4	: 0 11 3 1 0 s: 15    0s                     1	: 4	: 0 12 12 3 1 s: 28    2s                     1	: 4	: 0 12 12 3 1 s: 28    2s                  
+   1	: 5	: 0 12 12 3 1 0 s: 28    2s                     1	: 5	: 0 12 6 11 5 1 s: 35    8s                     1	: 5	: 0 12 6 11 5 1 s: 35    8s                  
+   1	: 5	: 0 12 4 9 0 6 s: 31    8s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/beem/pr_frogs.5.prop1-func-interl)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 191718)
+@     0s  (started worker 1 with pid 191719)
+@     0s  (started worker 2 with pid 191720)
+@     0s  (started worker 3 with pid 191721)
+@     0s  (started worker 4 with pid 191722)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 191837)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 204 MB)
+@     2s  (started worker 6 with pid 191888)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 273 MB)
+@     4s  (started worker 7 with pid 191950)
+@     4s  (spawned 1 workers)
+@     4s  (total 8 workers using 339 MB)
+@     6s  (started worker 8 with pid 192002)
+@     6s  (spawned 1 workers)
+@     6s  (total 9 workers using 424 MB)
+@    10s  (started worker 9 with pid 192095)
+@    10s  (spawned 1 workers)
+@    10s  (total 10 workers using 490 MB)
+@    11s  (worker 5 finished with result safe) python3 avr.py -b bin_bt_cadical -g 3 -l 0 -a sa32
+@    11s  (worker 5 output)
+@    11s  (stopping all workers)
+@    11s  (copied results from worker 5 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/beem/pr_frogs.5.prop1-func-interl)
+@    11s  [0;30;47m(proof race finished with answer safe in 11.39 seconds)[m

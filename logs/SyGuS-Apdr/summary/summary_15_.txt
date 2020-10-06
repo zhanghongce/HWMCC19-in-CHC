@@ -1,0 +1,1 @@
+15 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/crafted/toy_lock_4/toy_lock_4.btor2 | 0 | 173.54078 | unsat

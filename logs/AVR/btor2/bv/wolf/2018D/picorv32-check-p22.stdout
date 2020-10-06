@@ -1,0 +1,44 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018D/pr_picorv32-check-p22/work_w2)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(18 / 1878 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 2 s: 2    0s                     0	: 1	: 0 3 s: 3    0s                     0	: 1	: 0 3 s: 3    0s                  
+   0	: 2	: 0 3 0 s: 3    0s                     0	: 2	: 0 3 1 s: 4    0s                     0	: 2	: 0 3 2 s: 5    0s                     0	: 2	: 0 3 2 s: 5    0s                  
+   0	: 3	: 0 3 2 0 s: 5    0s                     0	: 3	: 0 3 2 1 s: 6    0s                     0	: 3	: 0 3 1 2 s: 6    0s                     0	: 3	: 0 3 1 2 s: 6    0s                  
+   0	: 4	: 0 3 1 2 0 s: 6    0s                     0	: 4	: 0 3 1 3 1 s: 8    0s                     0	: 4	: 0 3 1 3 2 s: 9    0s                     0	: 4	: 0 4 2 4 3 s: 13    0s                     0	: 4	: 0 4 2 4 3 s: 13    0s                  
+   0	: 5	: 0 3 2 4 3 1 s: 13    0s                     0	: 5	: 0 3 2 4 4 2 s: 15    0s                     0	: 5	: 0 3 2 4 4 3 s: 16    0s                     0	: 5	: 0 3 3 4 6 4 s: 20    0s                     0	: 5	: 0 3 3 4 6 4 s: 20    0s                  
+   0	: 6	: 0 1 1 3 4 4 1 s: 14    0s                     0	: 6	: 0 1 1 3 4 5 2 s: 16    0s                     0	: 6	: 0 1 1 3 4 5 3 s: 17    0s                     0	: 6	: 0 1 1 4 4 7 4 s: 21    0s                     0	: 6	: 0 1 1 4 4 7 4 s: 21    0s                  
+   0	: 7	: 0 1 1 3 3 4 5 4 s: 21    0s                     0	: 7	: 0 1 1 3 3 4 5 5 s: 22    0s                     0	: 7	: 0 1 1 3 3 4 5 6 s: 23    0s                     0	: 7	: 0 1 1 3 3 4 4 7 s: 23    0s                     0	: 7	: 0 1 1 3 3 4 4 7 s: 23    0s                  
+   0	: 8	: 0 1 1 3 3 3 2 3 7 s: 23    0s                     0	: 8	: 0 1 1 3 3 4 2 3 8 s: 25    0s                     0	: 8	: 0 1 1 3 3 4 2 3 9 s: 26    0s                     0	: 8	: 0 1 1 3 3 4 2 3 9 s: 26    0s                  
+   0	: 9	: 0 1 1 3 2 2 2 2 3 8 s: 24    0s                     0	: 9	: 0 1 1 3 2 2 4 2 3 9 s: 27    0s                     0	: 9	: 0 1 1 3 3 4 9 1 3 10 s: 35    0s                     0	: 9	: 0 1 1 3 3 4 9 1 3 10 s: 35    0s                  
+   0	: 10	: 0 1 1 3 2 4 6 1 2 3 12 s: 35    0s                     0	: 10	: 0 1 1 3 2 4 6 1 2 3 13 s: 36    0s                     0	: 10	: 0 1 1 3 2 5 10 5 1 3 14 s: 45    0s                     0	: 10	: 0 1 1 3 2 5 10 5 1 3 14 s: 45    0s                  
+   0	: 11	: 0 1 1 3 2 5 8 3 2 3 3 14 s: 45    0s                     0	: 11	: 0 1 1 3 2 5 8 3 2 3 3 15 s: 46    0s                     0	: 11	: 0 1 1 3 2 5 9 4 2 3 3 16 s: 49    0s                     0	: 11	: 0 1 1 3 2 5 9 4 2 3 3 16 s: 49    0s                  
+   0	: 12	: 0 1 1 3 2 5 8 4 3 2 2 3 15 s: 49    0s                     0	: 12	: 0 1 1 3 2 5 8 5 3 2 2 3 16 s: 51    0s                     0	: 12	: 0 1 1 3 2 5 8 5 3 2 2 3 16 s: 51    0s                  
+   0	: 13	: 0 1 1 3 2 5 8 3 2 4 2 2 3 15 s: 51    0s                     0	: 13	: 0 1 1 3 2 5 8 3 2 4 2 2 3 16 s: 52    0s                     0	: 13	: 0 1 1 3 2 5 8 3 3 5 4 2 3 17 s: 57    0s                     0	: 13	: 0 1 1 3 2 5 8 3 3 5 4 2 3 17 s: 57    0s                  
+   0	: 14	: ... 0 1 1 3 2 5 8 3 2 1 1 2 3 4 21 s: 57    0s                     0	: 14	: ... 0 1 1 3 2 5 8 4 2 2 2 2 3 4 22 s: 61    0s                     0	: 14	: ... 0 1 1 3 2 5 8 4 2 2 2 2 3 4 22 s: 61    0s                  
+   0	: 15	: ... 1 1 3 2 5 8 4 1 2 1 1 2 3 4 23 s: 61    0s                     0	: 15	: ... 1 1 3 2 5 8 5 2 2 1 1 2 3 4 24 s: 64    0s                     0	: 15	: ... 1 1 3 2 5 8 5 2 2 1 1 2 3 4 24 s: 64    0s                  
+   0	: 16	: ... 1 3 2 5 8 3 3 1 2 1 1 2 3 4 23 s: 63    0s                     0	: 16	: ... 1 3 2 5 8 3 3 2 3 3 1 2 3 4 24 s: 68    0s                     0	: 16	: ... 1 3 2 5 8 3 3 2 3 3 1 2 3 4 24 s: 68    0s                  
+   0	: 16	: ... 1 3 2 5 8 3 0 4 3 3 1 2 3 4 24 s: 67    0s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018D/pr_picorv32-check-p22)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 99294)
+@     0s  (started worker 1 with pid 99295)
+@     0s  (started worker 2 with pid 99296)
+@     0s  (started worker 3 with pid 99297)
+@     0s  (started worker 4 with pid 99298)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 99423)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 207 MB)
+@     1s  (worker 2 finished with result safe) python3 avr.py
+@     1s  (worker 2 output)
+@     1s  (stopping all workers)
+@     1s  (copied results from worker 2 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2018D/pr_picorv32-check-p22)
+@     1s  [0;30;47m(proof race finished with answer safe in 0.86 seconds)[m

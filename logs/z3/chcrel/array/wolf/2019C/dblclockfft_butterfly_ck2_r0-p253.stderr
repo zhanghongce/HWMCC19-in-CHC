@@ -1,0 +1,18 @@
+Failed to find a lemma for: (= ((_ extract 5 4) INV!slice!1_53_n)
+   (bvmul #b11 ((_ extract 1 0) INV!slice!1_66_n)))
+Available lemmas are: 6: (not ((_ bit2bool 4) INV!slice!1_77_n))
+7: (= (bvmul #b11 ((_ extract 1 0) INV!slice!1_66_n))
+   ((_ extract 5 4) INV!slice!1_53_n))
+8: (= ((_ extract 3 0) INV!slice!1_53_n) #x0)
+9: (and (= ((_ extract 3 0) INV!slice!1_53_n) #x0)
+     (= ((_ extract 5 4) INV!slice!1_53_n)
+        (bvmul #b11 ((_ extract 1 0) INV!slice!1_66_n))))
+10: (and (= ((_ extract 3 0) INV!slice!1_53_n) #x0)
+     (= ((_ extract 5 4) INV!slice!1_53_n) #b00))
+Simplified goal is:
+0: (not ((_ bit2bool 4) INV!slice!1_77_n))
+1: (= ((_ extract 5 4) INV!slice!1_53_n)
+   (bvmul #b11 ((_ extract 1 0) INV!slice!1_66_n)))
+2: (= ((_ extract 3 0) INV!slice!1_53_n) #x0)
+3: (= ((_ extract 5 4) INV!slice!1_53_n) #b00)
+Failed to verify: found

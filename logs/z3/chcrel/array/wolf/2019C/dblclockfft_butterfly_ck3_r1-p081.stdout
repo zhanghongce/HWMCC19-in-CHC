@@ -1,0 +1,129 @@
+unsat
+(forall ((A (_ BitVec 57))
+         (B (_ BitVec 48))
+         (C (_ BitVec 16))
+         (D (_ BitVec 12))
+         (E (_ BitVec 12))
+         (F (_ BitVec 12))
+         (G (_ BitVec 19))
+         (H (_ BitVec 3))
+         (I (_ BitVec 19))
+         (J (_ BitVec 16))
+         (K (_ BitVec 19))
+         (L (_ BitVec 16))
+         (M (_ BitVec 1))
+         (N (_ BitVec 28))
+         (O (_ BitVec 19))
+         (P (_ BitVec 12))
+         (Q (_ BitVec 15))
+         (R (_ BitVec 15))
+         (S (_ BitVec 1))
+         (T (_ BitVec 1))
+         (U (_ BitVec 19))
+         (V (_ BitVec 1))
+         (W (_ BitVec 1))
+         (X (_ BitVec 19))
+         (Y (_ BitVec 1))
+         (Z (_ BitVec 1))
+         (A1 (_ BitVec 1))
+         (B1 (_ BitVec 1))
+         (C1 (_ BitVec 1))
+         (D1 (_ BitVec 16))
+         (E1 (_ BitVec 19))
+         (F1 (_ BitVec 19))
+         (G1 (_ BitVec 16))
+         (H1 (_ BitVec 19))
+         (I1 (_ BitVec 36))
+         (J1 (_ BitVec 1))
+         (K1 (_ BitVec 8))
+         (L1 (_ BitVec 36))
+         (M1 (_ BitVec 28))
+         (N1 (_ BitVec 1))
+         (O1 (_ BitVec 19))
+         (P1 (_ BitVec 19))
+         (Q1 (_ BitVec 19))
+         (R1 (_ BitVec 19))
+         (S1 (_ BitVec 1))
+         (T1 (_ BitVec 19))
+         (U1 (_ BitVec 1))
+         (V1 (_ BitVec 28))
+         (W1 (_ BitVec 1))
+         (X1 (_ BitVec 36))
+         (Y1 (_ BitVec 28))
+         (Z1 (_ BitVec 1)))
+  (! (let ((a!1 (= F ((_ extract 15 4) (bvmul #xffff ((_ extract 47 32) B)))))
+           (a!2 (= (concat ((_ extract 14 14) Q) Q)
+                   (bvmul #xffff (concat ((_ extract 14 14) R) R))))
+           (a!3 (not (= (concat #b0 ((_ extract 46 32) B))
+                        (bvmul #xffff ((_ extract 47 32) B))))))
+     (let ((a!4 (and (or (= C1 #b1) (= S1 #b0))
+                     (= P #x000)
+                     (= ((_ extract 11 2) D) #b0000000000)
+                     (= ((_ extract 11 4) E) #x00)
+                     (= ((_ extract 11 6) F) #b000000)
+                     (or ((_ bit2bool 2) H)
+                         (not ((_ bit2bool 0) H))
+                         (not ((_ bit2bool 31) B))
+                         (= ((_ extract 1 1) H) #b1)
+                         (not a!1)
+                         (not a!2))
+                     (or (= H #b011)
+                         ((_ bit2bool 2) H)
+                         (not ((_ bit2bool 0) H))
+                         (not ((_ bit2bool 31) B))
+                         a!3
+                         (not a!2)))))
+       (= (INV!slice!1 A
+                       B
+                       C
+                       D
+                       E
+                       F
+                       G
+                       H
+                       I
+                       J
+                       K
+                       L
+                       M
+                       N
+                       O
+                       P
+                       Q
+                       R
+                       S
+                       T
+                       U
+                       V
+                       W
+                       X
+                       Y
+                       Z
+                       A1
+                       B1
+                       C1
+                       D1
+                       E1
+                       F1
+                       G1
+                       H1
+                       I1
+                       J1
+                       K1
+                       L1
+                       M1
+                       N1
+                       O1
+                       P1
+                       Q1
+                       R1
+                       S1
+                       T1
+                       U1
+                       V1
+                       W1
+                       X1
+                       Y1
+                       Z1)
+          a!4)))
+     :weight 0))

@@ -1,0 +1,11 @@
+Frame : 2
+  l0 :   | (bvnot (bvand (bvnot (ite (= #b00 o_dspi_mod) #b1 #b0)) (bvand cfg_mode (bvand cfg_cs (bvnot cfg_speed))))) | prop | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+---------- END Frames DUMP ----------
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushOneFrame 	  	1 / 0s = inf
+Function:SolveTrans 	  	3 / 0s = inf
+F[3] 1 1 1 
+unsat
+b0

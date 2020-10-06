@@ -1,0 +1,17 @@
+Frame : 2
+  l0 :   | witness_0 | prop | (0,1),(0,0)
+  l1 :   | (bvnot (bvand state154 (bvnot (ite (= state49 #b00000000) #b1 #b0)))) | MUST-1 | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 44151632 | state154= #b1 , state49= #b00000010 ,  | MUST-1 | (0,1),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	2 / 0s = inf
+Enum.TermEval 	  	16 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushOneFrame 	  	1 / 0s = inf
+Function:RecursiveBlock 	  	1 / 0.01s = 100
+Function:SolveTrans 	  	6 / 0s = inf
+Function:SolveTransLemma 	  	1 / 0.01s = 100
+F[3] 1 2 2 
+unsat
+b0

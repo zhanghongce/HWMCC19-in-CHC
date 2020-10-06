@@ -1,0 +1,1 @@
+169 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2018D/zipcpu-pfcache-p13.btor | 1 | 0.011727 | unknown

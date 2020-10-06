@@ -1,0 +1,125 @@
+Failed to find a lemma for: (= ((_ extract 5 4) INV!slice!1_33_n)
+   (bvmul #b11 ((_ extract 1 0) INV!slice!1_3_n)))
+Available lemmas are: 6: (= INV!slice!1_42_n #b0)
+7: (not ((_ bit2bool 0) INV!slice!1_42_n))
+8: (or (= INV!slice!1_30_n #b1) (= INV!slice!1_4_n #b011))
+9: (not (= ((_ extract 2 2) INV!slice!1_35_n) #b1))
+10: (not (= ((_ extract 10 10) INV!slice!1_35_n) #b1))
+11: (not (= ((_ extract 6 6) INV!slice!1_35_n) #b1))
+12: (not (= ((_ extract 11 11) INV!slice!1_35_n) #b1))
+13: (not (= ((_ extract 18 18) INV!slice!1_35_n) #b1))
+14: (not (= ((_ extract 12 12) INV!slice!1_35_n) #b1))
+15: (not (= ((_ extract 14 14) INV!slice!1_35_n) #b1))
+16: (not (= ((_ extract 15 15) INV!slice!1_35_n) #b1))
+17: (not (= ((_ extract 17 17) INV!slice!1_35_n) #b1))
+18: (= (bvmul #b11 ((_ extract 1 0) INV!slice!1_3_n))
+   ((_ extract 5 4) INV!slice!1_33_n))
+19: (= ((_ extract 3 0) INV!slice!1_33_n) #x0)
+20: (let ((a!1 ((_ extract 23 6)
+             (bvadd (concat #b0 INV!slice!1_38_n)
+                    (concat #b000 ((_ extract 22 2) INV!slice!1_37_n))))))
+(let ((a!2 (= (concat #b0000000000000 a!1)
+              (bvmul #b1111111111111111111111111111111
+                     (concat #b00000000000000000000000000000
+                             ((_ extract 1 1) INV!slice!1_53_n)
+                             #b0)))))
+  (or (not (= INV!slice!1_30_n #b0)) a!2)))
+21: (or (= INV!slice!1_30_n #b1)
+    (= ((_ extract 3 2) INV!slice!1_37_n)
+       (bvmul #b11 ((_ extract 1 0) INV!slice!1_38_n))))
+22: (let ((a!1 ((_ extract 3 2)
+             (bvadd (concat #b0 INV!slice!1_38_n)
+                    (concat #b000 ((_ extract 22 2) INV!slice!1_37_n))))))
+  (or (= INV!slice!1_30_n #b1) (= a!1 #b00)))
+23: (and (= ((_ extract 3 0) INV!slice!1_33_n) #x0)
+     (= ((_ extract 5 4) INV!slice!1_33_n)
+        (bvmul #b11 ((_ extract 1 0) INV!slice!1_3_n))))
+24: (or (= INV!slice!1_30_n #b1) (= ((_ extract 1 0) INV!slice!1_37_n) #b00))
+25: (= ((_ extract 34 4)
+     (bvadd ((_ extract 38 4) INV!slice!1_33_n) (concat #x000 INV!slice!1_3_n)))
+   (bvmul #b1111111111111111111111111111111
+          (concat #b0000000000 ((_ extract 20 2) INV!slice!1_35_n) #b00)))
+26: (let ((a!1 ((_ extract 23 6)
+             (bvadd (concat #b0 INV!slice!1_38_n)
+                    (concat #b000 ((_ extract 22 2) INV!slice!1_37_n))))))
+(let ((a!2 (= (concat #b0000000000000 a!1)
+              (bvmul #b1111111111111111111111111111111
+                     (concat #b0000000000
+                             ((_ extract 20 2) INV!slice!1_53_n)
+                             #b00)))))
+  (or (not (= INV!slice!1_30_n #b0)) a!2)))
+27: (= ((_ extract 34 4)
+     (bvadd ((_ extract 38 4) INV!slice!1_33_n) (concat #x000 INV!slice!1_3_n)))
+   (bvmul #b1111111111111111111111111111111
+          (concat #b000000000000000000000000000000
+                  ((_ extract 0 0) INV!slice!1_35_n))))
+28: (= ((_ extract 34 4)
+     (bvadd ((_ extract 38 4) INV!slice!1_33_n) (concat #x000 INV!slice!1_3_n)))
+   (bvmul #b1111111111111111111111111111111
+          (concat #b00000000000000000000000000000
+                  ((_ extract 1 1) INV!slice!1_35_n)
+                  #b0)))
+29: (let ((a!1 ((_ extract 23 6)
+             (bvadd (concat #b0 INV!slice!1_38_n)
+                    (concat #b000 ((_ extract 22 2) INV!slice!1_37_n))))))
+(let ((a!2 (= (concat #b0000000000000 a!1)
+              (bvmul #b1111111111111111111111111111111
+                     (concat #b000000000000000000000000000000
+                             ((_ extract 0 0) INV!slice!1_53_n))))))
+  (or (not (= INV!slice!1_30_n #b0)) a!2)))
+Simplified goal is:
+0: (not ((_ bit2bool 0) INV!slice!1_42_n))
+1: (or (= INV!slice!1_30_n #b1) (= INV!slice!1_4_n #b011))
+2: (let ((a!1 ((_ extract 23 6)
+             (bvadd (concat #b0 INV!slice!1_38_n)
+                    (concat #b000 ((_ extract 22 2) INV!slice!1_37_n))))))
+(let ((a!2 (= (concat #b0000000000000 a!1)
+              (bvmul #b1111111111111111111111111111111
+                     (concat #b00000000000000000000000000000
+                             ((_ extract 1 1) INV!slice!1_53_n)
+                             #b0)))))
+  (or (not (= INV!slice!1_30_n #b0)) a!2)))
+3: (or (= INV!slice!1_30_n #b1)
+    (= ((_ extract 3 2) INV!slice!1_37_n)
+       (bvmul #b11 ((_ extract 1 0) INV!slice!1_38_n))))
+4: (let ((a!1 ((_ extract 3 2)
+             (bvadd (concat #b0 INV!slice!1_38_n)
+                    (concat #b000 ((_ extract 22 2) INV!slice!1_37_n))))))
+  (or (= INV!slice!1_30_n #b1) (= a!1 #b00)))
+5: (= ((_ extract 3 0) INV!slice!1_33_n) #x0)
+6: (= ((_ extract 5 4) INV!slice!1_33_n)
+   (bvmul #b11 ((_ extract 1 0) INV!slice!1_3_n)))
+7: (or (= INV!slice!1_30_n #b1) (= ((_ extract 1 0) INV!slice!1_37_n) #b00))
+8: (= ((_ extract 34 4)
+     (bvadd ((_ extract 38 4) INV!slice!1_33_n) (concat #x000 INV!slice!1_3_n)))
+   (bvmul #b1111111111111111111111111111111
+          (concat #b0000000000 ((_ extract 20 2) INV!slice!1_35_n) #b00)))
+9: (let ((a!1 ((_ extract 23 6)
+             (bvadd (concat #b0 INV!slice!1_38_n)
+                    (concat #b000 ((_ extract 22 2) INV!slice!1_37_n))))))
+(let ((a!2 (= (concat #b0000000000000 a!1)
+              (bvmul #b1111111111111111111111111111111
+                     (concat #b0000000000
+                             ((_ extract 20 2) INV!slice!1_53_n)
+                             #b00)))))
+  (or (not (= INV!slice!1_30_n #b0)) a!2)))
+10: (= ((_ extract 34 4)
+     (bvadd ((_ extract 38 4) INV!slice!1_33_n) (concat #x000 INV!slice!1_3_n)))
+   (bvmul #b1111111111111111111111111111111
+          (concat #b000000000000000000000000000000
+                  ((_ extract 0 0) INV!slice!1_35_n))))
+11: (= ((_ extract 34 4)
+     (bvadd ((_ extract 38 4) INV!slice!1_33_n) (concat #x000 INV!slice!1_3_n)))
+   (bvmul #b1111111111111111111111111111111
+          (concat #b00000000000000000000000000000
+                  ((_ extract 1 1) INV!slice!1_35_n)
+                  #b0)))
+12: (let ((a!1 ((_ extract 23 6)
+             (bvadd (concat #b0 INV!slice!1_38_n)
+                    (concat #b000 ((_ extract 22 2) INV!slice!1_37_n))))))
+(let ((a!2 (= (concat #b0000000000000 a!1)
+              (bvmul #b1111111111111111111111111111111
+                     (concat #b000000000000000000000000000000
+                             ((_ extract 0 0) INV!slice!1_53_n))))))
+  (or (not (= INV!slice!1_30_n #b0)) a!2)))
+Failed to verify: found

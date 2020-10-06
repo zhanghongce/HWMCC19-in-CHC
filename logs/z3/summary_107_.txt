@@ -1,0 +1,1 @@
+107 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019C/dblclockfft_butterfly_ck2_r0-p145.chc | 0 | 1291.898419 | unsat

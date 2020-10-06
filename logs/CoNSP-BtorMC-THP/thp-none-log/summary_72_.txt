@@ -1,0 +1,1 @@
+72 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/mul4/mul4.btor2 | -15 | 3600.001495 | unknown

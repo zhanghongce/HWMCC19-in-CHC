@@ -1,0 +1,1 @@
+55 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/cal78/cal78.btor2 | 0 | 1.397021 | unsat

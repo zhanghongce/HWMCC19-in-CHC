@@ -1,0 +1,5 @@
+It has constraint: (bvnot (bvand pop (ite (= dut.count #b0000000) #b1 #b0)))
+It has constraint: (bvnot (bvand push (bvnot (ite (bvult dut.count #b1000000) #b1 #b0))))
+It has constraint: (= rst initstate)
+It has constraint: (bvnot (bvand push (bvnot (ite (bvult dut.count #b1000000) #b1 #b0))))
+It has constraint: (bvnot (bvand pop (ite (= dut.count #b0000000) #b1 #b0)))

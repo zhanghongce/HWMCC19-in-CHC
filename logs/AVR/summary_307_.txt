@@ -1,0 +1,1 @@
+307 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/opensource/vis_arrays_field5/vis_arrays_field5.btor2 | 0 | 1798.371975 | unknown

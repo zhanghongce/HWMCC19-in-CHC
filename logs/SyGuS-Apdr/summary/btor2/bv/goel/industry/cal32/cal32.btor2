@@ -1,0 +1,21 @@
+Frame : 3
+  l0 :   | witness_0 | prop | (0,2),(0,0)
+  l1 :   | (bvnot (bvand state86 (bvand ((_ extract 1 1) state90) (bvand (bvnot ((_ extract 0 0) state84)) ((_ extract 0 0) state104))))) | MUST-1 | (0,1),(0,0)
+  l2 :   | (bvnot (bvand state86 (bvand (bvnot ((_ extract 0 0) state104)) (ite (= #b11111111111111 ((_ extract 13 0) state84)) #b1 #b0)))) | MUST-1 | (0,1),(0,0)
+  l3 :   | (bvnot (bvand state86 (bvand ((_ extract 0 0) state84) (bvand ((_ extract 1 1) state90) (bvnot ((_ extract 0 0) state104)))))) | MUST-1 | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 63063952 | state104= #b00000000000000000000000000000001 , state80= #b1 , state84= #b00000000000000000000000000000000 , state90= #b10 , state99= #b1 , state86= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c2 :   | id: 66316208 | state104= #b00000000000000000000000000000010 , state80= #b1 , state99= #b1 , state84= #b11111111111111111111111111111111 , state90= #b10 , state86= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c3 :   | id: 66603408 | state104= #b00000000000000000000000000000000 , state80= #b1 , state99= #b1 , state84= #b00000000000000000011111111111101 , state90= #b10 , state86= #b1 ,  | MUST-1 | (0,1),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	1008 / 0.016s = 63000
+Enum.TermEval 	  	258 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushOneFrame 	  	3 / 0.009s = 333.333
+Function:RecursiveBlock 	  	4 / 0.053s = 75.4717
+Function:SolveTrans 	  	16 / 0.002s = 8000
+Function:SolveTransLemma 	  	4 / 0.047s = 85.1064
+F[4] 1 5 4 4 
+unsat
+b0

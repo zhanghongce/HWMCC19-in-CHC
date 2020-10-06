@@ -1,0 +1,1 @@
+39 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/cal21/cal21.btor2 | 0 | 1.085589 | unsat

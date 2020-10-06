@@ -1,0 +1,1 @@
+48 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/cal32/cal32.btor2 | -15 | 3600.002447 | unknown

@@ -1,0 +1,20 @@
+Frame : 3
+  l0 :   | (and (not (and (= #b111 sp) (= sp #b110))) (= #b000000000000 |reg_file[0]|)) | prop | (0,2),(0,0)
+  l1 :   | (not (= sp #b110)) | MUST-2 | (0,1),(0,0)
+  l2 :   | (not (= #b111 sp)) | MUST-1 | (0,0),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 36909824 | sp= #b110 ,  | MUST-2 | (0,1),(0,0)
+  c2 :   | id: 36126048 | sp= #b111 , uPC= #b000000000001 ,  | MUST-1 | (0,0),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	20 / 0s = inf
+Enum.TermEval 	  	55 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	1 / 0s = inf
+Function:PushOneFrame 	  	3 / 0.006s = 500
+Function:RecursiveBlock 	  	3 / 0.008s = 375
+Function:SolveTrans 	  	14 / 0s = inf
+Function:SolveTransLemma 	  	4 / 0.006s = 666.667
+F[4] 1 5 4 3 
+unsat
+b0

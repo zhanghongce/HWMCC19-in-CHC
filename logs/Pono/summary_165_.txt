@@ -1,0 +1,1 @@
+165 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2018D/zipcpu-busdelay-p45.btor | 0 | 2719.327245 | unsat

@@ -1,0 +1,1 @@
+194 | /home/hongcez/hwmcc/benchs/btor2/bv/mann/unknown/ridecore.btor | 0 | 3574.287462 | unknown

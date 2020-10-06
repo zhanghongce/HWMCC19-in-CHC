@@ -1,0 +1,1 @@
+java -Xmx6844m -Xss80000k -cp ./target/scala-2.11/Eldarica-assembly-2.0.4.jar lazabs.Main -hsmt -ssol -abstract:oct /home/hongcez/hwmcc/benchs/chc/bv/mann/data-integrity/unsafe/arbitrated_top_n2_w16_d16_e0.chc

@@ -1,0 +1,1 @@
+373 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/gen19/gen19.chc | 0 | 0.078625 | unsat

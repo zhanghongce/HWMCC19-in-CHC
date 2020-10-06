@@ -1,0 +1,10 @@
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+warning: unsupported tag 'output'
+./conps-btormc-thp.sh: line 20: 227265 Killed                  "$BTORMC_SCRIPT_DIR"/btormc "$@"

@@ -1,0 +1,1 @@
+10 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2019A/picorv32_mutCX_nomem-p3.btor | 0 | 3572.703275 | unknown

@@ -1,0 +1,1 @@
+626 | /home/hongcez/hwmcc/benchs/chcrel/bv/wolf/2019C/zipversa_composecrc_prf-p20.chc | 0 | 607.883151 | unsat

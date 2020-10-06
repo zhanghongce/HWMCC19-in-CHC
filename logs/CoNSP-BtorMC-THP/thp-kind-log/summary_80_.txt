@@ -1,0 +1,1 @@
+80 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/opensource/vcegar_QF_BV_usb_phy_1/vcegar_QF_BV_usb_phy_1.btor2 | 1 | 0.012963 | unknown

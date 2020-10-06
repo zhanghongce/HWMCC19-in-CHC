@@ -1,0 +1,2 @@
+java -Xmx6844m -Xss80000k -cp ./target/scala-2.11/Eldarica-assembly-2.0.4.jar lazabs.Main -hsmt -ssol -abstract:term /home/hongcez/hwmcc/benchs/chc/bv/mann/data-integrity/unsafe/shift_register_top_w32_d128_e0.chc
+(error "out of memory")

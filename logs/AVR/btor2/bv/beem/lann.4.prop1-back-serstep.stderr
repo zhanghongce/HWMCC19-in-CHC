@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "avr_pr.py", line 451, in <module>
+    main()
+  File "avr_pr.py", line 447, in main
+    retval = check_process_all()
+  File "avr_pr.py", line 352, in check_process_all
+    kill_commands(1)
+  File "avr_pr.py", line 226, in kill_commands
+    mem_usage = mem_usage_all()
+  File "avr_pr.py", line 383, in mem_usage_all
+    total_mem_usage += mem_usage_new(i)
+  File "avr_pr.py", line 395, in mem_usage_new
+    mem_usage += memory_usage_ps(x)
+  File "avr_pr.py", line 405, in memory_usage_ps
+    out = Popen("ps -v -p " + str(pid), shell=True, stdout=PIPE).communicate()[0].split(b'\n')
+  File "/usr/licensed/anaconda3/2020.7/lib/python3.8/subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/licensed/anaconda3/2020.7/lib/python3.8/subprocess.py", line 1702, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 7] Argument list too long: '/bin/sh'

@@ -1,0 +1,23 @@
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2019C/pr_qspiflash_dualflexpress_divthree-p029)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 7037)
+@     0s  (started worker 1 with pid 7038)
+@     0s  (started worker 2 with pid 7039)
+@     0s  (started worker 3 with pid 7040)
+@     0s  (started worker 4 with pid 7041)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     0s  (worker 0 finished with result unknown) python3 avr.py -a sa
+@     0s  (worker 2 finished with result unknown) python3 avr.py
+@     0s  (worker 4 finished with result unknown) python3 avr.py -b bin_y2 --bmc
+@     0s  (worker 1 finished with result unknown) python3 avr.py -b bin_bt_cadical -s --bmc
+@     0s  (worker 3 finished with result unknown) python3 avr.py -b bin_y2 -s
+@     1s  (started worker 5 with pid 7170)
+@     1s  (spawned 1 workers)
+@     1s  (total 1 workers using 0 MB)
+@     1s  (worker 5 finished with result unknown) python3 avr.py -b bin_bt_cadical -g 3 -l 0 -a sa32
+@     1s  (copied results from worker 0 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2019C/pr_qspiflash_dualflexpress_divthree-p029)
+@     1s  [0;30;47m(proof race finished with answer unknown in 0.81 seconds)[m

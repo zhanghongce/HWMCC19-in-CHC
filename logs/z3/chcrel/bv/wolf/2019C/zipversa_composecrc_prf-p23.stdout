@@ -1,0 +1,71 @@
+unsat
+(forall ((A (_ BitVec 32))
+         (B (_ BitVec 4))
+         (C (_ BitVec 3))
+         (D (_ BitVec 4))
+         (E (_ BitVec 8))
+         (F (_ BitVec 24))
+         (G (_ BitVec 1))
+         (H (_ BitVec 1))
+         (I (_ BitVec 8))
+         (J (_ BitVec 27))
+         (K (_ BitVec 8))
+         (L (_ BitVec 1))
+         (M (_ BitVec 1))
+         (N (_ BitVec 1))
+         (O (_ BitVec 32))
+         (P (_ BitVec 1))
+         (Q (_ BitVec 1))
+         (R (_ BitVec 1))
+         (S (_ BitVec 1))
+         (T (_ BitVec 16))
+         (U (_ BitVec 1))
+         (V (_ BitVec 1))
+         (W (_ BitVec 32))
+         (X (_ BitVec 1))
+         (Y (_ BitVec 5))
+         (Z (_ BitVec 8))
+         (A1 (_ BitVec 1))
+         (B1 (_ BitVec 8))
+         (C1 (_ BitVec 1))
+         (D1 (_ BitVec 1)))
+  (! (let ((a!1 (and (or (= N #b0) (not (= Q #b1)) (not (= G #b1)) (= A W))
+                     (not (= X #b1))
+                     (or (not (= Q #b1))
+                         (not (= R #b0))
+                         (not (= G #b1))
+                         (= C1 #b1))
+                     (or (= N #b0) (= U #b0) (not (= Q #b1)) ((_ bit2bool 8) J))
+                     (or (= N #b0) (= G #b0) (not (= Q #b1)) (not (= R #b0))))))
+       (= (INV!slice!1 A
+                       B
+                       C
+                       D
+                       E
+                       F
+                       G
+                       H
+                       I
+                       J
+                       K
+                       L
+                       M
+                       N
+                       O
+                       P
+                       Q
+                       R
+                       S
+                       T
+                       U
+                       V
+                       W
+                       X
+                       Y
+                       Z
+                       A1
+                       B1
+                       C1
+                       D1)
+          a!1))
+     :weight 0))

@@ -1,0 +1,1 @@
+482 | /home/hongcez/hwmcc/benchs/chcrel/bv/wolf/2018D/zipcpu-pfcache-p15.chc | 0 | 405.886061 | unsat

@@ -1,0 +1,1 @@
+376 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/gen31/gen31.chc | 0 | 0.258457 | unsat

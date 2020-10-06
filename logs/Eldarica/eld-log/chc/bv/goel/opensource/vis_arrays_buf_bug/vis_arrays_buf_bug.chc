@@ -1,0 +1,2 @@
+Theories: GroebnerMultiplication, ModuloArithmetic
+ldarica-assembly-2.0.4.jar lazabs.Main -hsmt -ssol -abstract:relIneqs /home/hongcez/hwmcc/benchs/chc/bv/goel/opensource/vis_arrays_buf_bug/vis_arrays_buf_bug.chc

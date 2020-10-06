@@ -1,0 +1,31 @@
+Frame : 3
+  l0 :   | witness_0 | prop | (0,2),(0,0)
+  l1 :   | (bvnot (bvand state193 (bvand (bvnot ((_ extract 1 1) state191)) ((_ extract 1 1) state198)))) | MUST-1 | (0,1),(0,0)
+  l2 :   | (bvnot (bvand state193 (bvand (bvnot ((_ extract 2 2) state191)) ((_ extract 2 2) state198)))) | MUST-1 | (0,1),(0,0)
+  l3 :   | (bvnot (bvand state193 (bvand (bvnot ((_ extract 3 3) state191)) ((_ extract 3 3) state198)))) | MUST-1 | (0,1),(0,0)
+  l4 :   | (bvnot (bvand state193 (bvand ((_ extract 1 1) state191) (bvnot ((_ extract 1 1) state198))))) | MUST-1 | (0,1),(0,0)
+  l5 :   | (bvnot (bvand state193 (bvand (bvnot ((_ extract 0 0) state191)) ((_ extract 0 0) state198)))) | MUST-1 | (0,1),(0,0)
+  l6 :   | (bvnot (bvand state193 (bvand ((_ extract 0 0) state191) (bvnot ((_ extract 0 0) state198))))) | MUST-1 | (0,1),(0,0)
+  l7 :   | (bvnot (bvand state193 (bvand ((_ extract 3 3) state191) (bvnot ((_ extract 3 3) state198))))) | MUST-1 | (0,1),(0,0)
+  l8 :   | (bvnot (bvand state193 (bvand ((_ extract 2 2) state191) (bvnot ((_ extract 2 2) state198))))) | MUST-1 | (0,1),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 38073600 | state198= #b0011 , state193= #b1 , state191= #b0001 , state187= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c2 :   | id: 38036176 | state198= #b0111 , state193= #b1 , state187= #b1 , state191= #b0011 ,  | MUST-1 | (0,1),(0,0)
+  c3 :   | id: 43638064 | state198= #b1011 , state193= #b1 , state187= #b1 , state191= #b0011 ,  | MUST-1 | (0,1),(0,0)
+  c4 :   | id: 58347488 | state198= #b0001 , state193= #b1 , state187= #b1 , state191= #b0011 ,  | MUST-1 | (0,1),(0,0)
+  c5 :   | id: 61422800 | state198= #b0011 , state193= #b1 , state187= #b1 , state191= #b0010 ,  | MUST-1 | (0,1),(0,0)
+  c6 :   | id: 46221888 | state198= #b0010 , state193= #b1 , state187= #b1 , state191= #b0011 ,  | MUST-1 | (0,1),(0,0)
+  c7 :   | id: 61777776 | state198= #b0011 , state193= #b1 , state187= #b1 , state191= #b1011 ,  | MUST-1 | (0,1),(0,0)
+  c8 :   | id: 61317072 | state198= #b0011 , state193= #b1 , state187= #b1 , state191= #b0111 ,  | MUST-1 | (0,1),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	704 / 0.024s = 29333.3
+Enum.TermEval 	  	1328 / 0.052s = 25538.5
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushOneFrame 	  	3 / 0.087s = 34.4828
+Function:RecursiveBlock 	  	9 / 0.738s = 12.1951
+Function:SolveTrans 	  	31 / 0.087s = 356.322
+Function:SolveTransLemma 	  	9 / 0.664s = 13.5542
+F[4] 1 10 9 9 
+unsat
+b0

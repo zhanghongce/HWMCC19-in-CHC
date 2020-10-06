@@ -1,0 +1,173 @@
+unsat
+(forall ((A (_ BitVec 20))
+         (B (_ BitVec 20))
+         (C (_ BitVec 1))
+         (D (_ BitVec 20))
+         (E (_ BitVec 20))
+         (F (_ BitVec 20))
+         (G (_ BitVec 20))
+         (H (_ BitVec 20))
+         (I (_ BitVec 20))
+         (J (_ BitVec 20))
+         (K (_ BitVec 20))
+         (L (_ BitVec 20))
+         (M (_ BitVec 17))
+         (N (_ BitVec 17))
+         (O (_ BitVec 17))
+         (P (_ BitVec 17))
+         (Q (_ BitVec 1))
+         (R (_ BitVec 1))
+         (S (_ BitVec 18))
+         (T (_ BitVec 20))
+         (U (_ BitVec 20))
+         (V (_ BitVec 20))
+         (W (_ BitVec 1))
+         (X (_ BitVec 20))
+         (Y (_ BitVec 20))
+         (Z (_ BitVec 20))
+         (A1 (_ BitVec 20))
+         (B1 (_ BitVec 20))
+         (C1 (_ BitVec 18))
+         (D1 (_ BitVec 20))
+         (E1 (_ BitVec 20))
+         (F1 (_ BitVec 20))
+         (G1 (_ BitVec 20))
+         (H1 (_ BitVec 1))
+         (I1 (_ BitVec 17))
+         (J1 (_ BitVec 1))
+         (K1 (_ BitVec 20))
+         (L1 (_ BitVec 20))
+         (M1 (_ BitVec 20))
+         (N1 (_ BitVec 20))
+         (O1 (_ BitVec 20))
+         (P1 (_ BitVec 20))
+         (Q1 (_ BitVec 20))
+         (R1 (_ BitVec 1))
+         (S1 (_ BitVec 1))
+         (T1 (_ BitVec 20))
+         (U1 (_ BitVec 20))
+         (V1 (_ BitVec 20))
+         (W1 (_ BitVec 20))
+         (X1 (_ BitVec 18))
+         (Y1 (_ BitVec 20))
+         (Z1 (_ BitVec 20))
+         (A2 (_ BitVec 1))
+         (B2 (_ BitVec 20))
+         (C2 (_ BitVec 20))
+         (D2 (_ BitVec 20))
+         (E2 (_ BitVec 20))
+         (F2 (_ BitVec 20))
+         (G2 (_ BitVec 1))
+         (H2 (_ BitVec 14))
+         (I2 (_ BitVec 38))
+         (J2 (_ BitVec 20))
+         (K2 (_ BitVec 16))
+         (L2 (_ BitVec 14))
+         (M2 (_ BitVec 14))
+         (N2 (_ BitVec 14))
+         (O2 (_ BitVec 14))
+         (P2 (_ BitVec 14))
+         (Q2 (_ BitVec 38))
+         (R2 (_ BitVec 30))
+         (S2 (_ BitVec 30))
+         (T2 (_ BitVec 20))
+         (U2 (_ BitVec 20))
+         (V2 (_ BitVec 20))
+         (W2 (_ BitVec 20))
+         (X2 (_ BitVec 20))
+         (Y2 (_ BitVec 20))
+         (Z2 (_ BitVec 16))
+         (A3 (_ BitVec 30))
+         (B3 (_ BitVec 1))
+         (C3 (_ BitVec 38))
+         (D3 (_ BitVec 30)))
+  (! (= (INV!slice!1 A
+                     B
+                     C
+                     D
+                     E
+                     F
+                     G
+                     H
+                     I
+                     J
+                     K
+                     L
+                     M
+                     N
+                     O
+                     P
+                     Q
+                     R
+                     S
+                     T
+                     U
+                     V
+                     W
+                     X
+                     Y
+                     Z
+                     A1
+                     B1
+                     C1
+                     D1
+                     E1
+                     F1
+                     G1
+                     H1
+                     I1
+                     J1
+                     K1
+                     L1
+                     M1
+                     N1
+                     O1
+                     P1
+                     Q1
+                     R1
+                     S1
+                     T1
+                     U1
+                     V1
+                     W1
+                     X1
+                     Y1
+                     Z1
+                     A2
+                     B2
+                     C2
+                     D2
+                     E2
+                     F2
+                     G2
+                     H2
+                     I2
+                     J2
+                     K2
+                     L2
+                     M2
+                     N2
+                     O2
+                     P2
+                     Q2
+                     R2
+                     S2
+                     T2
+                     U2
+                     V2
+                     W2
+                     X2
+                     Y2
+                     Z2
+                     A3
+                     B3
+                     C3
+                     D3)
+        (and (or (= Q #b0) (= R #b1))
+             (= P2 #b00000000000000)
+             (= ((_ extract 13 2) O2) #x000)
+             (not ((_ bit2bool 17) S))
+             (= ((_ extract 13 4) N2) #b0000000000)
+             (= ((_ extract 13 6) M2) #x00)
+             (= ((_ extract 13 8) L2) #b000000)))
+     :weight 0))

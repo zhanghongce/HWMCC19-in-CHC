@@ -1,0 +1,1 @@
+477 | /home/hongcez/hwmcc/benchs/chcrel/bv/wolf/2018D/zipcpu-busdelay-p45.chc | 0 | 124.990734 | unsat

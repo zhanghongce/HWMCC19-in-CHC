@@ -1,0 +1,1 @@
+253 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/gen14/gen14.btor2 | 0 | 0.270592 | unsat

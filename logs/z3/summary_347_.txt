@@ -1,0 +1,1 @@
+347 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/cal180/cal180.chc | 0 | 61.067599 | unsat

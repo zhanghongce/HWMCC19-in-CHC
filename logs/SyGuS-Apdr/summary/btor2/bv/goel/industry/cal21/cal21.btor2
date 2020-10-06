@@ -1,0 +1,34 @@
+Frame : 4
+  l0 :   | witness_0 | prop | (0,3),(0,0)
+  l1 :   | (bvnot (bvand state35 (bvand ((_ extract 1 1) state39) (ite (and (= #b11 state323) (= #b01 state380)) #b1 #b0)))) | MUST-1 | (0,2),(0,0)
+  l2 :   | (bvnot (bvand state35 (bvand ((_ extract 1 1) state39) (ite (and (= #b11 state323) (= #b00 state380)) #b1 #b0)))) | MUST-1 | (0,2),(0,0)
+  l3 :   | (bvnot (bvand state35 (bvand ((_ extract 1 1) state39) (ite (and (= #b11 state323) (= #b10 state380)) #b1 #b0)))) | MUST-1 | (0,2),(0,0)
+  l4 :   | (bvnot (bvand state35 (bvand ((_ extract 1 1) state39) (ite (and (= #b01 state323) (= #b11 state380)) #b1 #b0)))) | MUST-1 | (0,2),(0,0)
+  l5 :   | (bvnot (bvand state35 (bvand ((_ extract 1 1) state39) (ite (and (= #b11 state380) (= #b00 state323)) #b1 #b0)))) | MUST-1 | (0,2),(0,0)
+  l6 :   | (bvnot (bvand state35 (ite (and (= #b10 state323) (= #b11 state380)) #b1 #b0))) | MUST-1 | (0,2),(0,0)
+  l7 :   | (bvnot (bvand state35 (bvand ((_ extract 1 1) state39) (ite (and (= #b00000011 state373) (= state33 #b00000001)) #b1 #b0)))) | MUST-1 | (0,1),(0,0)
+  l8 :   | (bvnot (bvand state35 (bvand ((_ extract 1 1) state39) (bvnot (ite (= state33 state373) #b1 #b0))))) | MUST-2 | (0,2),(0,0)
+  l9 :   | (bvnot (bvand state357 (bvand state35 (ite (and (not (= #b00000000 state373)) (= #b00000000 state33)) #b1 #b0)))) | MUST-2 | (0,2),(0,0)
+  CEX blocked :
+  c0 : None
+  c1 :   | id: 36337040 | state380= #b01 , state29= #b1 , state39= #b10 , state323= #b11 , state357= #b1 , state373= #b00000011 , state35= #b1 , state33= #b00000011 ,  | MUST-1 | (0,2),(0,0)
+  c2 :   | id: 36317600 | state380= #b00 , state373= #b00000011 , state39= #b10 , state323= #b11 , state29= #b1 , state357= #b1 , state35= #b1 , state33= #b00000011 ,  | MUST-1 | (0,2),(0,0)
+  c3 :   | id: 35861856 | state380= #b10 , state373= #b00000011 , state39= #b10 , state323= #b11 , state29= #b1 , state357= #b1 , state35= #b1 , state33= #b00000011 ,  | MUST-1 | (0,2),(0,0)
+  c4 :   | id: 36868736 | state380= #b11 , state373= #b00000011 , state39= #b10 , state323= #b01 , state29= #b1 , state357= #b1 , state35= #b1 , state33= #b00000011 ,  | MUST-1 | (0,2),(0,0)
+  c5 :   | id: 35020928 | state380= #b11 , state373= #b00000011 , state39= #b10 , state323= #b00 , state29= #b1 , state357= #b1 , state35= #b1 , state33= #b00000011 ,  | MUST-1 | (0,2),(0,0)
+  c6 :   | id: 37030864 | state380= #b11 , state373= #b00000011 , state39= #b10 , state323= #b10 , state29= #b1 , state357= #b1 , state35= #b1 , state33= #b00000011 ,  | MUST-1 | (0,2),(0,0)
+  c7 :   | id: 35557984 | state380= #b10 , state33= #b00000001 , state35= #b1 , state373= #b00000011 , state29= #b1 , state39= #b10 , state357= #b1 ,  | MUST-1 | (0,1),(0,0)
+  c8 :   | id: 37054288 | state373= #b11111111 , state39= #b10 , state323= #b00 , state357= #b1 , state29= #b1 , state35= #b1 , state33= #b00000010 ,  | MUST-2 | (0,2),(0,0)
+  c9 :   | id: 36273760 | state380= #b10 , state373= #b00000010 , state357= #b1 , state39= #b10 , state323= #b10 , state29= #b1 , state35= #b1 , state33= #b00000000 ,  | MUST-2 | (0,2),(0,0)
+---------- END Frames DUMP ----------
+Enum.PredGen 	  	445 / 0s = inf
+Enum.TermEval 	  	735 / 0s = inf
+Function:CheckUntil 	# 	0 / 0s = -nan
+Function:PushEager 	  	2 / 0.003s = 666.667
+Function:PushOneFrame 	  	6 / 0.028s = 214.286
+Function:RecursiveBlock 	  	14 / 0.052s = 269.231
+Function:SolveTrans 	  	59 / 0.004s = 14750
+Function:SolveTransLemma 	  	15 / 0.035s = 428.571
+F[5] 1 16 15 10 10 
+unsat
+b0

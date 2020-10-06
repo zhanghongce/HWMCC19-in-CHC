@@ -1,0 +1,64 @@
+unsat
+(forall ((A (_ BitVec 4))
+         (B (_ BitVec 3))
+         (C (_ BitVec 16))
+         (D (_ BitVec 24))
+         (E (_ BitVec 1))
+         (F (_ BitVec 1))
+         (G (_ BitVec 1))
+         (H (_ BitVec 8))
+         (I (_ BitVec 1))
+         (J (_ BitVec 4))
+         (K (_ BitVec 1))
+         (L (_ BitVec 1))
+         (M (_ BitVec 32))
+         (N (_ BitVec 32))
+         (O (_ BitVec 1))
+         (P (_ BitVec 27))
+         (Q (_ BitVec 8))
+         (R (_ BitVec 1))
+         (S (_ BitVec 8))
+         (T (_ BitVec 1))
+         (U (_ BitVec 1))
+         (V (_ BitVec 8))
+         (W (_ BitVec 1))
+         (X (_ BitVec 1))
+         (Y (_ BitVec 5))
+         (Z (_ BitVec 1))
+         (A1 (_ BitVec 8))
+         (B1 (_ BitVec 1))
+         (C1 (_ BitVec 1)))
+  (! (let ((a!1 (and (or (= L #b1) (= ((_ extract 0 0) M) #b1))
+                     (= U #b0)
+                     (or (not (= F #b1)) (= ((_ extract 0 0) M) #b1)))))
+       (= (INV!slice!1 A
+                       B
+                       C
+                       D
+                       E
+                       F
+                       G
+                       H
+                       I
+                       J
+                       K
+                       L
+                       M
+                       N
+                       O
+                       P
+                       Q
+                       R
+                       S
+                       T
+                       U
+                       V
+                       W
+                       X
+                       Y
+                       Z
+                       A1
+                       B1
+                       C1)
+          a!1))
+     :weight 0))

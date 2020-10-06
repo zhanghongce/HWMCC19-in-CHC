@@ -1,0 +1,50 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/cal131/pr_cal131/work_w2)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(718 / 718 flops initialized)
+	(abstraction: sa+uf)
+   0	: 0	: 0 s: 0    0s                  
+   0	: 1	: 0 0 s: 0    0s                     0	: 1	: 0 1 s: 1    0s                     0	: 1	: 0 1 s: 1    0s                  
+   0	: 2	: 0 1 0 s: 1    0s                     0	: 2	: 0 1 1 s: 2    0s                     0	: 2	: 0 1 2 s: 3    0s                     1	: 2	: 0 1 2 s: 3    1s                     2	: 2	: 0 1 2 s: 3    1s                     3	: 2	: 0 1 2 s: 3    2s                     4	: 2	: 0 1 2 s: 3    2s                     4	: 2	: 0 1 2 s: 3    2s                  
+   4	: 3	: 0 1 2 0 s: 3    2s                     4	: 3	: 0 1 12 1 s: 14    2s                     5	: 3	: 0 1 12 1 s: 14    2s                     6	: 3	: 0 1 12 1 s: 14    2s                     6	: 3	: 0 1 11 2 s: 14    2s                     6	: 3	: 0 1 11 2 s: 14    2s                  
+   6	: 4	: 0 1 11 1 1 s: 14    2s                     6	: 4	: 0 1 29 4 2 s: 36    3s                     6	: 4	: 0 1 29 4 2 s: 36    3s                  
+   6	: 5	: 0 1 18 13 1 3 s: 36    3s                     6	: 5	: 0 1 32 23 4 4 s: 64    6s                     6	: 5	: 0 1 32 23 4 4 s: 64    6s                  
+   6	: 6	: 0 1 12 15 15 1 20 s: 64    8s                     6	: 6	: 0 1 13 12 21 4 21 s: 72    17s                     6	: 6	: 0 1 13 12 21 4 21 s: 72    17s                  
+   6	: 6	: 0 1 2 0 44 4 21 s: 72    21s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/cal131/pr_cal131)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 236753)
+@     0s  (started worker 1 with pid 236754)
+@     0s  (started worker 2 with pid 236755)
+@     0s  (started worker 3 with pid 236756)
+@     0s  (started worker 4 with pid 236757)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 236871)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 691 MB)
+@     2s  (started worker 6 with pid 236911)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 849 MB)
+@     3s  (started worker 7 with pid 236964)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 1039 MB)
+@     6s  (started worker 8 with pid 237033)
+@     6s  (spawned 1 workers)
+@     6s  (total 9 workers using 1316 MB)
+@     9s  (started worker 9 with pid 237111)
+@     9s  (spawned 1 workers)
+@     9s  (total 10 workers using 1518 MB)
+@    12s  (started worker 10 with pid 237172)
+@    12s  (spawned 1 workers)
+@    12s  (total 11 workers using 1718 MB)
+@    24s  (total 11 workers using 2029 MB)
+@    25s  (worker 2 finished with result safe) python3 avr.py
+@    25s  (worker 2 output)
+@    25s  (stopping all workers)
+@    25s  (copied results from worker 2 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/goel/industry/cal131/pr_cal131)
+@    25s  [0;30;47m(proof race finished with answer safe in 25.45 seconds)[m

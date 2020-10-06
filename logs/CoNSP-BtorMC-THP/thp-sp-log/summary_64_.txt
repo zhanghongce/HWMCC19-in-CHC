@@ -1,0 +1,1 @@
+64 | /home/hongcez/hwmcc/benchs/btor2/bv/goel/industry/gen31/gen31.btor2 | 1 | 0.012467 | unknown

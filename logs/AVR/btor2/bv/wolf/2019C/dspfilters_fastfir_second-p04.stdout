@@ -1,0 +1,54 @@
+	(output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2019C/pr_dspfilters_fastfir_second-p04/work_w8)
+	(frontend: btor2)
+	(property: all (1 assertions))
+	(1095 / 1134 flops initialized)
+	(abstraction: sa8+l5)
+   2	: 0	: 0 s: 0    1s                     3	: 0	: 0 s: 0    2s                     5	: 0	: 0 s: 0    2s                     6	: 0	: 0 s: 0    2s                     6	: 0	: 0 s: 0    2s                  
+   6	: 1	: 0 0 s: 0    2s                     6	: 1	: 0 1 s: 1    2s                     6	: 1	: 0 2 s: 2    2s                     6	: 1	: 0 3 s: 3    2s                     6	: 1	: 0 4 s: 4    2s                     7	: 1	: 0 4 s: 4    2s                     9	: 1	: 0 4 s: 4    2s                     11	: 1	: 0 4 s: 4    2s                     12	: 1	: 0 4 s: 4    3s                     12	: 1	: 0 5 s: 5    3s                     14	: 1	: 0 5 s: 5    3s                     16	: 1	: 0 5 s: 5    3s                     18	: 1	: 0 5 s: 5    3s                     20	: 1	: 0 5 s: 5    3s                     22	: 1	: 0 5 s: 5    4s                     24	: 1	: 0 5 s: 5    4s                     26	: 1	: 0 5 s: 5    4s                     28	: 1	: 0 5 s: 5    4s                     28	: 1	: 0 6 s: 6    4s                     30	: 1	: 0 6 s: 6    4s                     32	: 1	: 0 6 s: 6    4s                     32	: 1	: 0 7 s: 7    4s                     32	: 1	: 0 8 s: 8    4s                     32	: 1	: 0 9 s: 9    4s                     34	: 1	: 0 9 s: 9    5s                     36	: 1	: 0 9 s: 9    5s                     38	: 1	: 0 9 s: 9    5s                     40	: 1	: 0 9 s: 9    5s                     42	: 1	: 0 9 s: 9    5s                     44	: 1	: 0 9 s: 9    5s                     44	: 1	: 0 10 s: 10    5s                     44	: 1	: 0 11 s: 11    5s                     45	: 1	: 0 11 s: 11    6s                     47	: 1	: 0 11 s: 11    6s                     49	: 1	: 0 11 s: 11    6s                     51	: 1	: 0 11 s: 11    6s                     53	: 1	: 0 11 s: 11    6s                     55	: 1	: 0 11 s: 11    7s                     57	: 1	: 0 11 s: 11    7s                     59	: 1	: 0 11 s: 11    7s                     61	: 1	: 0 11 s: 11    7s                     63	: 1	: 0 11 s: 11    7s                     65	: 1	: 0 11 s: 11    7s                     66	: 1	: 0 11 s: 11    8s                     68	: 1	: 0 11 s: 11    8s                     69	: 1	: 0 11 s: 11    8s                     69	: 1	: 0 12 s: 12    8s                     71	: 1	: 0 12 s: 12    8s                     71	: 1	: 0 12 s: 12    8s                  
+   71	: 2	: 0 8 4 s: 12    9s                     71	: 2	: 0 8 5 s: 13    9s                     73	: 2	: 0 8 5 s: 13    9s                     75	: 2	: 0 8 5 s: 13    9s                     77	: 2	: 0 8 5 s: 13    9s                     77	: 2	: 0 8 6 s: 14    9s                     77	: 2	: 0 8 7 s: 15    9s                     79	: 2	: 0 8 7 s: 15    10s                     80	: 2	: 0 8 7 s: 15    10s                     82	: 2	: 0 8 7 s: 15    11s                     84	: 2	: 0 8 7 s: 15    11s                     85	: 2	: 0 8 7 s: 15    11s                     85	: 2	: 0 8 8 s: 16    11s                     86	: 2	: 0 8 8 s: 16    12s                     86	: 2	: 0 8 9 s: 17    12s                     86	: 2	: 0 8 11 s: 19    12s                     88	: 2	: 0 8 11 s: 19    12s                     90	: 2	: 0 8 11 s: 19    12s                     91	: 2	: 0 8 11 s: 19    13s                     92	: 2	: 0 8 11 s: 19    13s                     92	: 2	: 0 8 10 s: 18    13s                     92	: 2	: 0 8 11 s: 19    13s                     92	: 2	: 0 8 11 s: 19    13s                  
+   92	: 3	: 0 5 12 2 s: 19    13s                     92	: 3	: 0 5 12 3 s: 20    13s                     92	: 3	: 0 5 12 4 s: 21    13s                     94	: 3	: 0 5 14 4 s: 23    14s                     95	: 3	: 0 5 14 4 s: 23    14s                     96	: 3	: 0 5 14 4 s: 23    14s                     96	: 3	: 0 5 14 5 s: 24    14s                     96	: 3	: 0 5 14 6 s: 25    15s                     96	: 3	: 0 5 14 7 s: 26    15s                     96	: 3	: 0 5 14 8 s: 27    15s                     98	: 3	: 0 5 14 8 s: 27    15s                     98	: 3	: 0 5 14 9 s: 28    15s                     99	: 3	: 0 5 14 9 s: 28    15s                     99	: 3	: 0 5 14 9 s: 28    15s                  
+   99	: 4	: 0 5 11 6 5 s: 27    16s                     99	: 4	: 0 5 11 6 6 s: 28    16s                     99	: 4	: 0 5 11 6 7 s: 29    16s                     101	: 4	: 0 5 12 8 8 s: 33    16s                     101	: 4	: 0 5 12 8 9 s: 34    16s                     101	: 4	: 0 5 12 8 10 s: 35    16s                     101	: 4	: 0 5 12 8 11 s: 36    16s                     101	: 4	: 0 5 12 8 12 s: 37    16s                     101	: 4	: 0 5 12 8 13 s: 38    16s                     101	: 4	: 0 5 12 13 15 s: 45    17s                     101	: 4	: 0 5 12 13 16 s: 46    17s                     102	: 4	: 0 5 12 13 16 s: 46    17s                     102	: 4	: 0 5 12 13 16 s: 46    17s                  
+   102	: 5	: 0 5 10 10 8 12 s: 45    18s                     103	: 5	: 0 5 10 10 8 12 s: 45    19s                     104	: 5	: 0 5 10 10 8 12 s: 45    19s                     104	: 5	: 0 5 10 10 8 13 s: 46    19s                     106	: 5	: 0 5 10 10 8 13 s: 46    19s                     106	: 5	: 0 5 10 10 8 14 s: 47    19s                     106	: 5	: 0 5 10 10 8 14 s: 47    19s                  
+   106	: 6	: 0 5 10 10 7 4 11 s: 47    20s                     108	: 6	: 0 5 10 10 7 4 11 s: 47    21s                     109	: 6	: 0 5 10 10 7 4 11 s: 47    21s                     109	: 6	: 0 5 10 10 7 3 12 s: 47    21s                     109	: 6	: 0 5 10 10 7 3 12 s: 47    21s                  
+   109	: 7	: 0 5 10 9 4 1 1 16 s: 46    21s                     109	: 7	: 0 5 10 9 4 1 1 16 s: 46    21s                  
+   109	: 8	: 0 5 10 9 4 1 1 2 14 s: 46    22s                     109	: 8	: 0 5 10 9 4 1 1 2 14 s: 46    22s                  
+   109	: 9	: 0 5 10 9 4 1 1 2 1 13 s: 46    22s                     109	: 9	: 0 5 10 9 4 1 1 2 1 13 s: 46    22s                  
+   109	: 9	: 0 5 10 9 4 1 1 2 1 0 s: 33    23s                  
+
+AVR -- Proof Race 
+copyright (c) 2019  Aman Goel and Karem Sakallah, University of Michigan
+@     0s  (starting avr proof race)
+@     0s  (output dir: /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2019C/pr_dspfilters_fastfir_second-p04)
+@     0s  (max 11 workers)
+@     0s  (started worker 0 with pid 86801)
+@     0s  (started worker 1 with pid 86802)
+@     0s  (started worker 2 with pid 86803)
+@     0s  (started worker 3 with pid 86804)
+@     0s  (started worker 4 with pid 86805)
+@     0s  (spawned 5 workers)
+@     0s  (total 5 workers using 0 MB)
+@     1s  (started worker 5 with pid 86922)
+@     1s  (spawned 1 workers)
+@     1s  (total 6 workers using 498 MB)
+@     2s  (started worker 6 with pid 86972)
+@     2s  (spawned 1 workers)
+@     2s  (total 7 workers using 680 MB)
+@     3s  (started worker 7 with pid 87025)
+@     3s  (spawned 1 workers)
+@     3s  (total 8 workers using 888 MB)
+@     6s  (started worker 8 with pid 87084)
+@     6s  (spawned 1 workers)
+@     6s  (total 9 workers using 1186 MB)
+@     9s  (started worker 9 with pid 87176)
+@     9s  (spawned 1 workers)
+@     9s  (total 10 workers using 1550 MB)
+@    13s  (started worker 10 with pid 87237)
+@    13s  (spawned 1 workers)
+@    13s  (total 11 workers using 1873 MB)
+@    26s  (total 11 workers using 2661 MB)
+@    42s  (total 11 workers using 3377 MB)
+@    43s  (worker 8 finished with result safe) python3 avr.py -l 5 -g 3 -a sa8 --interpol 1 -f 1
+@    43s  (worker 8 output)
+@    43s  (stopping all workers)
+@    43s  (copied results from worker 8 in /scratch/network/hongcez/hwmcc/avr-log/btor2/bv/wolf/2019C/pr_dspfilters_fastfir_second-p04)
+@    43s  [0;30;47m(proof race finished with answer safe in 42.95 seconds)[m

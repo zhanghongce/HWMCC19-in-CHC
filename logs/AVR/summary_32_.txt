@@ -1,0 +1,1 @@
+32 | /home/hongcez/hwmcc/benchs/btor2/bv/wolf/2019C/zipversa_composecrc_prf-p06.btor | 0 | 1.082316 | unknown
