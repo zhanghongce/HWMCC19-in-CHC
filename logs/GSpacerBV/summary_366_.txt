@@ -1,0 +1,1 @@
+366 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/cal5/cal5.chc | 0 | 33.925201 | unsat

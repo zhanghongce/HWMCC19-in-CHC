@@ -1,0 +1,1 @@
+484 | /home/hongcez/hwmcc/benchs/chcrel/bv/wolf/2018D/zipcpu-pfcache-p19.chc | 0 | 2471.176556 | unsat

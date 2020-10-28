@@ -1,0 +1,45 @@
+Failed to find a lemma for: (= ((_ extract 34 10) INV!slice!1_73_n)
+   (bvmul #b1111111111111111111111111 (concat #b00 INV!slice!1_58_n)))
+Available lemmas are: 32: (= ((_ extract 9 0) INV!slice!1_73_n) #b0000000000)
+33: (and (= ((_ extract 9 0) INV!slice!1_73_n) #b0000000000)
+     (= ((_ extract 34 10) INV!slice!1_73_n)
+        (bvmul #b1111111111111111111111111 (concat #b00 INV!slice!1_58_n))))
+34: (or (not (= INV!slice!1_31_n #b0))
+    (= INV!slice!1_47_n #b1)
+    (= ((_ extract 7 0) INV!slice!1_59_n) #x00))
+35: (let ((a!1 (and (= ((_ extract 9 0) INV!slice!1_73_n) #b0000000000)
+                (= ((_ extract 34 10) INV!slice!1_73_n)
+                   (bvmul #b1111111111111111111111111
+                          (concat #b00 INV!slice!1_58_n)))))
+      (a!2 (ite (= ((_ extract 25 25) INV!slice!1_8_n) #b1)
+                (bvmul #b11111111111111
+                       (concat ((_ extract 25 25) INV!slice!1_8_n)
+                               ((_ extract 25 13) INV!slice!1_8_n)))
+                (concat #b00 ((_ extract 24 13) INV!slice!1_8_n)))))
+  (or (not (= INV!slice!1_47_n #b1)) a!1 (not (= a!2 #b00000000000010))))
+36: (or (not (= INV!slice!1_47_n #b1)) (= ((_ extract 7 0) INV!slice!1_59_n) #x00))
+37: (or (not (= INV!slice!1_36_n #b1)) (= ((_ extract 7 0) INV!slice!1_59_n) #x00))
+38: (or (= INV!slice!1_28_n #b1) (= ((_ extract 7 0) INV!slice!1_59_n) #x00))
+39: (or (not (= INV!slice!1_47_n #b0))
+    (not (= INV!slice!1_31_n #b0))
+    (= ((_ extract 5 0) INV!slice!1_43_n) #b000000))
+Simplified goal is:
+0: (= ((_ extract 9 0) INV!slice!1_73_n) #b0000000000)
+1: (= ((_ extract 34 10) INV!slice!1_73_n)
+   (bvmul #b1111111111111111111111111 (concat #b00 INV!slice!1_58_n)))
+2: (or (not (= INV!slice!1_31_n #b0))
+    (= INV!slice!1_47_n #b1)
+    (= ((_ extract 7 0) INV!slice!1_59_n) #x00))
+3: (or (not (= INV!slice!1_47_n #b1)) (= ((_ extract 7 0) INV!slice!1_59_n) #x00))
+4: (or (not (= INV!slice!1_36_n #b1)) (= ((_ extract 7 0) INV!slice!1_59_n) #x00))
+5: (or (= INV!slice!1_28_n #b1) (= ((_ extract 7 0) INV!slice!1_59_n) #x00))
+6: (or (not (= INV!slice!1_47_n #b0))
+    (not (= INV!slice!1_31_n #b0))
+    (= ((_ extract 5 0) INV!slice!1_43_n) #b000000))
+ASSERTION VIOLATION
+File: ../src/muz/spacer/spacer_context.cpp
+Line: 2204
+Failed to verify: found
+
+Z3 4.8.9.0
+Please file an issue with this message and more detail about how you encountered it at https://github.com/Z3Prover/z3/issues/new

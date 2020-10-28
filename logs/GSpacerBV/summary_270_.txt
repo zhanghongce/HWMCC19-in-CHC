@@ -1,0 +1,1 @@
+270 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019C/zipcpu_zipcpu_piped-p247.chc | 0 | 6.162716 | unsat

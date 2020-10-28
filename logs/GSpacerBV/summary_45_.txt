@@ -1,0 +1,1 @@
+45 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019B/marlann_compute_pass-p2.chc | 0 | 35.133339 | unsat

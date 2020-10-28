@@ -1,0 +1,1 @@
+42 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019B/marlann_compute_fail2-p0.chc | 0 | 8.135303 | unsat

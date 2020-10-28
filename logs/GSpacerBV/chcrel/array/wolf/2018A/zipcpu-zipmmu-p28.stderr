@@ -1,0 +1,305 @@
+Failed to find a lemma for: (not (= INV!slice!1_29_n #b1))
+Available lemmas are: 20: (= INV!slice!1_29_n #b0)
+21: (= INV!slice!1_89_n #b0)
+22: (not (= INV!slice!1_12_n #b1))
+23: (or (not (= INV!slice!1_43_n INV!slice!1_13_n)) (not (= INV!slice!1_38_n #b1)))
+24: (or (not (= INV!slice!1_71_n #b0)) (= INV!slice!1_31_n INV!slice!1_52_n))
+25: (or (not (= INV!slice!1_17_n #b0))
+    (not (= INV!slice!1_59_n #b1))
+    (= INV!slice!1_31_n INV!slice!1_52_n)
+    ((_ bit2bool 0) INV!slice!1_6_n))
+26: (or (not (= INV!slice!1_41_n #b0))
+    (= INV!slice!1_8_n #b1)
+    (= INV!slice!1_31_n INV!slice!1_52_n))
+27: (or (not (= INV!slice!1_21_n #b0))
+    (not (= INV!slice!1_41_n #b1))
+    (not (= INV!slice!1_59_n #b1))
+    ((_ bit2bool 0) INV!slice!1_6_n))
+28: (or (not (= INV!slice!1_41_n #b1)) (not ((_ bit2bool 0) INV!slice!1_68_n)))
+29: (and (not (= INV!slice!1_12_n #b1)) (not (= INV!slice!1_29_n #b1)))
+30: (or (= INV!slice!1_31_n INV!slice!1_52_n) (= INV!slice!1_10_n #b0))
+31: (or (= INV!slice!1_10_n #b0)
+    ((_ bit2bool 1)
+      (ite (= INV!slice!1_59_n #b1) #b00 (bvadd #b01 INV!slice!1_67_n))))
+32: (or (= INV!slice!1_10_n #b0)
+    (and (not (= INV!slice!1_41_n #b1))
+         (or (= INV!slice!1_59_n #b0) (= INV!slice!1_105_n #b1))))
+33: (let ((a!1 (or (= INV!slice!1_89_n #b0)
+               (= INV!slice!1_74_n #b1)
+               (not (= ((_ extract 29 10) INV!slice!1_11_n) INV!slice!1_51_n))
+               (not (or (= INV!slice!1_65_n #b0) (= INV!slice!1_85_n #b0))))))
+  (or (= INV!slice!1_10_n #b0) (and (not (= INV!slice!1_59_n #b1)) a!1)))
+34: (let ((a!1 (= (ite (= INV!slice!1_66_n #b1)
+                   (bvadd INV!slice!1_31_n (bvmul #xf INV!slice!1_52_n))
+                   #x0)
+              #x0)))
+  (or (not (= INV!slice!1_17_n #b0)) a!1 (not (= INV!slice!1_38_n #b1))))
+35: (let ((a!1 (= (ite (= INV!slice!1_66_n #b1)
+                   (bvadd INV!slice!1_31_n (bvmul #xf INV!slice!1_52_n))
+                   #x0)
+              #x0))
+      (a!2 (or (= ((_ extract 0 0) INV!slice!1_37_n) #b1)
+               (= ((_ extract 0 0) (select INV!slice!1_92_n #b10)) #b0)))
+      (a!3 (not (= ((_ extract 0 0) (select INV!slice!1_92_n #b11)) #b0)))
+      (a!5 (not (= ((_ extract 15 1) (select INV!slice!1_92_n #b11))
+                   ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!7 (not (= ((_ extract 0 0) (select INV!slice!1_92_n #b01)) #b0)))
+      (a!9 (not (= ((_ extract 15 1) (select INV!slice!1_92_n #b01))
+                   ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!11 (not (= ((_ extract 15 1) (select INV!slice!1_92_n #b00))
+                    ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!12 (not (= ((_ extract 0 0) (select INV!slice!1_92_n #b00)) #b0)))
+      (a!16 (or (= ((_ extract 0 0) INV!slice!1_37_n) #b1)
+                (= ((_ extract 0 0) (select INV!slice!1_92_n #b11)) #b0)))
+      (a!17 (not (= ((_ extract 0 0) (select INV!slice!1_92_n #b10)) #b0)))
+      (a!19 (not (= ((_ extract 15 1) (select INV!slice!1_92_n #b10))
+                    ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!22 (or (= ((_ extract 0 0) INV!slice!1_37_n) #b1)
+                (= ((_ extract 0 0) (select INV!slice!1_92_n #b01)) #b0)))
+      (a!24 (or (= ((_ extract 0 0) INV!slice!1_37_n) #b1)
+                (= ((_ extract 0 0) (select INV!slice!1_92_n #b00)) #b0)))
+      (a!26 (or (= INV!slice!1_62_n #b1)
+                (= INV!slice!1_101_n #b0)
+                (= INV!slice!1_89_n #b1)))
+      (a!27 (or (= INV!slice!1_64_n #b1)
+                (not (= INV!slice!1_59_n #b1))
+                (= INV!slice!1_74_n #b1)
+                (not (or (= INV!slice!1_105_n #b0) (= INV!slice!1_59_n #b0)))))
+      (a!29 (or (= INV!slice!1_62_n #b1)
+                (= INV!slice!1_101_n #b0)
+                (= INV!slice!1_64_n #b1)
+                (not (= INV!slice!1_59_n #b1))
+                (= INV!slice!1_74_n #b1)
+                (and (not (= INV!slice!1_59_n #b0))
+                     (not (= INV!slice!1_105_n #b0)))))
+      (a!30 (or (= INV!slice!1_10_n #b0)
+                (= INV!slice!1_57_n #b0)
+                (= ((_ extract 2 2) (select INV!slice!1_91_n INV!slice!1_86_n))
+                   #b0)
+                (= INV!slice!1_85_n #b0)))
+      (a!31 (or (= INV!slice!1_89_n #b0)
+                (not (= ((_ extract 29 10) INV!slice!1_106_n) INV!slice!1_51_n)))))
+(let ((a!4 (and (not (= ((_ extract 0 0) INV!slice!1_37_n) #b1)) a!3))
+      (a!8 (and (not (= ((_ extract 0 0) INV!slice!1_37_n) #b1)) a!7))
+      (a!13 (and (not (= ((_ extract 0 0) INV!slice!1_37_n) #b1)) a!12))
+      (a!18 (and (not (= ((_ extract 0 0) INV!slice!1_37_n) #b1)) a!17))
+      (a!28 (not (= (ite a!26
+                         INV!slice!1_51_n
+                         (select INV!slice!1_90_n INV!slice!1_86_n))
+                    (ite a!27
+                         ((_ extract 29 10) INV!slice!1_11_n)
+                         ((_ extract 29 10) INV!slice!1_106_n)))))
+      (a!32 (ite a!29
+                 (ite a!26
+                      (= INV!slice!1_89_n #b0)
+                      (or (= INV!slice!1_57_n #b0) (not a!30)))
+                 a!31)))
+(let ((a!6 (or (not (= (select INV!slice!1_90_n #b11)
+                       ((_ extract 29 10) INV!slice!1_11_n)))
+               a!4
+               a!5))
+      (a!10 (or a!8
+                a!9
+                (not (= (select INV!slice!1_90_n #b01)
+                        ((_ extract 29 10) INV!slice!1_11_n)))))
+      (a!14 (or a!11
+                a!13
+                (not (= (select INV!slice!1_90_n #b00)
+                        ((_ extract 29 10) INV!slice!1_11_n)))))
+      (a!20 (or a!18
+                (not (= (select INV!slice!1_90_n #b10)
+                        ((_ extract 29 10) INV!slice!1_11_n)))
+                a!19)))
+(let ((a!15 (and a!2
+                 a!6
+                 a!10
+                 a!14
+                 (= (select INV!slice!1_90_n #b10)
+                    ((_ extract 29 10) INV!slice!1_11_n))
+                 (= ((_ extract 15 1) (select INV!slice!1_92_n #b10))
+                    ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!21 (and a!16
+                 a!20
+                 a!10
+                 a!14
+                 (= (select INV!slice!1_90_n #b11)
+                    ((_ extract 29 10) INV!slice!1_11_n))
+                 (= ((_ extract 15 1) (select INV!slice!1_92_n #b11))
+                    ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!23 (and a!22
+                 a!6
+                 a!20
+                 a!14
+                 (= (select INV!slice!1_90_n #b01)
+                    ((_ extract 29 10) INV!slice!1_11_n))
+                 (= ((_ extract 15 1) (select INV!slice!1_92_n #b01))
+                    ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!25 (and a!24
+                 a!6
+                 a!20
+                 a!10
+                 (= (select INV!slice!1_90_n #b00)
+                    ((_ extract 29 10) INV!slice!1_11_n))
+                 (= ((_ extract 15 1) (select INV!slice!1_92_n #b00))
+                    ((_ extract 15 1) INV!slice!1_37_n)))))
+  (or a!1 a!15 a!21 a!23 a!25 a!28 a!32)))))
+36: (or (not (= INV!slice!1_21_n #b0))
+    (not (= INV!slice!1_38_n #b1))
+    (= INV!slice!1_31_n INV!slice!1_52_n))
+37: (or (not (= INV!slice!1_69_n #b0))
+    (not (= INV!slice!1_38_n #b1))
+    (= INV!slice!1_31_n INV!slice!1_52_n)
+    (= INV!slice!1_85_n #b0))
+Simplified goal is:
+0: (= INV!slice!1_89_n #b0)
+1: (or (not (= INV!slice!1_43_n INV!slice!1_13_n)) (not (= INV!slice!1_38_n #b1)))
+2: (or (not (= INV!slice!1_71_n #b0)) (= INV!slice!1_31_n INV!slice!1_52_n))
+3: (or (not (= INV!slice!1_17_n #b0))
+    (not (= INV!slice!1_59_n #b1))
+    (= INV!slice!1_31_n INV!slice!1_52_n)
+    ((_ bit2bool 0) INV!slice!1_6_n))
+4: (or (not (= INV!slice!1_41_n #b0))
+    (= INV!slice!1_8_n #b1)
+    (= INV!slice!1_31_n INV!slice!1_52_n))
+5: (or (not (= INV!slice!1_21_n #b0))
+    (not (= INV!slice!1_41_n #b1))
+    (not (= INV!slice!1_59_n #b1))
+    ((_ bit2bool 0) INV!slice!1_6_n))
+6: (or (not (= INV!slice!1_41_n #b1)) (not ((_ bit2bool 0) INV!slice!1_68_n)))
+7: (not (= INV!slice!1_12_n #b1))
+8: (not (= INV!slice!1_29_n #b1))
+9: (or (= INV!slice!1_31_n INV!slice!1_52_n) (= INV!slice!1_10_n #b0))
+10: (or (= INV!slice!1_10_n #b0)
+    ((_ bit2bool 1)
+      (ite (= INV!slice!1_59_n #b1) #b00 (bvadd #b01 INV!slice!1_67_n))))
+11: (or (= INV!slice!1_10_n #b0)
+    (and (not (= INV!slice!1_41_n #b1))
+         (or (= INV!slice!1_59_n #b0) (= INV!slice!1_105_n #b1))))
+12: (let ((a!1 (= (ite (= INV!slice!1_66_n #b1)
+                   (bvadd INV!slice!1_31_n (bvmul #xf INV!slice!1_52_n))
+                   #x0)
+              #x0)))
+  (or (not (= INV!slice!1_17_n #b0)) a!1 (not (= INV!slice!1_38_n #b1))))
+13: (let ((a!1 (= (ite (= INV!slice!1_66_n #b1)
+                   (bvadd INV!slice!1_31_n (bvmul #xf INV!slice!1_52_n))
+                   #x0)
+              #x0))
+      (a!2 (or (= ((_ extract 0 0) INV!slice!1_37_n) #b1)
+               (= ((_ extract 0 0) (select INV!slice!1_92_n #b10)) #b0)))
+      (a!3 (not (= ((_ extract 0 0) (select INV!slice!1_92_n #b11)) #b0)))
+      (a!5 (not (= ((_ extract 15 1) (select INV!slice!1_92_n #b11))
+                   ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!7 (not (= ((_ extract 0 0) (select INV!slice!1_92_n #b01)) #b0)))
+      (a!9 (not (= ((_ extract 15 1) (select INV!slice!1_92_n #b01))
+                   ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!11 (not (= ((_ extract 15 1) (select INV!slice!1_92_n #b00))
+                    ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!12 (not (= ((_ extract 0 0) (select INV!slice!1_92_n #b00)) #b0)))
+      (a!16 (or (= ((_ extract 0 0) INV!slice!1_37_n) #b1)
+                (= ((_ extract 0 0) (select INV!slice!1_92_n #b11)) #b0)))
+      (a!17 (not (= ((_ extract 0 0) (select INV!slice!1_92_n #b10)) #b0)))
+      (a!19 (not (= ((_ extract 15 1) (select INV!slice!1_92_n #b10))
+                    ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!22 (or (= ((_ extract 0 0) INV!slice!1_37_n) #b1)
+                (= ((_ extract 0 0) (select INV!slice!1_92_n #b01)) #b0)))
+      (a!24 (or (= ((_ extract 0 0) INV!slice!1_37_n) #b1)
+                (= ((_ extract 0 0) (select INV!slice!1_92_n #b00)) #b0)))
+      (a!26 (or (= INV!slice!1_62_n #b1)
+                (= INV!slice!1_101_n #b0)
+                (= INV!slice!1_89_n #b1)))
+      (a!27 (or (= INV!slice!1_64_n #b1)
+                (not (= INV!slice!1_59_n #b1))
+                (= INV!slice!1_74_n #b1)
+                (not (or (= INV!slice!1_105_n #b0) (= INV!slice!1_59_n #b0)))))
+      (a!29 (or (= INV!slice!1_62_n #b1)
+                (= INV!slice!1_101_n #b0)
+                (= INV!slice!1_64_n #b1)
+                (not (= INV!slice!1_59_n #b1))
+                (= INV!slice!1_74_n #b1)
+                (and (not (= INV!slice!1_59_n #b0))
+                     (not (= INV!slice!1_105_n #b0)))))
+      (a!30 (or (= INV!slice!1_10_n #b0)
+                (= INV!slice!1_57_n #b0)
+                (= ((_ extract 2 2) (select INV!slice!1_91_n INV!slice!1_86_n))
+                   #b0)
+                (= INV!slice!1_85_n #b0)))
+      (a!31 (or (= INV!slice!1_89_n #b0)
+                (not (= ((_ extract 29 10) INV!slice!1_106_n) INV!slice!1_51_n)))))
+(let ((a!4 (and (not (= ((_ extract 0 0) INV!slice!1_37_n) #b1)) a!3))
+      (a!8 (and (not (= ((_ extract 0 0) INV!slice!1_37_n) #b1)) a!7))
+      (a!13 (and (not (= ((_ extract 0 0) INV!slice!1_37_n) #b1)) a!12))
+      (a!18 (and (not (= ((_ extract 0 0) INV!slice!1_37_n) #b1)) a!17))
+      (a!28 (not (= (ite a!26
+                         INV!slice!1_51_n
+                         (select INV!slice!1_90_n INV!slice!1_86_n))
+                    (ite a!27
+                         ((_ extract 29 10) INV!slice!1_11_n)
+                         ((_ extract 29 10) INV!slice!1_106_n)))))
+      (a!32 (ite a!29
+                 (ite a!26
+                      (= INV!slice!1_89_n #b0)
+                      (or (= INV!slice!1_57_n #b0) (not a!30)))
+                 a!31)))
+(let ((a!6 (or (not (= (select INV!slice!1_90_n #b11)
+                       ((_ extract 29 10) INV!slice!1_11_n)))
+               a!4
+               a!5))
+      (a!10 (or a!8
+                a!9
+                (not (= (select INV!slice!1_90_n #b01)
+                        ((_ extract 29 10) INV!slice!1_11_n)))))
+      (a!14 (or a!11
+                a!13
+                (not (= (select INV!slice!1_90_n #b00)
+                        ((_ extract 29 10) INV!slice!1_11_n)))))
+      (a!20 (or a!18
+                (not (= (select INV!slice!1_90_n #b10)
+                        ((_ extract 29 10) INV!slice!1_11_n)))
+                a!19)))
+(let ((a!15 (and a!2
+                 a!6
+                 a!10
+                 a!14
+                 (= (select INV!slice!1_90_n #b10)
+                    ((_ extract 29 10) INV!slice!1_11_n))
+                 (= ((_ extract 15 1) (select INV!slice!1_92_n #b10))
+                    ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!21 (and a!16
+                 a!20
+                 a!10
+                 a!14
+                 (= (select INV!slice!1_90_n #b11)
+                    ((_ extract 29 10) INV!slice!1_11_n))
+                 (= ((_ extract 15 1) (select INV!slice!1_92_n #b11))
+                    ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!23 (and a!22
+                 a!6
+                 a!20
+                 a!14
+                 (= (select INV!slice!1_90_n #b01)
+                    ((_ extract 29 10) INV!slice!1_11_n))
+                 (= ((_ extract 15 1) (select INV!slice!1_92_n #b01))
+                    ((_ extract 15 1) INV!slice!1_37_n))))
+      (a!25 (and a!24
+                 a!6
+                 a!20
+                 a!10
+                 (= (select INV!slice!1_90_n #b00)
+                    ((_ extract 29 10) INV!slice!1_11_n))
+                 (= ((_ extract 15 1) (select INV!slice!1_92_n #b00))
+                    ((_ extract 15 1) INV!slice!1_37_n)))))
+  (or a!1 a!15 a!21 a!23 a!25 a!28 a!32)))))
+14: (or (not (= INV!slice!1_21_n #b0))
+    (not (= INV!slice!1_38_n #b1))
+    (= INV!slice!1_31_n INV!slice!1_52_n))
+15: (or (not (= INV!slice!1_69_n #b0))
+    (not (= INV!slice!1_38_n #b1))
+    (= INV!slice!1_31_n INV!slice!1_52_n)
+    (= INV!slice!1_85_n #b0))
+ASSERTION VIOLATION
+File: ../src/muz/spacer/spacer_context.cpp
+Line: 2204
+Failed to verify: found
+
+Z3 4.8.9.0
+Please file an issue with this message and more detail about how you encountered it at https://github.com/Z3Prover/z3/issues/new

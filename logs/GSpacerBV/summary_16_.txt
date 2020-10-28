@@ -1,0 +1,1 @@
+16 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2018A/zipcpu-zipmmu-p05.chc | -15 | 3600.10581 | unknown

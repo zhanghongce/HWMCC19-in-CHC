@@ -1,0 +1,1 @@
+622 | /home/hongcez/hwmcc/benchs/chcrel/bv/wolf/2019C/zipversa_composecrc_prf-p04.chc | 0 | 0.179343 | unsat

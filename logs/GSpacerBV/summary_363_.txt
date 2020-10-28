@@ -1,0 +1,1 @@
+363 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/cal39/cal39.chc | 0 | 2.237477 | unsat

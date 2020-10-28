@@ -1,0 +1,1 @@
+380 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/gen44/gen44.chc | 0 | 0.093734 | unsat

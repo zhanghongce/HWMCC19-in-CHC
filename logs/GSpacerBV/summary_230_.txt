@@ -1,0 +1,1 @@
+230 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019C/zipcpu_zipcpu_dcache-p580.chc | -15 | 3600.06241 | unknown

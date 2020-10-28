@@ -1,0 +1,1 @@
+379 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/gen43/gen43.chc | 0 | 0.120575 | unsat

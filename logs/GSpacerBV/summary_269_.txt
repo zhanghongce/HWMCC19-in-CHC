@@ -1,0 +1,1 @@
+269 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019C/zipcpu_zipcpu_piped-p220.chc | 0 | 9.397559 | unsat

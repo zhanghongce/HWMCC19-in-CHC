@@ -1,0 +1,1 @@
+384 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/mul4/mul4.chc | -9 | 882.562915 | unknown

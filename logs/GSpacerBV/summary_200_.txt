@@ -1,0 +1,1 @@
+200 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019C/zipcpu_zipcpu_dcache-p287.chc | 0 | 125.97167 | unknown

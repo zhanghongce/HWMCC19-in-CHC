@@ -1,0 +1,1 @@
+494 | /home/hongcez/hwmcc/benchs/chcrel/bv/wolf/2018D/zipcpu-zipmmu-p39.chc | 0 | 14.335917 | unsat

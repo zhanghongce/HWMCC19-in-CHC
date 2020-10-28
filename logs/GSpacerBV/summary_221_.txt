@@ -1,0 +1,1 @@
+221 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019C/zipcpu_zipcpu_dcache-p501.chc | 0 | 92.07826 | unknown

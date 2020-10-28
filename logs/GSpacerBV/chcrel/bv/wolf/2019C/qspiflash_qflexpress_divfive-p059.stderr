@@ -1,0 +1,26 @@
+Failed to find a lemma for: (= ((_ extract 4 4) INV!slice!1_30_n) #b0)
+Available lemmas are: 11: (not ((_ bit2bool 0) INV!slice!1_30_n))
+12: (and (= ((_ extract 4 4) INV!slice!1_30_n) #b0)
+     (= ((_ extract 6 6) INV!slice!1_30_n) #b0)
+     (= ((_ extract 5 5) INV!slice!1_30_n) #b0)
+     (= ((_ extract 7 7) INV!slice!1_30_n) #b0)
+     (= ((_ extract 0 0) INV!slice!1_30_n) #b0)
+     (= ((_ extract 1 1) INV!slice!1_30_n) #b0)
+     (= ((_ extract 2 2) INV!slice!1_30_n) #b0)
+     (= ((_ extract 3 3) INV!slice!1_30_n) #b0))
+Simplified goal is:
+0: (= ((_ extract 4 4) INV!slice!1_30_n) #b0)
+1: (= ((_ extract 6 6) INV!slice!1_30_n) #b0)
+2: (= ((_ extract 5 5) INV!slice!1_30_n) #b0)
+3: (= ((_ extract 7 7) INV!slice!1_30_n) #b0)
+4: (= ((_ extract 0 0) INV!slice!1_30_n) #b0)
+5: (= ((_ extract 1 1) INV!slice!1_30_n) #b0)
+6: (= ((_ extract 2 2) INV!slice!1_30_n) #b0)
+7: (= ((_ extract 3 3) INV!slice!1_30_n) #b0)
+ASSERTION VIOLATION
+File: ../src/muz/spacer/spacer_context.cpp
+Line: 2204
+Failed to verify: found
+
+Z3 4.8.9.0
+Please file an issue with this message and more detail about how you encountered it at https://github.com/Z3Prover/z3/issues/new

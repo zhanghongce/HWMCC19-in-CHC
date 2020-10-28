@@ -1,0 +1,1 @@
+327 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/crafted/toy_lock_4/toy_lock_4.chc | 0 | 156.735125 | unsat

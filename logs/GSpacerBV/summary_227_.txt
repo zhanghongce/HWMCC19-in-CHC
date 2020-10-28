@@ -1,0 +1,1 @@
+227 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019C/zipcpu_zipcpu_dcache-p572.chc | 0 | 82.582393 | unknown

@@ -1,0 +1,727 @@
+sat
+(let ((a!1 (forall ((A (_ BitVec 1))
+                    (B (_ BitVec 4))
+                    (C (_ BitVec 8))
+                    (D (Array (_ BitVec 3) (_ BitVec 8)))
+                    (E (_ BitVec 8))
+                    (F (_ BitVec 1))
+                    (G (Array (_ BitVec 3) (_ BitVec 8)))
+                    (H (_ BitVec 4))
+                    (I (_ BitVec 4))
+                    (J (_ BitVec 8))
+                    (K (_ BitVec 4))
+                    (L (_ BitVec 1))
+                    (M (_ BitVec 4))
+                    (N (_ BitVec 1))
+                    (O (_ BitVec 1))
+                    (P (_ BitVec 16))
+                    (Q (_ BitVec 2))
+                    (R (_ BitVec 16))
+                    (S (_ BitVec 2))
+                    (T (_ BitVec 1))
+                    (U (_ BitVec 1)))
+             (! (=> (and (INV!slice!1 A B C D U E F G H I J K L M N O P Q R S T)
+                         (not (= U #b1)))
+                    query!0)
+                :weight 0)))
+      (a!2 (asserted (forall ((A (_ BitVec 1))
+                              (B (Array (_ BitVec 3) (_ BitVec 8)))
+                              (C (_ BitVec 8))
+                              (D (Array (_ BitVec 3) (_ BitVec 8)))
+                              (E (_ BitVec 4))
+                              (F (_ BitVec 4))
+                              (G (_ BitVec 16))
+                              (H (_ BitVec 1))
+                              (I (_ BitVec 2))
+                              (J (_ BitVec 4))
+                              (K (_ BitVec 4))
+                              (L (_ BitVec 8))
+                              (M (_ BitVec 1))
+                              (N (_ BitVec 4))
+                              (O (_ BitVec 1))
+                              (P (_ BitVec 1))
+                              (Q (_ BitVec 1))
+                              (R (_ BitVec 2))
+                              (S (_ BitVec 16))
+                              (T (_ BitVec 8))
+                              (U (_ BitVec 1))
+                              (V (_ BitVec 4))
+                              (W (_ BitVec 8))
+                              (X (Array (_ BitVec 3) (_ BitVec 8)))
+                              (Y (_ BitVec 1))
+                              (Z (_ BitVec 8))
+                              (A1 (_ BitVec 1))
+                              (B1 (Array (_ BitVec 3) (_ BitVec 8)))
+                              (C1 (_ BitVec 4))
+                              (D1 (_ BitVec 4))
+                              (E1 (_ BitVec 8))
+                              (F1 (_ BitVec 4))
+                              (G1 (_ BitVec 1))
+                              (H1 (_ BitVec 4))
+                              (I1 (_ BitVec 1))
+                              (J1 (_ BitVec 16))
+                              (K1 (_ BitVec 2))
+                              (L1 (_ BitVec 16))
+                              (M1 (_ BitVec 2)))
+                       (! (let ((a!1 (bvnot (bvor (bvnot ((_ extract 1 1) I))
+                                                  (ite (= E F) #b1 #b0))))
+                                (a!2 (bvnot (bvor (bvnot ((_ extract 0 0) I))
+                                                  (ite (= J K) #b1 #b0))))
+                                (a!6 (and (not (= ((_ extract 1 1) I) #b0))
+                                          (not (= E F))))
+                                (a!11 (bvnot (bvor (bvnot Q)
+                                                   (bvnot ((_ extract 0 0) R)))))
+                                (a!13 (bvor (bvnot ((_ extract 1 1) I))
+                                            (ite (= E F) #b1 #b0)
+                                            (bvnot (ite (bvule #x08 C) #b1 #b0))
+                                            (bvnot M)))
+                                (a!15 (bvor (bvnot ((_ extract 0 0) I))
+                                            (ite (= J K) #b1 #b0)
+                                            (bvnot (ite (bvule #x08 L) #b1 #b0))
+                                            M))
+                                (a!17 (bvnot (bvor (bvnot ((_ extract 0 0) R))
+                                                   P)))
+                                (a!21 (and (not (= ((_ extract 0 0) I) #b0))
+                                           (not (= J K))))
+                                (a!32 (and (not (= M #b1))
+                                           (not (= ((_ extract 0 0) I) #b0))
+                                           (not (= J K))
+                                           (bvule #x08 L)))
+                                (a!34 (and (not (= M #b0))
+                                           (not (= ((_ extract 1 1) I) #b0))
+                                           (not (= E F))
+                                           (bvule #x08 C)))
+                                (a!39 (store B
+                                             ((_ extract 2 0) F)
+                                             (ite (= ((_ extract 1 1) R) #b1)
+                                                  ((_ extract 15 8) S)
+                                                  (select B ((_ extract 2 0) F)))))
+                                (a!40 (store D
+                                             ((_ extract 2 0) K)
+                                             (ite (= ((_ extract 0 0) R) #b1)
+                                                  ((_ extract 7 0) S)
+                                                  (select D ((_ extract 2 0) K)))))
+                                (a!41 (ite (or (= Q #b0)
+                                               (= P #b1)
+                                               (= ((_ extract 0 0) R) #b0))
+                                           T
+                                           ((_ extract 7 0) S))))
+                          (let ((a!3 (= ((_ extract 0 0)
+                                          (bvlshr (concat a!1 a!2)
+                                                  (concat #b0 M)))
+                                        #b0))
+                                (a!4 ((_ extract 0 0)
+                                       (bvlshr (concat a!1 a!2)
+                                               (concat #b0 (bvadd #b1 M)))))
+                                (a!12 (= G1
+                                         (ite (= O #b1)
+                                              #b0
+                                              (ite (= P #b1) #b1 (bvor P a!11)))))
+                                (a!14 (bvor (bvnot (select B
+                                                           ((_ extract 2 0) E)))
+                                            (concat a!13
+                                                    a!13
+                                                    a!13
+                                                    a!13
+                                                    a!13
+                                                    a!13
+                                                    a!13
+                                                    a!13)))
+                                (a!16 (bvor (bvnot (select D
+                                                           ((_ extract 2 0) J)))
+                                            (concat a!15
+                                                    a!15
+                                                    a!15
+                                                    a!15
+                                                    a!15
+                                                    a!15
+                                                    a!15
+                                                    a!15)))
+                                (a!18 (bvadd N
+                                             (concat #b000 a!17)
+                                             (bvmul #xf
+                                                    (concat #b000 (bvnot a!15)))))
+                                (a!35 (ite (or (= O #b1)
+                                               (= ((_ extract 1 1) R) #b1)
+                                               a!34)
+                                           (bvadd E (concat #b000 (bvnot a!13)))
+                                           E))
+                                (a!36 (ite (or (= O #b1)
+                                               (= ((_ extract 0 0) R) #b1)
+                                               a!32)
+                                           (bvadd K
+                                                  (concat #b000
+                                                          ((_ extract 0 0) R)))
+                                           K))
+                                (a!37 (ite (or (= O #b1)
+                                               (= ((_ extract 1 1) R) #b1)
+                                               a!34)
+                                           (bvadd F
+                                                  (concat #b000
+                                                          ((_ extract 1 1) R)))
+                                           F))
+                                (a!38 (ite (or (= O #b1)
+                                               (= ((_ extract 0 0) R) #b1)
+                                               a!32)
+                                           (bvadd J (concat #b000 (bvnot a!15)))
+                                           J)))
+                          (let ((a!5 (ite (or a!3 (= a!4 #b1))
+                                          (ite (= a!4 #b1) (= M #b0) (= M #b1))
+                                          (= M #b1)))
+                                (a!19 (not (= (ite (= O #b1) #x0 a!18) #x0)))
+                                (a!29 (ite (= (ite (= O #b1) #x0 a!18) #x0)
+                                           #b1
+                                           #b0))
+                                (a!33 (ite (or (= O #b1)
+                                               (= P #b1)
+                                               (= ((_ extract 0 0) R) #b1)
+                                               a!32)
+                                           (ite (= O #b1) #x0 a!18)
+                                           N))
+                                (a!42 (or (= M #b0)
+                                          (ite (or a!3 (= a!4 #b1))
+                                               (ite (= a!4 #b1)
+                                                    (= M #b1)
+                                                    (= M #b0))
+                                               (= M #b0)))))
+                          (let ((a!7 (bvadd #xf8
+                                            (ite a!5
+                                                 (bvadd C ((_ extract 15 8) G))
+                                                 C)))
+                                (a!20 (or (= N #x0)
+                                          (= O #b1)
+                                          (= T (bvor (bvnot a!14) (bvnot a!16)))
+                                          (= H #b1)
+                                          (= P #b0)
+                                          a!19))
+                                (a!22 (bvadd #xf8
+                                             (ite a!5
+                                                  L
+                                                  (bvadd L ((_ extract 7 0) G)))))
+                                (a!30 (bvor (bvnot P)
+                                            H
+                                            (bvnot (ite (= N #x0) #b0 #b1))
+                                            (bvnot a!29))))
+                          (let ((a!8 (ite (or (= E F)
+                                              (= ((_ extract 1 1) I) #b0)
+                                              (= M #b0)
+                                              (not (bvule #x08 C)))
+                                          (ite a!5
+                                               (bvadd C ((_ extract 15 8) G))
+                                               C)
+                                          a!7))
+                                (a!23 (ite (or (= M #b1)
+                                               (= J K)
+                                               (= ((_ extract 0 0) I) #b0)
+                                               (not (bvule #x08 L)))
+                                           (ite a!5
+                                                L
+                                                (bvadd L ((_ extract 7 0) G)))
+                                           a!22))
+                                (a!31 (= A1
+                                         (ite (= O #b1)
+                                              #b0
+                                              (bvor H (bvnot a!30))))))
+                          (let ((a!9 (ite (= O #b1)
+                                          #x00
+                                          (ite (or (= M #b0) a!6) a!8 C)))
+                                (a!24 (ite (= O #b1)
+                                           #x00
+                                           (ite (or (= M #b1) a!21) a!23 L))))
+                          (let ((a!10 (ite (= O #b1)
+                                           #x00
+                                           (ite (or (= M #b1) a!5) a!9 C)))
+                                (a!25 (and (not (= ((_ extract 0 0) I) #b0))
+                                           (not (= J K))
+                                           (bvule #x08 a!24)))
+                                (a!26 (and (not (= ((_ extract 1 1) I) #b0))
+                                           (not (= E F))
+                                           (bvule #x08 a!9))))
+                          (let ((a!27 (and (or (= M #b1)
+                                               (= J K)
+                                               (= ((_ extract 0 0) I) #b0)
+                                               (not (bvule #x08 L))
+                                               a!25)
+                                           (or (= E F)
+                                               (= ((_ extract 1 1) I) #b0)
+                                               (= M #b0)
+                                               (not (bvule #x08 C))
+                                               a!26))))
+                          (let ((a!28 (ite a!27
+                                           M
+                                           (ite (or a!3 (= a!4 #b1))
+                                                (ite (= a!4 #b1)
+                                                     (bvadd #b1 M)
+                                                     M)
+                                                M))))
+                          (let ((a!43 (and (INV!slice!1 M
+                                                        J
+                                                        T
+                                                        D
+                                                        A
+                                                        C
+                                                        H
+                                                        B
+                                                        K
+                                                        N
+                                                        L
+                                                        E
+                                                        P
+                                                        F
+                                                        O
+                                                        Q
+                                                        S
+                                                        R
+                                                        G
+                                                        I
+                                                        O)
+                                           (= Z a!10)
+                                           (or (= ((_ extract 0 0) M1) #b0)
+                                               (not (= V C1)))
+                                           (or (not (= J K))
+                                               (= ((_ extract 0 0) I) #b0))
+                                           (or (not (= F1 H1))
+                                               (= ((_ extract 1 1) M1) #b0))
+                                           (or (not (= E F))
+                                               (= ((_ extract 1 1) I) #b0))
+                                           (or (= ((_ extract 0 0) K1) #b0)
+                                               (not (= V C1))
+                                               (= ((_ extract 3 3) C1)
+                                                  ((_ extract 3 3) V)))
+                                           (or (not (= J K))
+                                               (= ((_ extract 3 3) J)
+                                                  ((_ extract 3 3) K))
+                                               (= ((_ extract 0 0) R) #b0))
+                                           (or (not (= F1 H1))
+                                               (= ((_ extract 1 1) K1) #b0)
+                                               (= ((_ extract 3 3) H1)
+                                                  ((_ extract 3 3) F1)))
+                                           (or (not (= E F))
+                                               (= ((_ extract 3 3) E)
+                                                  ((_ extract 3 3) F))
+                                               (= ((_ extract 1 1) R) #b0))
+                                           a!12
+                                           (= Y (bvnot (ite a!20 #b0 #b1)))
+                                           (= U (ite (= O #b1) #b0 a!28))
+                                           a!31
+                                           (= D1 (ite (= O #b1) #x0 a!33))
+                                           (= F1 (ite (= O #b1) #x0 a!35))
+                                           (= C1 (ite (= O #b1) #x0 a!36))
+                                           (= H1 (ite (= O #b1) #x0 a!37))
+                                           (= V (ite (= O #b1) #x0 a!38))
+                                           (= B1 a!39)
+                                           (= X a!40)
+                                           (= W (ite (= O #b1) #x00 a!41))
+                                           (= E1
+                                              (ite (= O #b1)
+                                                   #x00
+                                                   (ite a!42 a!24 L))))))
+                            (=> a!43
+                                (INV!slice!1 U
+                                             V
+                                             W
+                                             X
+                                             Y
+                                             Z
+                                             A1
+                                             B1
+                                             C1
+                                             D1
+                                             E1
+                                             F1
+                                             G1
+                                             H1
+                                             #b0
+                                             I1
+                                             J1
+                                             K1
+                                             L1
+                                             M1
+                                             #b0))))))))))))
+                          :weight 0))))
+      (a!3 (asserted (forall ((A (_ BitVec 1))
+                              (B (_ BitVec 4))
+                              (C (_ BitVec 8))
+                              (D (Array (_ BitVec 3) (_ BitVec 8)))
+                              (E (_ BitVec 8))
+                              (F (_ BitVec 1))
+                              (G (Array (_ BitVec 3) (_ BitVec 8)))
+                              (H (_ BitVec 4))
+                              (I (_ BitVec 4))
+                              (J (_ BitVec 8))
+                              (K (_ BitVec 4))
+                              (L (_ BitVec 1))
+                              (M (_ BitVec 4))
+                              (N (_ BitVec 1))
+                              (O (_ BitVec 16))
+                              (P (_ BitVec 2))
+                              (Q (_ BitVec 16))
+                              (R (_ BitVec 2)))
+                       (! (let ((a!1 (and (or (not (= K M))
+                                              (= ((_ extract 3 3) K)
+                                                 ((_ extract 3 3) M))
+                                              (= ((_ extract 1 1) P) #b0))
+                                          (or (not (= B H))
+                                              (= ((_ extract 0 0) R) #b0))
+                                          (or (not (= K M))
+                                              (= ((_ extract 1 1) R) #b0))
+                                          (or (= ((_ extract 3 3) B)
+                                                 ((_ extract 3 3) H))
+                                              (not (= B H))
+                                              (= ((_ extract 0 0) P) #b0)))))
+                            (=> a!1
+                                (INV!slice!1 A
+                                             B
+                                             C
+                                             D
+                                             #b1
+                                             E
+                                             F
+                                             G
+                                             H
+                                             I
+                                             J
+                                             K
+                                             L
+                                             M
+                                             #b1
+                                             N
+                                             O
+                                             P
+                                             Q
+                                             R
+                                             #b1)))
+                          :weight 0))))
+      (a!4 (INV!slice!1 #b0
+                        #x8
+                        #x00
+                        (store (store ((as const
+                                           (Array (_ BitVec 3) (_ BitVec 8)))
+                                        #x00)
+                                      #b001
+                                      #x08)
+                               #b110
+                               #x80)
+                        #b1
+                        #x00
+                        #b0
+                        (store ((as const (Array (_ BitVec 3) (_ BitVec 8)))
+                                 #x00)
+                               #b000
+                               #x40)
+                        #x4
+                        #x0
+                        #x00
+                        #x8
+                        #b0
+                        #x0
+                        #b1
+                        #b0
+                        #x0010
+                        #b11
+                        #x0000
+                        #b00
+                        #b1))
+      (a!5 (store (store (store ((as const (Array (_ BitVec 3) (_ BitVec 8)))
+                                  #x00)
+                                #b001
+                                #x08)
+                         #b110
+                         #x80)
+                  #b100
+                  #x10))
+      (a!6 (store (store (store ((as const (Array (_ BitVec 3) (_ BitVec 8)))
+                                  #x00)
+                                #b001
+                                #x08)
+                         #b100
+                         #x10)
+                  #b110
+                  #x80))
+      (a!8 (store (store (store ((as const (Array (_ BitVec 3) (_ BitVec 8)))
+                                  #x00)
+                                #b110
+                                #x80)
+                         #b100
+                         #x10)
+                  #b000
+                  #x01))
+      (a!10 (INV!slice!1 #b0
+                         #x0
+                         #x01
+                         (store (store ((as const
+                                            (Array (_ BitVec 3) (_ BitVec 8)))
+                                         #x00)
+                                       #b110
+                                       #x80)
+                                #b000
+                                #x01)
+                         #b1
+                         #x00
+                         #b0
+                         ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                         #x5
+                         #x1
+                         #xe0
+                         #x0
+                         #b1
+                         #x0
+                         #b0
+                         #b0
+                         #x0000
+                         #b01
+                         #x0000
+                         #b00
+                         #b0))
+      (a!12 (INV!slice!1 #b0
+                         #x0
+                         #x01
+                         (store (store ((as const
+                                            (Array (_ BitVec 3) (_ BitVec 8)))
+                                         #x00)
+                                       #b110
+                                       #x80)
+                                #b000
+                                #x01)
+                         #b1
+                         #x00
+                         #b0
+                         ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                         #x6
+                         #x1
+                         #xe0
+                         #x0
+                         #b1
+                         #x0
+                         #b0
+                         #b0
+                         #x0000
+                         #b01
+                         #x0000
+                         #b00
+                         #b0)))
+(let ((a!7 ((_ hyper-res 0 0 0 1)
+             a!2
+             ((_ hyper-res 0 0 0 1)
+               a!2
+               ((_ hyper-res 0 0) a!3 a!4)
+               (INV!slice!1 #b0
+                            #x0
+                            #x00
+                            a!5
+                            #b1
+                            #x00
+                            #b0
+                            ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                            #x0
+                            #x0
+                            #x00
+                            #x0
+                            #b0
+                            #x0
+                            #b0
+                            #b1
+                            #x0001
+                            #b01
+                            #x0000
+                            #b00
+                            #b0))
+             (INV!slice!1 #b0
+                          #x0
+                          #x01
+                          (store a!6 #b000 #x01)
+                          #b1
+                          #x00
+                          #b0
+                          ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                          #x1
+                          #x1
+                          #x00
+                          #x0
+                          #b1
+                          #x0
+                          #b0
+                          #b0
+                          #x0000
+                          #b01
+                          #x0000
+                          #b00
+                          #b0))))
+(let ((a!9 ((_ hyper-res 0 0 0 1)
+             a!2
+             ((_ hyper-res 0 0 0 1)
+               a!2
+               a!7
+               (INV!slice!1 #b0
+                            #x0
+                            #x01
+                            a!8
+                            #b1
+                            #x00
+                            #b0
+                            ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                            #x2
+                            #x1
+                            #x00
+                            #x0
+                            #b1
+                            #x0
+                            #b0
+                            #b0
+                            #x0000
+                            #b01
+                            #x0000
+                            #b00
+                            #b0))
+             (INV!slice!1 #b0
+                          #x0
+                          #x01
+                          a!8
+                          #b1
+                          #x00
+                          #b0
+                          ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                          #x3
+                          #x1
+                          #x00
+                          #x0
+                          #b1
+                          #x0
+                          #b0
+                          #b0
+                          #x0000
+                          #b01
+                          #x00e0
+                          #b01
+                          #b0))))
+(let ((a!11 ((_ hyper-res 0 0 0 1)
+              a!2
+              ((_ hyper-res 0 0 0 1)
+                a!2
+                a!9
+                (INV!slice!1 #b0
+                             #x0
+                             #x01
+                             a!8
+                             #b1
+                             #x00
+                             #b0
+                             ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                             #x4
+                             #x1
+                             #xe0
+                             #x0
+                             #b1
+                             #x0
+                             #b0
+                             #b0
+                             #x0000
+                             #b01
+                             #x0000
+                             #b00
+                             #b0))
+              a!10)))
+(let ((a!13 ((_ hyper-res 0 0 0 1)
+              a!2
+              ((_ hyper-res 0 0 0 1) a!2 a!11 a!12)
+              (INV!slice!1 #b0
+                           #x0
+                           #x01
+                           (store ((as const (Array (_ BitVec 3) (_ BitVec 8)))
+                                    #x00)
+                                  #b000
+                                  #x01)
+                           #b1
+                           #x00
+                           #b0
+                           ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                           #x7
+                           #x1
+                           #xe0
+                           #x0
+                           #b1
+                           #x0
+                           #b0
+                           #b0
+                           #x0000
+                           #b01
+                           #x0000
+                           #b00
+                           #b0))))
+(let ((a!14 ((_ hyper-res 0 0 0 1)
+              a!2
+              a!13
+              (INV!slice!1 #b0
+                           #x0
+                           #x01
+                           (store ((as const (Array (_ BitVec 3) (_ BitVec 8)))
+                                    #x00)
+                                  #b000
+                                  #x01)
+                           #b1
+                           #x00
+                           #b0
+                           ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                           #x8
+                           #x1
+                           #xe0
+                           #x0
+                           #b1
+                           #x0
+                           #b0
+                           #b0
+                           #x0000
+                           #b01
+                           #x0000
+                           #b00
+                           #b0))))
+(let ((a!15 ((_ hyper-res 0 0 0 1)
+              a!2
+              ((_ hyper-res 0 0 0 1)
+                a!2
+                a!14
+                (INV!slice!1 #b0
+                             #x0
+                             #x01
+                             ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                             #b1
+                             #x00
+                             #b0
+                             ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                             #x9
+                             #x1
+                             #xe0
+                             #x0
+                             #b1
+                             #x0
+                             #b0
+                             #b0
+                             #x0000
+                             #b00
+                             #x0008
+                             #b01
+                             #b0))
+              (INV!slice!1 #b0
+                           #x1
+                           #x01
+                           ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                           #b0
+                           #x00
+                           #b1
+                           ((as const (Array (_ BitVec 3) (_ BitVec 8))) #x00)
+                           #x9
+                           #x0
+                           #xe0
+                           #x0
+                           #b1
+                           #x0
+                           #b0
+                           #b0
+                           #x0000
+                           #b00
+                           #x0000
+                           #b00
+                           #b0))))
+  (mp ((_ hyper-res 0 0 0 1) (asserted a!1) a!15 query!0)
+      (asserted (=> query!0 false))
+      false))))))))

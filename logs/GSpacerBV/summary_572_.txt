@@ -1,0 +1,1 @@
+572 | /home/hongcez/hwmcc/benchs/chcrel/bv/wolf/2019C/qspiflash_dualflexpress_divthree-p089.chc | 0 | 84.103925 | unsat

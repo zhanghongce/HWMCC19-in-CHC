@@ -1,0 +1,1 @@
+19 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2018A/zipcpu-zipmmu-p28.chc | 114 | 187.232511 | unknown

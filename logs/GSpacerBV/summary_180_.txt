@@ -1,0 +1,1 @@
+180 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019C/zipcpu_zipcpu_dcache-p097.chc | 0 | 77.311468 | unsat

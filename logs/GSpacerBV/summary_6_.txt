@@ -1,0 +1,1 @@
+6 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2018A/picorv32-check-p08.chc | 0 | 26.971743 | unsat

@@ -1,0 +1,2 @@
+(error "query failed: Argument #b11111 at position 1 does not match declaration (declare-fun bvadd ((_ BitVec 32) (_ BitVec 32)) (_ BitVec 32))")
+unknown

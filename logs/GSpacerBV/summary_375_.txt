@@ -1,0 +1,1 @@
+375 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/industry/gen25/gen25.chc | 0 | 5.255829 | unsat

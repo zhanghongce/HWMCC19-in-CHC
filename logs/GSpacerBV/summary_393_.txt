@@ -1,0 +1,1 @@
+393 | /home/hongcez/hwmcc/benchs/chcrel/bv/goel/opensource/vis_arrays_am2910_p1/vis_arrays_am2910_p1.chc | 114 | 0.396145 | unknown

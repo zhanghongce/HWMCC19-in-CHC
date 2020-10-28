@@ -1,0 +1,1 @@
+56 | /home/hongcez/hwmcc/benchs/chcrel/array/wolf/2019C/dblclockfft_butterfly_ck1-p147.chc | -15 | 3600.148444 | unknown
