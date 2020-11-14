@@ -1,4 +1,4 @@
-# Figures for Experiment Results
+# Figures for Additional Experiment Results
 
 The table of running time collected from our experiments can be found [here](https://github.com/zhanghongce/HWMCC19-in-CHC/blob/logs/exec-time-summary.csv).
 
